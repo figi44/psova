@@ -1,9 +1,12 @@
 <script>
 	import { NavBar } from '$lib';
+	import Hero from '$lib/hero.svelte';
 </script>
 
 <NavBar />
-<h1 class="text-3xl font-bold underline">Hello world!</h1>
+<div class="w-10/12 mx-auto">
+	<Hero />
+</div>
 
 <style lang="postcss">
 	:global(html) {
