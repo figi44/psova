@@ -5,7 +5,7 @@
 	export let cards: Array<CardData>;
 </script>
 
-<div class="grid grid-rows-2 grid-cols-3 gap-6">
+<div class="grid grid-rows-2 grid-cols-3 gap-6 my-10">
 	{#each cards as card}
 		<Card data={card} />
 	{/each}

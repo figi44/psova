@@ -4,7 +4,7 @@
 	export let buttonData: Array<NavButtonData>;
 </script>
 
-<nav class="flex w-full justify-between items-center px-4 py-2 shadow-md">
+<nav class="flex w-full justify-between items-center px-4 py-2 shadow-md bg-white">
 	<img src="" alt="Logo" class="" />
 	<div class="">
 		{#each buttonData as button}

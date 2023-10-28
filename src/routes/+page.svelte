@@ -1,29 +1,20 @@
 <script lang="ts">
-	import { NavBar, CardContainer, Hero } from '$lib';
+	import { CardContainer, Hero } from '$lib';
 	import PortraitImage from '$lib/assets/potrait1.jpg';
-
-	let navButtonData = [
-		{ title: 'Služby', href: '' },
-		{ title: 'O mně', href: '' },
-		{ title: 'Ceník', href: '' },
-		{ title: 'Akutní problémy', href: '' },
-		{ title: 'Etický kodex', href: '' },
-		{ title: 'Kontakt', href: '' }
-	];
 
 	let cards = [
 		{
 			title: 'Psychologické poradenství',
 			text: 'Konzultace a činnost zaměřena na překonání aktuálních psychických problémů nebo konfliktních situací za pomocí psychologickcýh metod a prostředků.',
 			linkText: '',
-			linkHref: '',
+			linkHref: 'counselling',
 			dotColor: 'bg-custom-pink'
 		},
 		{
 			title: 'Koučink',
 			text: 'Proces, kterým na základě vhodně a efektivně zvolených otázek kouč provází klienta ke stanovenému cíli.',
 			linkText: '',
-			linkHref: '',
+			linkHref: 'coaching',
 			dotColor: 'bg-custom-orange'
 		},
 		{
@@ -57,16 +48,13 @@
 	];
 </script>
 
-<NavBar buttonData={navButtonData} />
-<div class="w-10/12 mx-auto">
-	<Hero
-		title="lic. Kristýna Sznapková"
-		subtitle="S pokorou pomáhám rozvíjet lidskou duši"
-		buttonTitle="Objednejte se!"
-		imgPath={PortraitImage}
-	/>
-	<CardContainer {cards} />
-</div>
+<Hero
+	title="lic. Kristýna Sznapková"
+	subtitle="S pokorou pomáhám rozvíjet lidskou duši"
+	buttonTitle="Objednejte se!"
+	imgPath={PortraitImage}
+/>
+<CardContainer {cards} />
 
 <style lang="postcss">
 	:global(html) {
