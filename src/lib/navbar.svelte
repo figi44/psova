@@ -5,10 +5,10 @@
 </script>
 
 <nav class="flex w-full justify-between items-center px-4 py-2 shadow-md bg-white">
-	<img src="" alt="Logo" class="" />
+	<a href="/"><img src="" alt="Logo" class="" /></a>
 	<div class="">
 		{#each buttonData as button}
-			<NavButton title={button.title} />
+			<NavButton title={button.title} href={button.href} />
 		{/each}
 	</div>
 </nav>

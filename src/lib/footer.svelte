@@ -9,9 +9,9 @@
 		© {year} Kristýna Sznapková
 	</p>
 	<div class="flex mt-4">
-		<a href="https://instagram.com/psycho.knihy" class="mx-2"
+		<a href="https://instagram.com/psycho.knihy" target="_blank" class="mx-2"
 			><img class="" src={InstagramIcon} alt="Instagram" /></a
-		><a href="https://www.linkedin.com/in/sznapkovakristyna/" class="mx-2">
+		><a href="https://www.linkedin.com/in/sznapkovakristyna/" target="_blank" class="mx-2">
 			<img class="" src={LinkedInIcon} alt="LinkedIn" /></a
 		>
 	</div>
