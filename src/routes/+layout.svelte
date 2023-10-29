@@ -4,7 +4,7 @@
 	let navButtonData = [
 		{ title: 'Služby', href: '' },
 		{ title: 'O mně', href: '' },
-		{ title: 'Ceník', href: '' },
+		{ title: 'Ceník', href: 'pricing' },
 		{ title: 'Akutní problémy', href: '' },
 		{ title: 'Etický kodex', href: '' },
 		{ title: 'Kontakt', href: '' }

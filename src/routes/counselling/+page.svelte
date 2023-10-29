@@ -1,4 +1,8 @@
-<h1>Psychologické poradenství</h1>
+<script>
+	import Heading1 from '$lib/heading1.svelte';
+</script>
+
+<Heading1>Psychologické poradenství</Heading1>
 <p>
 	Psychologické poradenství je konzultace a činnost zaměřena na překonání aktuálních psychických
 	problémů klientů nebo konfliktních situací za pomocí psychologickcýh metod a prostředků. Může se
