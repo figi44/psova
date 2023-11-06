@@ -4,12 +4,10 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				'custom-blue': '#BAE1FF',
-				'custom-green': '#BAFFC9',
-				'custom-purple': '#C9C9FF',
-				'custom-pink': '#FFB3BA',
-				'custom-orange': '#FFDFBA',
-				'custom-yellow': '#FFFFBA'
+				xlavender: '#A192C8',
+				xpink: '#E13D58',
+				xlightgray: '#DFDFDF',
+				xdarkgray: '#3C3C3C'
 			}
 		}
 	},

@@ -3,7 +3,6 @@ export type CardData = {
 	text: string;
 	linkText: string;
 	linkHref: string;
-	dotColor: string;
 };
 
 export type NavButtonData = {

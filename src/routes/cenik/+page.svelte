@@ -1,5 +1,5 @@
 <script>
-	import Heading1 from '$lib/heading1.svelte';
+	import { Heading1 } from '$lib';
 	let services = [
 		{
 			name: 'Psychologická konzultace standard',

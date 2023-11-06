@@ -2,17 +2,31 @@
 	import { Footer, NavBar } from '$lib';
 
 	let navButtonData = [
-		{ title: 'Služby', href: '' },
-		{ title: 'O mně', href: '' },
-		{ title: 'Ceník', href: 'pricing' },
-		{ title: 'Akutní problémy', href: '' },
-		{ title: 'Etický kodex', href: '' },
-		{ title: 'Kontakt', href: '' }
+		{ title: 'služby', href: 'sluzby' },
+		{ title: 'o mně', href: 'o-mne' },
+		{ title: 'ceník', href: 'cenik' },
+		{ title: 'akutní problémy', href: 'akutni-problemy' },
+		{ title: 'faq', href: 'faq' },
+		{ title: 'kontakt', href: 'kontakt' }
 	];
 </script>
 
-<NavBar buttonData={navButtonData} />
-<div class="w-10/12 mx-auto">
+<div class="max-w-[1120px] mx-auto">
+	<NavBar buttonData={navButtonData} />
 	<slot />
+	<Footer />
 </div>
-<Footer />
+
+<svelte:head>
+	<link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet" />
+</svelte:head>
+
+<style lang="postcss">
+	:global(html) {
+		background: var(
+			--background,
+			linear-gradient(180deg, #a192c8 0%, #dfdfdf 99.47%, #dfdfdf 99.48%)
+		);
+		font-family: 'play';
+	}
+</style>

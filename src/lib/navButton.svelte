@@ -3,10 +3,4 @@
 	export let href: string;
 </script>
 
-<a {href}
-	><button
-		class="py-1 px-4 rounded-md text-slate-700 font-medium
- hover:bg-slate-200 hover:text-slate-900"
-		>{title}
-	</button></a
->
+<a {href}><button class="text-white text-xl font-normal">{title} </button></a>

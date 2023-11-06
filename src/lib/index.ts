@@ -6,3 +6,5 @@ export { default as Card } from './card.svelte';
 export { default as CardContainer } from './cardContainer.svelte';
 export { default as Footer } from './footer.svelte';
 export { default as Heading1 } from './heading1.svelte';
+export { default as List } from './list.svelte';
+export { default as CTAButton } from './ctaButton.svelte';

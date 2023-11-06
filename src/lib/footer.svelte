@@ -1,24 +1,37 @@
 <script>
+	import { CTAButton } from '$lib';
 	import InstagramIcon from '$lib/assets/Instagram.svg';
 	import LinkedInIcon from '$lib/assets/LinkedIn.svg';
+	import FacebookIcon from '$lib/assets/Facebook.svg';
+
 	let year = new Date().getFullYear();
 </script>
 
-<div class="flex flex-col justify-center items-center top-shaddow-md mt-20 pt-8 pb-4 bg-white">
-	<p class="text-center text-slate-400 text-lg font-normal leading-5">
-		© {year} Kristýna Sznapková
-	</p>
-	<div class="flex mt-4">
-		<a href="https://instagram.com/psycho.knihy" target="_blank" class="mx-2"
-			><img class="" src={InstagramIcon} alt="Instagram" /></a
-		><a href="https://www.linkedin.com/in/sznapkovakristyna/" target="_blank" class="mx-2">
-			<img class="" src={LinkedInIcon} alt="LinkedIn" /></a
-		>
+<hr class="border-0 border-t-[1px] border-xlavender -mx-16 mt-72" />
+<div class="grid grid-cols-3 justify-items-center mt-8">
+	<img src="" alt="Logo" class="place-self-start" />
+	<div class="self-center">
+		<CTAButton title="Objednejte se" />
 	</div>
+	<p class="justify-self-end">
+		Kristýna Sznapková<br />
+		IČO: 1234567890<br />
+		Bankovní spojení: 123456/7890<br />
+		Ulice 123/4<br />
+		Ostrava
+	</p>
 </div>
-
-<style>
-	.top-shaddow-md {
-		box-shadow: 0 -4px 6px -1px rgb(0 0 0 / 0.1), 0 -2px 4px -2px rgb(0 0 0 / 0.1);
-	}
-</style>
+<div class="flex justify-center mt-12">
+	<a href="https://instagram.com/psycho.knihy" target="_blank" class="mx-2"
+		><img class="" src={InstagramIcon} alt="Instagram" />
+	</a>
+	<a href="https://www.linkedin.com/in/sznapkovakristyna/" target="_blank" class="mx-2">
+		<img class="" src={LinkedInIcon} alt="LinkedIn" />
+	</a>
+	<a href="https://facebook.com" target="_blank" class="mx-2">
+		<img class="" src={FacebookIcon} alt="Facebook" />
+	</a>
+</div>
+<p class="flex justify-center mt-7 mb-4">
+	© {year} Kristýna Sznapková
+</p>

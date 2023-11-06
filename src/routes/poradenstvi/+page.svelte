@@ -1,5 +1,5 @@
 <script>
-	import Heading1 from '$lib/heading1.svelte';
+	import { Heading1, List } from '$lib';
 </script>
 
 <Heading1>Psychologické poradenství</Heading1>
@@ -12,7 +12,7 @@
 
 <h2>Co konkrétně do této oblasti může patřit?</h2>
 
-<ul>
+<List>
 	<li>aktuální výskyt úzkostí před zkouškou nebo prezentací</li>
 	<li>náročná situace v partnerském nebo manželském vztahu</li>
 	<li>příprava na roli rodiče nebo prarodiče</li>
@@ -24,7 +24,7 @@
 	<li>konfliktní situace</li>
 	<li>otázky sebehodnoty a spirituality</li>
 	<li>seberozvojová témata (např. rozvíjení soft skills)</li>
-</ul>
+</List>
 <p>
 	Moje cílová skupina jsou dospělí lidé. Pracuji tedy s klienty, kteří již dosáhli plnoletosti.
 	Výjimky pouze ve velice akutních případech po telefonické domluvě. Nevěnuji se rodinné a
