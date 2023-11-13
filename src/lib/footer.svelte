@@ -13,7 +13,7 @@
 	<div class="self-center">
 		<CTAButton title="Objednejte se" />
 	</div>
-	<p class="justify-self-end">
+	<p class="justify-self-end text-xdarkgray">
 		Kristýna Sznapková<br />
 		IČO: 1234567890<br />
 		Bankovní spojení: 123456/7890<br />
@@ -32,6 +32,6 @@
 		<img class="" src={FacebookIcon} alt="Facebook" />
 	</a>
 </div>
-<p class="flex justify-center mt-7 mb-4">
+<p class="flex justify-center mt-7 mb-4 text-xdarkgray">
 	© {year} Kristýna Sznapková
 </p>

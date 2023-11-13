@@ -1,6 +1,7 @@
 <script lang="ts">
-	import { CardContainer, Hero } from '$lib';
+	import { CardContainer, Heading2, Hero } from '$lib';
 	import PortraitImage from '$lib/assets/portrait1.png';
+	import RightArrow from '$lib/assets/right-arrow.svg';
 
 	let cards = [
 		{
@@ -48,4 +49,31 @@
 	buttonTitle="Objednejte se"
 	imgPath={PortraitImage}
 />
+<div class="bg-white rounded-[30px] w-full px-10 py-8 mt-60 mb-44">
+	<Heading2>Kdo jsem?</Heading2>
+	<div class="flex justify-between text-xdarkgray">
+		<p class="w-5/12 text-justify">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+			labore et dolore magna aliqua. Ultrices mi tempus imperdiet nulla malesuada. Nec feugiat in
+			fermentum posuere urna nec. Euismod lacinia at quis risus sed. Aliquam sem fringilla ut morbi
+			tincidunt augue interdum velit. Augue neque gravida in fermentum. Euismod lacinia at quis
+			risus sed. Aliquam sem fringilla ut morbi tincidunt augue interdum velit. Augue neque gravida
+			in fermentum.Euismod lacinia at quis risus sed. Aliquam sem fringilla ut morbi tincidunt augue
+			interdum velit. Augue neque gravida in fermentum.
+		</p>
+		<p class="w-5/12 text-justify">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+			labore et dolore magna aliqua. Ultrices mi tempus imperdiet nulla malesuada. Nec feugiat in
+			fermentum posuere urna nec. Euismod lacinia at quis risus sed. Aliquam sem fringilla ut morbi
+			tincidunt augue interdum velit. Augue neque gravida in fermentum. Euismod lacinia at quis
+			risus sed. Aliquam sem fringilla ut morbi tincidunt augue interdum velit. Augue neque gravida
+			in fermentum.Euismod lacinia at quis risus sed.
+		</p>
+	</div>
+	<div class="w-full flex justify-end">
+		<a class="text-xdarkgray text-base inline-flex gap-[6px]" href="o-mne"
+			>Chci vědět víc<img src={RightArrow} alt="" class="w-5 mt-[4px]" /></a
+		>
+	</div>
+</div>
 <CardContainer {cards} />
