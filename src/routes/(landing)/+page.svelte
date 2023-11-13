@@ -53,21 +53,20 @@
 	<Heading2>Kdo jsem?</Heading2>
 	<div class="flex justify-between text-xdarkgray">
 		<p class="w-5/12 text-justify">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-			labore et dolore magna aliqua. Ultrices mi tempus imperdiet nulla malesuada. Nec feugiat in
-			fermentum posuere urna nec. Euismod lacinia at quis risus sed. Aliquam sem fringilla ut morbi
-			tincidunt augue interdum velit. Augue neque gravida in fermentum. Euismod lacinia at quis
-			risus sed. Aliquam sem fringilla ut morbi tincidunt augue interdum velit. Augue neque gravida
-			in fermentum.Euismod lacinia at quis risus sed. Aliquam sem fringilla ut morbi tincidunt augue
-			interdum velit. Augue neque gravida in fermentum.
+			Svou kariéru jsem začala jako vývojář software. Během své cesty jsem vystřídala ohromné
+			množství pozic a dlouho jsem nemohla najít takovou, která by mne opravdu bavila a naplňovala.
+			Při manařerském postu jsem zjistila, že naslouchání lidem a jejich vedení je mi velmi blízké.
+			Díky vzdělávání zaměstnanců jsem se dotkla základů psychologie, které mi naprosto učarovaly, a
+			já se rozhodla nastoupit na univerzitu. Postupně jsem se tak propracovala k vývoji lidské
+			duše, protože komunikace s lidmi je mi mnohem bližší než komunikace se stroji.
 		</p>
 		<p class="w-5/12 text-justify">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-			labore et dolore magna aliqua. Ultrices mi tempus imperdiet nulla malesuada. Nec feugiat in
-			fermentum posuere urna nec. Euismod lacinia at quis risus sed. Aliquam sem fringilla ut morbi
-			tincidunt augue interdum velit. Augue neque gravida in fermentum. Euismod lacinia at quis
-			risus sed. Aliquam sem fringilla ut morbi tincidunt augue interdum velit. Augue neque gravida
-			in fermentum.Euismod lacinia at quis risus sed.
+			Ve své praxi čerpám kromě univerzitních poznatků také ze zkušeností z předchozího pracovního
+			poměru. Dále se neustále vzdělávám formou kurzů a workshopů. Díky nekonečnému přísunu nové
+			literatury takto obohacuji své obzory o nové techniky, metody a informace. Aktivně se věnuji
+			dobrovolnickým aktivitám v oblasti psychologie. Docházím pravidelně na supervize. Lidské
+			příběhy jsou jako hvězdy ve vesmíru - každý je jiný a každý je unikátní. Proto ke každému
+			klientovi zaujímám individuální přístup plný pokory a respektu.
 		</p>
 	</div>
 	<div class="w-full flex justify-end">

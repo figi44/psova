@@ -32,6 +32,6 @@
 		<img class="" src={FacebookIcon} alt="Facebook" />
 	</a>
 </div>
-<p class="flex justify-center mt-7 mb-4 text-xdarkgray">
+<p class="flex justify-center mt-7 pb-4 text-xdarkgray">
 	© {year} Kristýna Sznapková
 </p>

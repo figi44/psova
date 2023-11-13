@@ -4,8 +4,3 @@ export type CardData = {
 	linkText: string;
 	linkHref: string;
 };
-
-export type NavButtonData = {
-	title: string;
-	href: string;
-};
