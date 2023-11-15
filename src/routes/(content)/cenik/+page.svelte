@@ -1,5 +1,5 @@
 <script>
-	import { Heading1 } from '$lib';
+	import { titleStore } from '../store';
 	let services = [
 		{
 			name: 'Psychologická konzultace standard',
@@ -37,25 +37,25 @@
 			price: 'cena dle zadání'
 		}
 	];
+
+	titleStore.set('Ceník');
 </script>
 
-<Heading1>Ceník a podmínky</Heading1>
-
 <div class="w-full">
-	<table class="min-w-full table-auto text-left">
+	<table class="min-w-full table-auto text-left whitespace-nowrap">
 		<thead>
-			<tr>
-				<th class="py-2">Služba</th>
-				<th class="py-2">Délka sezení</th>
-				<th class="py-2">Cena</th>
+			<tr class="border-b border-xlavender">
+				<th class="py-2 px-4">Služba</th>
+				<th class="py-2 px-4">Délka sezení</th>
+				<th class="py-2 px-4 text-right">Cena</th>
 			</tr>
 		</thead>
 		<tbody>
 			{#each services as service}
-				<tr class="border-t even:bg-slate-50">
-					<td class="py-4">{service.name}</td>
-					<td class="py-4">{service.length}</td>
-					<td class="py-4">{service.price}</td>
+				<tr class="even:bg-gray-100">
+					<td class="p-4">{service.name}</td>
+					<td class="p-4">{service.length}</td>
+					<td class="p-4 text-right">{service.price}</td>
 				</tr>
 			{/each}
 		</tbody>

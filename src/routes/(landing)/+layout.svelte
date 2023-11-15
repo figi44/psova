@@ -16,6 +16,5 @@
 			--background,
 			linear-gradient(180deg, #a192c8 0%, #dfdfdf 99.47%, #dfdfdf 99.48%)
 		);
-		font-family: 'play';
 	}
 </style>
