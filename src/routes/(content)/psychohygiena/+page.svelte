@@ -1,8 +1,8 @@
 <script>
-	import { Heading1 } from '$lib';
+	import { titleStore } from '../store';
+	titleStore.set('Psychohygiena');
 </script>
 
-<Heading1>Psychohygiena</Heading1>
 <p>
 	Upevňování duševního zdraví a zvyšování odolnosti klienta vůči širokému spektru škodlivých vlivů.
 	Praktické metody a techniky pro každodenní sebepéči o duševní zdraví. Nácviky a upevňování návyku

@@ -1,4 +1,5 @@
 <script>
+	import { Paragraph, Heading3 } from '$lib';
 	import { titleStore } from '../store';
 	let services = [
 		{
@@ -32,7 +33,7 @@
 			price: '800,-'
 		},
 		{
-			name: 'Psychodiagnostika',
+			name: 'Diagnostika',
 			length: '-',
 			price: 'cena dle zadání'
 		}
@@ -41,7 +42,7 @@
 	titleStore.set('Ceník');
 </script>
 
-<div class="w-full">
+<div class="w-full text-lg">
 	<table class="min-w-full table-auto text-left whitespace-nowrap">
 		<thead>
 			<tr class="border-b border-xlavender">
@@ -61,3 +62,82 @@
 		</tbody>
 	</table>
 </div>
+
+<Paragraph>Nejsem plátce DPH, cenu tedy o DPH nenavyšuji.</Paragraph>
+<Paragraph>Cena on-line konzultací a koučování je shodná s cenou za osobní konzultaci.</Paragraph>
+<Paragraph>
+	Cena programů a balíčků aktivit pro firmy bude stanovena na základě rozsahu dohodnutých služeb.
+	Platba na fakturu možná.
+</Paragraph>
+<Paragraph>
+	Nejsem smluvním zařízením zdravotních pojišťoven, neboť nejsem klinický psycholog a neposkytuji
+	služby v rámci zdravotní péče. Pro Vás to znamená, že nemáte záznam ve zdravotní kartě, na úvodní
+	konzultaci je kratší čekací doba a je zajištěna anonymita.
+</Paragraph>
+<Paragraph>Pro osoby v tíživé finanční situaci a pro studenty možnost slevy.</Paragraph>
+<Paragraph>
+	Všechny služby jsou poskytovány bez záměrného terapeutického účinku, neboť nejsem terapeut.
+	Terapeuticky však někdy může působit jen to, že se člověk svěří nezúčastněné osobě - v takovém
+	případě nenesu za terapeutický efekt žádnou odpovědnost.
+</Paragraph>
+<Heading3>Změna či zrušení termínu</Heading3>
+
+<div class="text-lg w-2/3 flex gap-3">
+	<div class="w-full">
+		<div class="flex gap-3">
+			<span class="">Zrušení nebo změna více než 24h předem</span>
+			<span class="grow border-b-2 border-dotted border-xdarkgray h-0 self-end mb-1.5" />
+		</div>
+		<div class="flex gap-3">
+			<span class="">Zrušení nebo změna méně než 24h předem</span>
+			<span class="grow border-b-2 border-dotted border-xdarkgray h-0 self-end mb-1.5" />
+		</div>
+		<div class="flex gap-3">
+			<span class="">Neomluvená absence </span>
+			<span class="grow border-b-2 border-dotted border-xdarkgray h-0 self-end mb-1.5" />
+		</div>
+	</div>
+	<div class="flex flex-col min-w-fit">
+		<span>poplatek 0,- Kč</span>
+		<span>poplatek 80% z ceny</span>
+		<span>poplatek 100% z ceny</span>
+	</div>
+</div>
+
+<Heading3>Jak platit?</Heading3>
+<Paragraph>
+	Za úvodní konzultaci nebo koučink je vyžadována platba na účet dva dny předem. Za každou další
+	konzultaci nebo koučink se platí vždy na konci aktuální konzultace nebo koučinku, a to buď hotově
+	nebo prostřednictvím poskytnutého QR kódu.
+</Paragraph>
+<Paragraph>Do poznámky, prosím, vždy uvádějte Vaše příjmení.</Paragraph>
+<Paragraph>
+	Pro dlouhodobé klienty možnost platit jednou za určitou dohodnutou dobu prostřednictvím faktury.
+</Paragraph>
+<Paragraph bold>
+	Jako poskytovatel služeb si vyhrazuji právo s nesolidními klienty ukončit spolupráci.
+</Paragraph>
+<Paragraph bold>Všem zodpovědným klientům děkuji za pochopení a zodpovědnost.</Paragraph>
+<Heading3>Frekvence a počet setkání</Heading3>
+<Paragraph>
+	Frekvence setkávání se domlouvá individuálně podle tématu, které chcete řešit, nebo dle Vaší
+	potřeby. Nejčastější počáteční frekvence u poradenství je obvykle 1x za 3-4 týdny. Může to však
+	být častěji a nebo naopak méně často. U koučinku je nejčastěji volená počáteční frekvence
+	setkávání 1x za 14 dní.
+</Paragraph>
+<Paragraph>
+	Poradenství stejně jako koučink může být jednorázovou záležitostí. Všechny typy služeb mohou být
+	nastaveny jako krátkodobé, střednědobé nebo dlouhodobé provázení. Tím, že ke mně přijdete, se
+	nezavazujete k počtu ani konkrétní frekvenci setkání. Vždy záleží na Vaší potřebě. Můžete
+	absolvovat tolik setkání, kolik Vám bude připadat prospěšných.
+</Paragraph>
+<Heading3>Objednání</Heading3>
+<Paragraph>Objednat se lze telefonicky, SMS zprávou nebo e-mailem.</Paragraph>
+<Paragraph>
+	Při kontaktování prostřednictvím SMS zprávy nebo e-mailu uveďte pro rychlejší domluvu do poptávky
+	preferovaný den v týdnu a také preferovanou denní dobu (dopoledne/odpoledne). V co nejkratší možné
+	době se Vám ozvu zpět s nabídkou termínů. Až si je potvrdíme, zašlu také platební údaje.
+</Paragraph>
+<Paragraph>
+	Pokud telefon nebudu zvedat, pravděpodobně se věnuji klientovi. Prosím, zavolejte znovu později.
+</Paragraph>

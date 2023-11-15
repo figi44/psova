@@ -1,5 +1,4 @@
 <script>
-	import { Heading1 } from '$lib';
+	import { titleStore } from '../store';
+	titleStore.set('Koučink');
 </script>
-
-<Heading1>koucink</Heading1>
