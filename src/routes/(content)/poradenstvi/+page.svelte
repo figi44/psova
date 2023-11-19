@@ -11,7 +11,7 @@
 	školní a výchovnou nebo o oblast vztahu k sobě sama a rozvoje osobnosti.
 </Paragraph>
 
-<Paragraph>Co konkrétně do této oblasti může patřit?</Paragraph>
+<Paragraph><span class="font-bold">Co konkrétně do této oblasti může patřit?</span></Paragraph>
 
 <List>
 	<li>aktuální výskyt úzkostí před zkouškou nebo prezentací</li>

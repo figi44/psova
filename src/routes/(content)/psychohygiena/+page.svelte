@@ -1,15 +1,16 @@
 <script>
 	import { titleStore } from '../store';
+	import { List, Paragraph } from '$lib';
 	titleStore.set('Psychohygiena');
 </script>
 
-<p>
-	Upevňování duševního zdraví a zvyšování odolnosti klienta vůči širokému spektru škodlivých vlivů.
-	Praktické metody a techniky pro každodenní sebepéči o duševní zdraví. Nácviky a upevňování návyku
-	relaxací pro zkvalitnění života.
-</p>
-<h2>Co konkrétně do této oblasti může patřit?</h2>
-<ul>
+<Paragraph>
+	Tato služba se zaobírá upevňováním duševního zdraví a zvyšováním klientovy odolnosti vůči širokému
+	spektru škodlivých vlivů. Jedná se o praktické metody a techniky pro každodenní sebepéči o duševní
+	zdraví a o nácviky a upevňování návyku relaxací pro zkvalitnění života.
+</Paragraph>
+<Paragraph><span class="font-bold">Co konkrétně do této oblasti může patřit?</span></Paragraph>
+<List>
 	<li>nácvik asertivity</li>
 	<li>
 		nácvik relaxačních technik (progresivní svalová relaxace, autogenní trénink, prvky muzikoterapie
@@ -20,18 +21,24 @@
 	<li>řízená relaxace, aktivní imaginace a řízená vizualizace</li>
 	<li>funkční životospráva</li>
 	<li>konzultace pro studenty: psychohygiena v pozici psychologa</li>
-</ul>
-<p>
+</List>
+<Paragraph>
 	Ve své praxi využívám také prvky aromaterapie, konkrétně prostřednictvím kvalitních esenciálních
 	olejů, které kapu do aromadifuzéru.
-</p>
-<p>
+</Paragraph>
+<Paragraph>
 	Moje cílová skupina jsou dospělí lidé. Pracuji tedy s klienty, kteří již dosáhli plnoletosti.
 	Výjimky pouze ve velice akutních případech po telefonické domluvě.
-</p>
-<p>
+</Paragraph>
+<Paragraph>
 	Nevěnuji se rodinné a partnerské sféře, nepracuji s dětmi a s osobami se závažnými psychickými
 	poruchami. Pracuji vždy pouze s jednotlivci.
-</p>
-
-<p>Ceník, podmínky a další informace naleznete ZDE.</p>
+</Paragraph>
+<Paragraph>
+	Služba psychohygieny je poskytována bez záměrného terapeutického účinku, neboť nejsem terapeut.
+	Terapeuticky však někdy může působit jen to, že se člověk svěří nezúčastněné osobě - v takovém
+	případě nenesu za terapeutický efekt žádnou odpovědnost.
+</Paragraph>
+<Paragraph>
+	Ceník, podmínky a další informace naleznete <a href="cenik" class="underline">ZDE.</a>
+</Paragraph>

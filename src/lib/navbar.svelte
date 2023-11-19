@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { NavButton } from '$lib';
 	let buttonData = [
-		{ title: 'služby', href: 'sluzby' },
+		{ title: 'služby', href: '' },
 		{ title: 'o mně', href: 'o-mne' },
 		{ title: 'ceník', href: 'cenik' },
 		{ title: 'akutní problémy', href: 'akutni-problemy' },
