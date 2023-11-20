@@ -52,8 +52,11 @@
 				{card.title}
 			</h1>
 			<div class="flex justify-center mb-2">
-				<a class="text-xdarkgray text-base inline-flex gap-[6px]" href={card.href} target="_blank"
-					>Přejít<img src={RightArrow} alt="" class="w-5 mt-[2px]" /></a
+				<a
+					class="text-xdarkgray text-base inline-flex gap-[6px]"
+					href={card.href}
+					rel="noopener noreferrer"
+					target="_blank">Přejít<img src={RightArrow} alt="" class="w-5 mt-[2px]" /></a
 				>
 			</div>
 		</div>

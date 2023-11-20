@@ -12,7 +12,7 @@
 </script>
 
 <nav class="flex w-full justify-between items-center py-4">
-	<a href="{base}/"><img src="" alt="Logo" class="text-white" /></a>
+	<a href={base || '/'}><img src="" alt="Logo" class="text-white" /></a>
 	<div>
 		<div class="justify-center items-center gap-7 flex">
 			{#each buttonData as button}

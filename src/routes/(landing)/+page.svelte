@@ -59,15 +59,15 @@
 			Při manařerském postu jsem zjistila, že naslouchání lidem a jejich vedení je mi velmi blízké.
 			Díky vzdělávání zaměstnanců jsem se dotkla základů psychologie, které mi naprosto učarovaly, a
 			já se rozhodla nastoupit na univerzitu. Postupně jsem se tak propracovala k vývoji lidské
-			duše, protože komunikace s lidmi je mi mnohem bližší než komunikace se stroji.
+			duše, protože komunikace s lidmi je mi mnohem bližší než komunikace se stroji. Lidské příběhy
+			jsou jako hvězdy ve vesmíru - každá je jiná a každá je unikátní.
 		</p>
 		<p class="w-5/12 text-justify">
-			Ve své praxi čerpám kromě univerzitních poznatků také ze zkušeností z předchozího pracovního
-			poměru. Dále se neustále vzdělávám formou kurzů a workshopů. Díky nekonečnému přísunu nové
-			literatury takto obohacuji své obzory o nové techniky, metody a informace. Aktivně se věnuji
-			dobrovolnickým aktivitám v oblasti psychologie. Docházím pravidelně na supervize. Lidské
-			příběhy jsou jako hvězdy ve vesmíru - každý je jiný a každý je unikátní. Proto ke každému
-			klientovi zaujímám individuální přístup plný pokory a respektu.
+			Proto ke každému klientovi zaujímám individuální přístup plný pokory a respektu. Ve své praxi
+			čerpám kromě univerzitních poznatků také ze zkušeností z předchozího pracovního poměru. Dále
+			se neustále vzdělávám formou kurzů a workshopů. Díky nekonečnému přísunu nové literatury takto
+			obohacuji své obzory o nové techniky, metody a informace. Aktivně se věnuji dobrovolnickým
+			aktivitám v oblasti psychologie. Docházím pravidelně na supervize a terapie.
 		</p>
 	</div>
 	<div class="w-full flex justify-end">

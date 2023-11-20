@@ -11,3 +11,4 @@ export { default as Heading3 } from './heading3.svelte';
 export { default as List } from './list.svelte';
 export { default as CTAButton } from './ctaButton.svelte';
 export { default as Paragraph } from './paragraph.svelte';
+export { default as Accordion } from './accordion.svelte';

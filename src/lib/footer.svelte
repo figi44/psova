@@ -22,13 +22,22 @@
 	</p>
 </div>
 <div class="flex justify-center mt-12">
-	<a href="https://instagram.com/psycho.knihy" target="_blank" class="mx-2"
+	<a
+		href="https://instagram.com/psycho.knihy"
+		target="_blank"
+		rel="noopener noreferrer"
+		class="mx-2"
 		><img class="" src={InstagramIcon} alt="Instagram" />
 	</a>
-	<a href="https://www.linkedin.com/in/sznapkovakristyna/" target="_blank" class="mx-2">
+	<a
+		href="https://www.linkedin.com/in/sznapkovakristyna/"
+		target="_blank"
+		rel="noopener noreferrer"
+		class="mx-2"
+	>
 		<img class="" src={LinkedInIcon} alt="LinkedIn" />
 	</a>
-	<a href="https://facebook.com" target="_blank" class="mx-2">
+	<a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="mx-2">
 		<img class="" src={FacebookIcon} alt="Facebook" />
 	</a>
 </div>
