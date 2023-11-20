@@ -1,4 +1,5 @@
 <script>
+	import { base } from '$app/paths';
 	import { List, Paragraph } from '$lib';
 	import { titleStore } from '../store';
 	titleStore.set('Firemní aktivity');
@@ -32,5 +33,5 @@
 </Paragraph>
 
 <Paragraph>
-	Ceník, podmínky a další informace naleznete <a href="cenik" class="underline">ZDE.</a>
+	Ceník, podmínky a další informace naleznete <a href="{base}/cenik" class="underline">ZDE.</a>
 </Paragraph>

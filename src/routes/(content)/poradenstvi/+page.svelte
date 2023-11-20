@@ -1,4 +1,5 @@
 <script>
+	import { base } from '$app/paths';
 	import { List, Paragraph } from '$lib';
 	import { titleStore } from '../store';
 	titleStore.set('Psychologické poradenství');
@@ -48,6 +49,6 @@
 	osobě – v takovém případě nenesu za terapeutický efekt žádnou odpovědnost.
 </Paragraph>
 
-<Paragraph
-	>Ceník, podmínky a další informace naleznete <a href="cenik" class="underline">ZDE.</a></Paragraph
->
+<Paragraph>
+	Ceník, podmínky a další informace naleznete <a href="{base}/cenik" class="underline">ZDE.</a>
+</Paragraph>

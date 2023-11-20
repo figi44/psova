@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import { CardContainer, Heading2, Hero } from '$lib';
 	import PortraitImage from '$lib/assets/portrait1.png';
 	import RightArrow from '$lib/assets/right-arrow.svg';
@@ -8,37 +9,37 @@
 			title: 'Psychologické poradenství',
 			text: 'Konzultace a činnost zaměřena na překonání aktuálních psychických problémů nebo konfliktních situací za pomocí psychologickcýh metod a prostředků.',
 			linkText: '',
-			linkHref: 'poradenstvi'
+			linkHref: `${base}/poradenstvi`
 		},
 		{
 			title: 'Koučink',
 			text: 'Proces, kterým na základě vhodně a efektivně zvolených otázek kouč provází klienta ke stanovenému cíli.',
 			linkText: '',
-			linkHref: 'koucink'
+			linkHref: `${base}/koucink`
 		},
 		{
 			title: 'Psychohygiena',
 			text: 'Upevňování duševního zdraví a zvyšování odolnosti klienta vůči široké škále škodlivých vlivů.',
 			linkText: '',
-			linkHref: 'psychohygiena'
+			linkHref: `${base}/psychohygiena`
 		},
 		{
 			title: 'Psychodiagnostika',
 			text: 'Zjišťování a měření duševních vlastností a stavů dle zadání klienta.',
 			linkText: '',
-			linkHref: 'psychodiagnostika'
+			linkHref: `${base}/psychodiagnostika`
 		},
 		{
 			title: 'Podpůrné skupiny',
 			text: 'Praktické metody a techniky pro všední den, přednášky pro školy i jednotlivce.',
 			linkText: '',
-			linkHref: 'skupiny'
+			linkHref: `${base}/skupiny`
 		},
 		{
 			title: 'Firemní aktivity',
 			text: 'Individuálně nastavené balíčky na míru firmám a kolektivům pro podporu a prevenci duševního zdraví zaměstnanců.',
 			linkText: '',
-			linkHref: 'firmy'
+			linkHref: `${base}/firmy`
 		}
 	];
 </script>
@@ -70,7 +71,7 @@
 		</p>
 	</div>
 	<div class="w-full flex justify-end">
-		<a class="text-xdarkgray text-base inline-flex gap-[6px]" href="o-mne"
+		<a class="text-xdarkgray text-base inline-flex gap-[6px]" href="{base}/o-mne"
 			>Chci vědět víc<img src={RightArrow} alt="" class="w-5 mt-[4px]" /></a
 		>
 	</div>
