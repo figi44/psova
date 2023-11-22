@@ -1,5 +1,5 @@
 <script lang="ts">
-	import RightArrow from '$lib/assets/right-arrow.svg';
+	import { TextLink } from '$lib';
 	import type { CardData } from './types';
 
 	export let data: CardData;
@@ -13,7 +13,5 @@
 			<p class="text-xdarkgray text-base">{data.text}</p>
 		</div>
 	</div>
-	<a class="ml-4 text-xdarkgray text-base inline-flex gap-[6px]" href={data.linkHref}
-		>{data.linkText || 'Chci vědět víc'}<img src={RightArrow} alt="" class="w-5 mt-[4px]" /></a
-	>
+	<TextLink href={data.linkHref}>{data.linkText || 'Chci vědět víc'}</TextLink>
 </div>

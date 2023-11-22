@@ -12,21 +12,30 @@
 	<hr class="border-0 border-t-[1px] border-xlavender" />
 {/if}
 <div class="my-4 flex items-start gap-2">
-	<button on:click={onClick}>
-		<svg
-			class:open={isOpen}
-			class="h-6 w-6 mt-[2px] stroke-xdarkgray transition-transform"
-			xmlns="http://www.w3.org/2000/svg"
-			viewBox="0 0 24 24"
-			fill="none"
-			stroke-linecap="round"
-			stroke-linejoin="round"
-			stroke-width="3"
-		>
-			<polyline points="6 9 12 15 18 9" />
-		</svg>
-	</button>
-	<div>
+	<div class="flex flex-col items-center self-stretch gap-1">
+		<button on:click={onClick}>
+			<svg
+				class:open={isOpen}
+				class="h-6 w-6 mt-[2px] stroke-xdarkgray transition-transform"
+				xmlns="http://www.w3.org/2000/svg"
+				viewBox="0 0 24 24"
+				fill="none"
+				stroke-linecap="round"
+				stroke-linejoin="round"
+				stroke-width="3"
+			>
+				<polyline points="6 9 12 15 18 9" />
+			</svg>
+		</button>
+		{#if isOpen}
+			<div
+				transition:slide
+				data-testid="accordion-open"
+				class="border-x-[3px] border-xpink rounded h-full"
+			/>
+		{/if}
+	</div>
+	<div class="">
 		<button on:click={onClick} class="text-lg font-bold">{title}</button>
 		{#if isOpen}
 			<div transition:slide data-testid="accordion-open" class="text-lg">

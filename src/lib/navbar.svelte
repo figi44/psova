@@ -19,6 +19,6 @@
 				<NavButton title={button.title} href={button.href} />
 			{/each}
 		</div>
-		<hr class="border-0 border-t-[1px] border-white border-opacity-30 -mx-3" />
+		<hr class="border-0 border-t-[1px] border-white border-opacity-30" />
 	</div>
 </nav>

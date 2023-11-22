@@ -1,8 +1,7 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-	import { CardContainer, Heading2, Hero } from '$lib';
+	import { CardContainer, Heading2, Hero, TextLink } from '$lib';
 	import PortraitImage from '$lib/assets/portrait1.png';
-	import RightArrow from '$lib/assets/right-arrow.svg';
 
 	let cards = [
 		{
@@ -71,9 +70,7 @@
 		</p>
 	</div>
 	<div class="w-full flex justify-end">
-		<a class="text-xdarkgray text-base inline-flex gap-[6px]" href="{base}/o-mne"
-			>Chci vědět víc<img src={RightArrow} alt="" class="w-5 mt-[4px]" /></a
-		>
+		<TextLink href="{base}/o-mne">Chci vědět víc</TextLink>
 	</div>
 </div>
 <CardContainer {cards} />
