@@ -7,7 +7,7 @@
 </script>
 
 <Heading2>Nabízené služby</Heading2>
-<div class="grid grid-rows-2 grid-cols-3 gap-6">
+<div id="services" class="grid grid-rows-2 grid-cols-3 gap-6">
 	{#each cards as card}
 		<Card data={card} />
 	{/each}
