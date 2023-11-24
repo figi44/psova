@@ -1,6 +1,5 @@
 <script>
-	import { Paragraph } from '$lib';
-	import RightArrow from '$lib/assets/right-arrow.svg';
+	import { Paragraph, TextLink } from '$lib';
 	import ImgKriceos from '$lib/assets/kriceos.png';
 	import ImgCssostrava from '$lib/assets/cssostrava.svg';
 	import ImgNepanikar from '$lib/assets/nepanikar.png';
@@ -52,12 +51,7 @@
 				{card.title}
 			</h1>
 			<div class="flex justify-center mb-2">
-				<a
-					class="text-xdarkgray text-base inline-flex gap-[6px]"
-					href={card.href}
-					rel="noopener noreferrer"
-					target="_blank">Přejít<img src={RightArrow} alt="" class="w-5 mt-[2px]" /></a
-				>
+				<TextLink href={card.href} rel="noopener noreferrer" target="_blank">Přejít</TextLink>
 			</div>
 		</div>
 	{/each}

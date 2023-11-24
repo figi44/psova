@@ -1,9 +1,13 @@
 <script lang="ts">
 	export let href: string;
+	export let rel: string = '';
+	export let target: string = '';
 </script>
 
 <a
-	class="ml-4 text-xdarkgray text-base inline-flex gap-[6px] w-fit group hover:text-xpink transition-all ease-out duration-300"
+	class="ml-4 text-xdarkgray text-base inline-flex items-center leading-none gap-[6px] w-fit group hover:text-xpink transition-all ease-out duration-300"
+	{rel}
+	{target}
 	{href}
 >
 	<slot />
@@ -11,7 +15,7 @@
 		viewBox="0 0 21 9"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
-		class="w-5 mt-[4px] stroke-black group-hover:-mr-3 group-hover:ml-3 group-hover:stroke-xpink transition-all ease-out duration-300"
+		class="w-5 mt-[3px] stroke-black group-hover:-mr-3 group-hover:ml-3 group-hover:stroke-xpink transition-all ease-out duration-300"
 	>
 		<path
 			id="Arrow 1"
