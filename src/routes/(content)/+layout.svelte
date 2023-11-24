@@ -8,10 +8,10 @@
 	});
 </script>
 
+<NavBar initialBg="bg-xlavender" />
 <div class="bg-xlavender">
 	<div class="max-w-[1120px] mx-auto">
-		<NavBar />
-		<h1 class="text-white text-[56px] font-bold tracking-[-0.175rem] mt-24 pb-12 text-center">
+		<h1 class="text-white text-[56px] font-bold tracking-[-0.175rem] pt-12 pb-12 text-center">
 			{title}
 		</h1>
 	</div>

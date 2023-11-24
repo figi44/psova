@@ -3,8 +3,8 @@
 </script>
 
 <div class="background">
+	<NavBar initialBg="transparent" />
 	<div class="max-w-[1120px] mx-auto">
-		<NavBar />
 		<slot />
 		<Footer />
 	</div>

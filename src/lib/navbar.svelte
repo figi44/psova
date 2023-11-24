@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { base } from '$app/paths';
 	import { NavButton } from '$lib';
-	export let sticky = false;
 	let buttonData = [
 		{ title: 'služby', href: `${base}/#services` },
 		{ title: 'o mně', href: `${base}/o-mne` },
@@ -10,12 +9,17 @@
 		{ title: 'faq', href: `${base}/faq` },
 		{ title: 'kontakt', href: `${base}/kontakt` }
 	];
+	export let initialBg: string;
+	let scrollY: number;
 </script>
 
-<div class={sticky ? 'fixed top-0 left-0 bg-xlavender w-full flex justify-center shadow-md' : ''}>
-	<nav
-		class="flex w-full justify-between items-center py-4 {sticky ? 'w-[1120px] bg-xlavender' : ''}"
-	>
+<svelte:window bind:scrollY />
+
+<div
+	class="sticky top-0 transition-all duration-300 ease-out
+		{scrollY ? 'bg-xlavender shadow-md' : initialBg} "
+>
+	<nav class="max-w-[1120px] mx-auto flex w-full justify-between items-center pt-4 pb-5">
 		<a href={base || '/'}><img src="" alt="Logo" class="text-white" /></a>
 		<div>
 			<div class="justify-center items-center gap-7 flex">
@@ -23,7 +27,7 @@
 					<NavButton title={button.title} href={button.href} />
 				{/each}
 			</div>
-			<hr class="border-0 border-t-[1px] border-white border-opacity-30" />
+			<hr class="border-0 border-t-[1px] border-white border-opacity-30 -mx-3" />
 		</div>
 	</nav>
 </div>

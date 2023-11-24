@@ -28,7 +28,7 @@
 	}
 
 	.nav-button:hover::after {
-		width: calc(100% + 28px);
+		width: calc(100% + 24px);
 		@apply bg-xpink;
 		height: 1px;
 		opacity: 1;
