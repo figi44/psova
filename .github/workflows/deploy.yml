@@ -37,6 +37,11 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+      
+      - name: qa
+        run: |
+          npm run check
+          npm run lint 
     
       - name: Build
         env:
