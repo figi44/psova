@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { base } from '$app/paths';
 	import { NavButton } from '$lib';
+	import LogoImg from '$lib/assets/logo-d.svg';
 	let buttonData = [
 		{ title: 'služby', href: `${base}/#services` },
 		{ title: 'o mně', href: `${base}/o-mne` },
@@ -20,7 +21,7 @@
 		{scrollY ? 'bg-xlavender shadow-md' : initialBg} "
 >
 	<nav class="max-w-[1120px] mx-auto flex w-full justify-between items-center pt-4 pb-5">
-		<a href={base || '/'}><img src="" alt="Logo" class="text-white" /></a>
+		<a href={base || '/'}><img src={LogoImg} alt="Logo" class="text-white w-[200px]" /></a>
 		<div>
 			<div class="justify-center items-center gap-7 flex">
 				{#each buttonData as button}

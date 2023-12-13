@@ -3,13 +3,13 @@
 	import InstagramIcon from '$lib/assets/Instagram.svg';
 	import LinkedInIcon from '$lib/assets/LinkedIn.svg';
 	import FacebookIcon from '$lib/assets/Facebook.svg';
-
+	import LogoImg from '$lib/assets/logo-a.svg';
 	let year = new Date().getFullYear();
 </script>
 
 <hr class="border-0 border-t-[1px] border-xlavender -mx-16 mt-72" />
 <div class="grid grid-cols-3 justify-items-center mt-8">
-	<img src="" alt="Logo" class="place-self-start" />
+	<img src={LogoImg} alt="Logo" class="place-self-start h-[120px]" />
 	<div class="self-center">
 		<CTAButton title="Objednejte se" />
 	</div>
