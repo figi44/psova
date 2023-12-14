@@ -2,6 +2,8 @@
 	import { base } from '$app/paths';
 	import { CardContainer, Heading2, Hero, TextLink } from '$lib';
 	import PortraitImage from '$lib/assets/portrait1.png';
+	import PortalLogo from '$lib/assets/portal.png';
+	import PaspartaLogo from '$lib/assets/pasparta.png';
 
 	let cards = [
 		{
@@ -74,3 +76,47 @@
 	</div>
 </div>
 <CardContainer {cards} />
+<div class="bg-white rounded-[30px] w-full px-10 py-8 mt-48 mb-44">
+	<Heading2>Poděkování</Heading2>
+	<div class="text-justify text-xdarkgray">
+		<p>
+			Založit si vlastní praxi není vůbec jednoduchou záležitostí. Je potřeba mít mnoho znalostí,
+			dovedností, vytrvalosti při zajišťování administrativních úkonů a hlavně mít kolem sebe milé,
+			podporující a přející lidi.
+		</p>
+		<p class="mt-3">
+			Na tomto místě bych ráda poděkovala
+			<a
+				href="https://sylvienavarova.cz/"
+				rel="noopener noreferrer"
+				target="_blank"
+				class="underline"
+			>
+				PhDr. Sylvii Navarové</a
+			>, která se ujala mého odborného vedení a byla ochotná mne podpořit při administrativních
+			krocích na této mé cestě. Další díky bezesporu patří Davidu Tomanovi. Ten nezištně vytvořil
+			krásné logo, které zdobí mé stránky, vizitky, razítko i cedulku u poradny. Za podporu děkuji
+			Adél Hudečkové, Beátě Linhartové a Jakubu Rubešovi, protože mne podporovali a tím mi pomohli
+			naplnit můj sen o vlastní praxi. Nemalé poděkování si zaslouží také můj partner za to, že
+			naprogramoval celé stránky a trpělivě vyhovoval mým změnám a požadavkům.
+		</p>
+		<p class="mt-3">
+			A poslední díky plné vděčnosti posílám také do úžasných vydavatelství Pasparta a Portál, které
+			mi neustále zasílají nové a zajímavé odborné publikace. Tím podporují nejen mou touhu po
+			poznání, ale také rozšiřují portfolio mých technik a metod, které v praxi mohu využívat.
+		</p>
+	</div>
+	<div class="flex justify-around mt-10">
+		<a href="https://obchod.portal.cz/" rel="noopener noreferrer" target="_blank" class="h-10">
+			<img src={PortalLogo} alt="Portál logo" class="object-contain w-full h-full" />
+		</a>
+		<a
+			href="https://www.pasparta.cz/e-shop/"
+			rel="noopener noreferrer"
+			target="_blank"
+			class="h-10"
+		>
+			<img src={PaspartaLogo} alt="Pasparta logo" class="object-contain w-full h-full" />
+		</a>
+	</div>
+</div>

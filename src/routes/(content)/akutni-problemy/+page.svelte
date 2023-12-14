@@ -5,6 +5,7 @@
 	import ImgNepanikar from '$lib/assets/nepanikar.png';
 	import ImgLinkabezpeci from '$lib/assets/linkabezpeci.svg';
 	import ImgLinkappp from '$lib/assets/linkappp.svg';
+	import ImgSluchatko from '$lib/assets/sluchatko.jpg';
 	import { titleStore } from '../store';
 	titleStore.set('Akutní problémy');
 
@@ -33,6 +34,11 @@
 			title: 'Linka první psychické pomoci',
 			href: 'https://linkapsychickepomoci.cz/',
 			img: ImgLinkappp
+		},
+		{
+			title: 'Terapeutická linka Sluchátko',
+			href: 'https://www.linkasluchatko.cz/',
+			img: ImgSluchatko
 		}
 	];
 </script>
