@@ -69,8 +69,8 @@
 	}
 </script>
 
-<div class="grid grid-cols-2 justify-between gap-x-32 gap-y-20">
-	<form class="" on:submit|preventDefault={handleSubmit}>
+<div class="grid lg:grid-cols-2 justify-items-center lg:justify-between gap-x-32 gap-y-20 mx-auto">
+	<form class="max-w-[500px]" on:submit|preventDefault={handleSubmit}>
 		<label for="name">Jméno</label>
 		<input name="name" id="name" type="text" {disabled} {required} on:blur={handleBlur} />
 
@@ -116,8 +116,10 @@
 			</div>
 		</div>
 	</form>
-	<div class=" justify-self-start flex flex-col justify-start gap-4">
-		<h1 class="font-bold text-xl leading-[1.15] mb-3">lic. Kristýna Sznapková</h1>
+	<div class="lg:justify-self-start flex flex-col justify-start gap-4">
+		<h1 class="font-bold text-xl leading-[1.15] mb-3 text-center lg:text-left">
+			lic. Kristýna Sznapková
+		</h1>
 		<div class="flex justify-start items-center gap-5">
 			<svg
 				width="32"
@@ -219,7 +221,9 @@
 		</div>
 	</div>
 	<div>
-		<h1 class="font-bold text-xl leading-[1.15] mb-3">Jak se ke mně dostanete?</h1>
+		<h1 class="text-center lg:text-left font-bold text-xl leading-[1.15] mb-3">
+			Jak se ke mně dostanete?
+		</h1>
 		<p class="font-bold mt-4">MHD</p>
 		<p>
 			V docházkové vzdálenosti jsou zastávky Výstaviště a Hotel Palace, případně lze přijít také od
@@ -244,7 +248,7 @@
 			přístupem.
 		</p>
 	</div>
-	<div>
+	<div class="w-full">
 		<iframe
 			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.5757311405764!2d18.28722967757868!3d49.831638831724824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4713e336d7516edf%3A0xd5746c3b95ac9691!2zxb1vZmluc2vDoSAyMzMvMTAsIDcwMiAwMCBNb3JhdnNrw6EgT3N0cmF2YQ!5e0!3m2!1scs!2scz!4v1701895162051!5m2!1scs!2scz"
 			style="border:0;"
