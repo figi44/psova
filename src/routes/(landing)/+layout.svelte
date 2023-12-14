@@ -4,7 +4,7 @@
 
 <div class="background">
 	<NavBar initialBg="transparent" />
-	<div class="max-w-[1120px] mx-auto">
+	<div class="w-[95%] xl:max-w-[1120px] mx-auto">
 		<slot />
 		<Footer />
 	</div>

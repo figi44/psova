@@ -7,13 +7,13 @@
 	let year = new Date().getFullYear();
 </script>
 
-<hr class="border-0 border-t-[1px] border-xlavender -mx-16 mt-72" />
-<div class="grid grid-cols-3 justify-items-center mt-8">
-	<img src={LogoImg} alt="Logo" class="place-self-start h-[120px]" />
+<hr class="border-0 border-t-[1px] border-xlavender xl:-mx-16 mt-72" />
+<div class="grid lg:grid-cols-3 justify-items-center mt-8 gap-20 lg:gap-0">
+	<img src={LogoImg} alt="Logo" class="lg:place-self-start h-[120px]" />
 	<div class="self-center">
 		<CTAButton title="Objednejte se" />
 	</div>
-	<p class="justify-self-end text-xdarkgray">
+	<p class="lg:justify-self-end text-xdarkgray text-center lg:text-left">
 		Kristýna Sznapková<br />
 		IČO: 1234567890<br />
 		Bankovní spojení: 123456/7890<br />

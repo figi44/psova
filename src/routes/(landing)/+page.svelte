@@ -53,8 +53,8 @@
 />
 <div class="bg-white rounded-[30px] w-full px-10 py-8 mt-60 mb-44">
 	<Heading2>Kdo jsem?</Heading2>
-	<div class="flex justify-between text-xdarkgray">
-		<p class="w-5/12 text-justify">
+	<div class="xl:flex justify-between text-xdarkgray">
+		<p class="xl:w-5/12 text-justify">
 			Svou kariéru jsem začala jako vývojář software. Během své cesty jsem vystřídala ohromné
 			množství pozic a dlouho jsem nemohla najít takovou, která by mne opravdu bavila a naplňovala.
 			Při manařerském postu jsem zjistila, že naslouchání lidem a jejich vedení je mi velmi blízké.
@@ -63,7 +63,7 @@
 			duše, protože komunikace s lidmi je mi mnohem bližší než komunikace se stroji. Lidské příběhy
 			jsou jako hvězdy ve vesmíru - každá je jiná a každá je unikátní.
 		</p>
-		<p class="w-5/12 text-justify">
+		<p class="xl:w-5/12 mt-3 xl:mt-0 text-justify">
 			Proto ke každému klientovi zaujímám individuální přístup plný pokory a respektu. Ve své praxi
 			čerpám kromě univerzitních poznatků také ze zkušeností z předchozího pracovního poměru. Dále
 			se neustále vzdělávám formou kurzů a workshopů. Díky nekonečnému přísunu nové literatury takto
@@ -71,7 +71,7 @@
 			aktivitám v oblasti psychologie. Docházím pravidelně na supervize a terapie.
 		</p>
 	</div>
-	<div class="w-full flex justify-end">
+	<div class="w-full flex justify-end mt-5">
 		<TextLink href="{base}/o-mne">Chci vědět víc</TextLink>
 	</div>
 </div>
