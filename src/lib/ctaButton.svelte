@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
+	import { base } from '$app/paths';
 	export let title: string;
 </script>
 
@@ -8,7 +9,7 @@
 			 hover:border-black hover:text-black transition-all ease-in
            "
 	on:click={() => {
-		goto('/kontakt');
+		goto(`${base}/kontakt`);
 	}}
 >
 	{title}
