@@ -36,7 +36,7 @@
 		{/if}
 	</div>
 	<div class="">
-		<button on:click={onClick} class="text-lg font-bold">{title}</button>
+		<button on:click={onClick} class="text-lg font-bold text-left">{title}</button>
 		{#if isOpen}
 			<div transition:slide data-testid="accordion-open" class="text-lg">
 				<slot />

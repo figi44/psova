@@ -21,7 +21,7 @@
 	dobrovolnickým aktivitám v oblasti psychologie. Docházím pravidelně na supervize a terapie.
 </Paragraph>
 <Heading3>Vzdělání</Heading3>
-<table class="text-lg border-separate border-spacing-4">
+<table class="text-lg border-separate border-spacing-2 lg:border-spacing-4">
 	<tbody>
 		<tr>
 			<td class="align-top font-bold">2023–2025</td>
@@ -46,7 +46,7 @@
 	</tbody>
 </table>
 <Heading3>Kurzy a semináře</Heading3>
-<table class="text-lg border-separate border-spacing-4">
+<table class="text-lg border-separate border-spacing-2 lg:border-spacing-4">
 	<tbody>
 		<tr>
 			<td class="align-top font-bold">04/2023–nyní</td>
@@ -95,7 +95,7 @@
 	</tbody>
 </table>
 <Heading3>Praxe a zkušenosti</Heading3>
-<table class="text-lg border-separate border-spacing-4">
+<table class="text-lg border-separate border-spacing-2 lg:border-spacing-4">
 	<tbody>
 		<tr>
 			<td class="align-top font-bold">09/2023–nyní</td>

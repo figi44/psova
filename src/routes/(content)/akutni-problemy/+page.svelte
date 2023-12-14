@@ -49,14 +49,16 @@
 </Paragraph>
 <div class="flex flex-wrap justify-center items-stretch gap-6 mt-12">
 	{#each cards as card}
-		<div class="basis-[30%] flex flex-col justify-between border border-xlavender rounded-[30px]">
+		<div
+			class="basis-[75%] sm:basis-[51%] md:basis-[45%] lg:basis-[30%] flex flex-col justify-between border border-xlavender rounded-[30px]"
+		>
 			<div class="h-28 w-full border-b border-xlavender">
 				<img src={card.img} alt="" class="object-contain w-full h-full mx-auto p-4" />
 			</div>
 			<h1 class="mx-4 my-6 grow font-bold text-xl leading-[1.15] text-center">
 				{card.title}
 			</h1>
-			<div class="flex justify-center mb-2">
+			<div class="flex justify-center mb-6">
 				<TextLink href={card.href} rel="noopener noreferrer" target="_blank">Přejít</TextLink>
 			</div>
 		</div>

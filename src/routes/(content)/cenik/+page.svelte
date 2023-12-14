@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import { base } from '$app/paths';
 	import { Paragraph, Heading3 } from '$lib';
 	import { titleStore } from '../store';
@@ -44,7 +44,7 @@
 </script>
 
 <div class="w-full text-lg">
-	<table class="min-w-full table-auto text-left whitespace-nowrap">
+	<table class="min-w-full table-auto text-left lg:whitespace-nowrap">
 		<thead>
 			<tr class="border-b border-xlavender">
 				<th class="py-2 px-4">Služba</th>
@@ -83,26 +83,23 @@
 </Paragraph>
 <Heading3>Změna či zrušení termínu</Heading3>
 
-<div class="text-lg w-2/3 flex gap-3">
-	<div class="w-full">
-		<div class="flex gap-3">
-			<span class="">Zrušení nebo změna více než 24h předem</span>
-			<span class="grow border-b-2 border-dotted border-xdarkgray h-0 self-end mb-1.5" />
-		</div>
-		<div class="flex gap-3">
-			<span class="">Zrušení nebo změna méně než 24h předem</span>
-			<span class="grow border-b-2 border-dotted border-xdarkgray h-0 self-end mb-1.5" />
-		</div>
-		<div class="flex gap-3">
-			<span class="">Neomluvená absence </span>
-			<span class="grow border-b-2 border-dotted border-xdarkgray h-0 self-end mb-1.5" />
-		</div>
-	</div>
-	<div class="flex flex-col min-w-fit">
-		<span>poplatek 0,- Kč</span>
-		<span>poplatek 80% z ceny</span>
-		<span>poplatek 100% z ceny</span>
-	</div>
+<div class="text-lg lg:w-2/3">
+	<table class="table-auto min-w-full text-left lg:whitespace-nowrap">
+		<tbody>
+			<tr>
+				<td class="px-4">Zrušení nebo změna více než 24h předem</td>
+				<td class="align-top">poplatek 0,- Kč</td>
+			</tr>
+			<tr>
+				<td class="px-4">Zrušení nebo změna méně než 24h předem</td>
+				<td class="align-top">poplatek 80% z ceny</td>
+			</tr>
+			<tr>
+				<td class="px-4">Neomluvená absence</td>
+				<td class="align-top">poplatek 100% z ceny</td>
+			</tr>
+		</tbody>
+	</table>
 </div>
 
 <Heading3>Jak platit?</Heading3>
