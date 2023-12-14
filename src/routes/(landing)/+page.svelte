@@ -106,7 +106,7 @@
 			poznání, ale také rozšiřují portfolio mých technik a metod, které v praxi mohu využívat.
 		</p>
 	</div>
-	<div class="flex justify-around mt-10">
+	<div class="flex flex-col gap-10 md:flex-row justify-around mt-10">
 		<a href="https://obchod.portal.cz/" rel="noopener noreferrer" target="_blank" class="h-10">
 			<img src={PortalLogo} alt="Portál logo" class="object-contain w-full h-full" />
 		</a>
