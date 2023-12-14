@@ -240,7 +240,7 @@
 			naproti budově.
 		</p>
 		<p class="mt-12">
-			Po vstupu do budovy, zazvoňtě na zvonek u levých dveří. Budova nedisponuje bezbariérovým
+			Po vstupu do budovy, zazvoňte na zvonek u levých dveří. Budova nedisponuje bezbariérovým
 			přístupem.
 		</p>
 	</div>

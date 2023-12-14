@@ -1,16 +1,17 @@
 <script>
+	import { base } from '$app/paths';
 	import { Paragraph, Heading3 } from '$lib';
 	import { titleStore } from '../store';
 	let services = [
 		{
 			name: 'Psychologická konzultace standard',
 			length: '50 minut',
-			price: '900,-'
+			price: '1000,-'
 		},
 		{
 			name: 'Psychologická konzultace prodloužená',
 			length: '75 minut',
-			price: '1350,-'
+			price: '1500,-'
 		},
 		{
 			name: 'Koučink standard',
@@ -132,7 +133,12 @@
 	absolvovat tolik setkání, kolik Vám bude připadat prospěšných.
 </Paragraph>
 <Heading3>Objednání</Heading3>
-<Paragraph>Objednat se lze telefonicky, SMS zprávou nebo e-mailem.</Paragraph>
+<Paragraph
+	>Objednat se lze telefonicky, SMS zprávou, e-mailem nebo prostřednictvím <a
+		href="{base}/kontakt"
+		class="underline">kontaktního formuláře</a
+	>.</Paragraph
+>
 <Paragraph>
 	Při kontaktování prostřednictvím SMS zprávy nebo e-mailu uveďte pro rychlejší domluvu do poptávky
 	preferovaný den v týdnu a také preferovanou denní dobu (dopoledne/odpoledne). V co nejkratší možné
