@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { base } from '$app/paths';
 	import { NavButton } from '$lib';
-	import LogoImg from '$lib/assets/logo-d.svg';
+	import LogoImg from '$lib/assets/logo-nav.svg';
 	let buttonData = [
 		{ title: 'služby', href: `${base}/#services` },
 		{ title: 'o mně', href: `${base}/o-mne` },

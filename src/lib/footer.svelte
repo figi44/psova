@@ -3,7 +3,7 @@
 	import InstagramIcon from '$lib/assets/Instagram.svg';
 	import LinkedInIcon from '$lib/assets/LinkedIn.svg';
 	import FacebookIcon from '$lib/assets/Facebook.svg';
-	import LogoImg from '$lib/assets/logo-a.svg';
+	import LogoImg from '$lib/assets/logo-footer.svg';
 	let year = new Date().getFullYear();
 </script>
 
