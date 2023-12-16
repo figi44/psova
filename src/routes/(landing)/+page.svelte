@@ -57,7 +57,7 @@
 		<p class="xl:w-5/12 text-justify">
 			Svou kariéru jsem začala jako vývojář software. Během své cesty jsem vystřídala ohromné
 			množství pozic a dlouho jsem nemohla najít takovou, která by mne opravdu bavila a naplňovala.
-			Při manařerském postu jsem zjistila, že naslouchání lidem a jejich vedení je mi velmi blízké.
+			Při manažerském postu jsem zjistila, že naslouchání lidem a jejich vedení je mi velmi blízké.
 			Díky vzdělávání zaměstnanců jsem se dotkla základů psychologie, které mi naprosto učarovaly, a
 			já se rozhodla nastoupit na univerzitu. Postupně jsem se tak propracovala k vývoji lidské
 			duše, protože komunikace s lidmi je mi mnohem bližší než komunikace se stroji. Lidské příběhy
