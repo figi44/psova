@@ -51,7 +51,7 @@
 	buttonTitle="Objednejte se"
 	imgPath={PortraitImage}
 />
-<div class="bg-white rounded-[30px] w-full px-10 py-8 mt-60 mb-44">
+<div class="bg-white rounded-[30px] w-full px-10 py-8 mt-60 mb-28">
 	<Heading2>Kdo jsem?</Heading2>
 	<div class="xl:flex justify-between text-xdarkgray">
 		<p class="xl:w-5/12 text-justify">
