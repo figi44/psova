@@ -5,7 +5,10 @@
 	export let data: CardData;
 </script>
 
-<Anchor href={data.linkHref} cls="flex flex-col justify-between bg-white rounded-[30px] p-5 group">
+<Anchor
+	href={data.linkHref}
+	cls="flex flex-col justify-between bg-white rounded-[30px] px-6 py-8 group"
+>
 	<div class="flex gap-2 mb-10">
 		<div class="border-x-4 border-xpink rounded" />
 		<div>
