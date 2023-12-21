@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { Anchor } from '$lib';
 	import { titleStore } from '../store';
 	titleStore.set('Kontakt');
 
@@ -71,16 +72,16 @@
 
 <div class="grid lg:grid-cols-2 justify-items-center lg:justify-between gap-x-32 gap-y-20 mx-auto">
 	<form class="max-w-[500px]" on:submit|preventDefault={handleSubmit}>
-		<label for="name">Jméno</label>
+		<label for="name" class="after:content-['*'] after:text-xpink after:ml-1">Jméno</label>
 		<input name="name" id="name" type="text" {disabled} {required} on:blur={handleBlur} />
 
-		<label for="email">Email</label>
+		<label for="email" class="after:content-['*'] after:text-xpink after:ml-1">Email</label>
 		<input name="email" id="email" type="email" {disabled} {required} on:blur={handleBlur} />
 
-		<label for="subject">Předmět</label>
+		<label for="subject" class="after:content-['*'] after:text-xpink after:ml-1">Předmět</label>
 		<input name="subject" id="subject" type="text" {disabled} {required} on:blur={handleBlur} />
 
-		<label for="msg">Zpráva</label>
+		<label for="msg" class="after:content-['*'] after:text-xpink after:ml-1">Zpráva</label>
 		<textarea
 			id="msg"
 			name="body"
@@ -152,7 +153,7 @@
 					fill="black"
 				/>
 			</svg>
-			<p><a href="tel:+420 123 456 789" class="hover:underline">+420 TBA</a></p>
+			<p><Anchor href="tel:+420731011138" omitBase>+420 731 011 138</Anchor></p>
 		</div>
 		<div class="flex justify-start items-center gap-5">
 			<svg
@@ -168,7 +169,7 @@
 				/>
 			</svg>
 			<p>
-				<a href="mailto:sznapkova@psova.cz" class="hover:underline">sznapkova@psova.cz</a>
+				<Anchor href="mailto:sznapkova@psova.cz" omitBase>sznapkova@psova.cz</Anchor>
 			</p>
 		</div>
 		<div class="flex justify-start items-center gap-5">

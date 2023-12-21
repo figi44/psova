@@ -13,3 +13,4 @@ export { default as CTAButton } from './ctaButton.svelte';
 export { default as Paragraph } from './paragraph.svelte';
 export { default as Accordion } from './accordion.svelte';
 export { default as TextLink } from './textLink.svelte';
+export { default as Anchor } from './anchor.svelte';

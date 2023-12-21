@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-	import { CardContainer, Heading2, Hero, TextLink } from '$lib';
+	import { CardContainer, Heading2, Hero, Anchor, TextLink } from '$lib';
 	import PortraitImage from '$lib/assets/portrait1.png';
 	import PortalLogo from '$lib/assets/portal.png';
 	import PaspartaLogo from '$lib/assets/pasparta.png';
@@ -10,37 +10,37 @@
 			title: 'Psychologické poradenství',
 			text: 'Konzultace a činnost zaměřena na překonání aktuálních psychických problémů nebo konfliktních situací za pomocí psychologickcýh metod a prostředků.',
 			linkText: '',
-			linkHref: `${base}/poradenstvi`
+			linkHref: `poradenstvi`
 		},
 		{
 			title: 'Koučink',
 			text: 'Proces, kterým na základě vhodně a efektivně zvolených otázek kouč provází klienta ke stanovenému cíli.',
 			linkText: '',
-			linkHref: `${base}/koucink`
+			linkHref: `koucink`
 		},
 		{
 			title: 'Psychohygiena',
 			text: 'Upevňování duševního zdraví a zvyšování odolnosti klienta vůči široké škále škodlivých vlivů.',
 			linkText: '',
-			linkHref: `${base}/psychohygiena`
+			linkHref: `psychohygiena`
 		},
 		{
 			title: 'Psychodiagnostika',
 			text: 'Zjišťování a měření duševních vlastností a stavů dle zadání klienta.',
 			linkText: '',
-			linkHref: `${base}/psychodiagnostika`
+			linkHref: `psychodiagnostika`
 		},
 		{
 			title: 'Podpůrné skupiny',
 			text: 'Praktické metody a techniky pro všední den, přednášky pro školy i jednotlivce.',
 			linkText: '',
-			linkHref: `${base}/skupiny`
+			linkHref: `skupiny`
 		},
 		{
 			title: 'Firemní aktivity',
 			text: 'Individuálně nastavené balíčky na míru firmám a kolektivům pro podporu a prevenci duševního zdraví zaměstnanců.',
 			linkText: '',
-			linkHref: `${base}/firmy`
+			linkHref: `firmy`
 		}
 	];
 </script>
@@ -72,7 +72,7 @@
 		</p>
 	</div>
 	<div class="w-full flex justify-end mt-5">
-		<TextLink href="{base}/o-mne">Chci vědět víc</TextLink>
+		<TextLink href="o-mne">Chci vědět víc</TextLink>
 	</div>
 </div>
 <CardContainer {cards} />
@@ -86,19 +86,13 @@
 		</p>
 		<p class="mt-3">
 			Na tomto místě bych ráda poděkovala
-			<a
-				href="https://sylvienavarova.cz/"
-				rel="noopener noreferrer"
-				target="_blank"
-				class="underline"
-			>
-				PhDr. Sylvii Navarové</a
-			>, která se ujala mého odborného vedení a byla ochotná mne podpořit při administrativních
-			krocích na této mé cestě. Další díky bezesporu patří Davidu Tomanovi. Ten nezištně vytvořil
-			krásné logo, které zdobí mé stránky, vizitky, razítko i cedulku u poradny. Za podporu děkuji
-			Adél Hudečkové, Beátě Linhartové a Jakubu Rubešovi, protože mne podporovali a tím mi pomohli
-			naplnit můj sen o vlastní praxi. Nemalé poděkování si zaslouží také můj partner za to, že
-			naprogramoval celé stránky a trpělivě vyhovoval mým změnám a požadavkům.
+			<Anchor href="https://sylvienavarova.cz/" external>PhDr. Sylvii Navarové</Anchor>, která se
+			ujala mého odborného vedení a byla ochotná mne podpořit při administrativních krocích na této
+			mé cestě. Další díky bezesporu patří Davidu Tomanovi. Ten nezištně vytvořil krásné logo, které
+			zdobí mé stránky, vizitky, razítko i cedulku u poradny. Za podporu děkuji Adél Hudečkové,
+			Beátě Linhartové a Jakubu Rubešovi, protože mne podporovali a tím mi pomohli naplnit můj sen o
+			vlastní praxi. Nemalé poděkování si zaslouží také můj partner za to, že naprogramoval celé
+			stránky a trpělivě vyhovoval mým změnám a požadavkům.
 		</p>
 		<p class="mt-3">
 			A poslední díky plné vděčnosti posílám také do úžasných vydavatelství Pasparta a Portál, které
@@ -107,16 +101,11 @@
 		</p>
 	</div>
 	<div class="flex flex-col gap-10 md:flex-row justify-around mt-10">
-		<a
-			href="https://www.pasparta.cz/e-shop/"
-			rel="noopener noreferrer"
-			target="_blank"
-			class="h-10"
-		>
+		<Anchor href="https://www.pasparta.cz/e-shop/" external cls="h-10">
 			<img src={PaspartaLogo} alt="Pasparta logo" class="object-contain w-full h-full" />
-		</a>
-		<a href="https://obchod.portal.cz/" rel="noopener noreferrer" target="_blank" class="h-10">
+		</Anchor>
+		<Anchor href="https://obchod.portal.cz/" external cls="h-10">
 			<img src={PortalLogo} alt="Portál logo" class="object-contain w-full h-full" />
-		</a>
+		</Anchor>
 	</div>
 </div>

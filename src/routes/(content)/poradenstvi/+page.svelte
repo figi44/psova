@@ -1,6 +1,5 @@
 <script>
-	import { base } from '$app/paths';
-	import { List, Paragraph } from '$lib';
+	import { Anchor, List, Paragraph } from '$lib';
 	import { titleStore } from '../store';
 	titleStore.set('Psychologické poradenství');
 </script>
@@ -50,5 +49,5 @@
 </Paragraph>
 
 <Paragraph>
-	Ceník, podmínky a další informace naleznete <a href="{base}/cenik" class="underline">ZDE.</a>
+	Ceník, podmínky a další informace naleznete <Anchor href="cenik">ZDE.</Anchor>
 </Paragraph>

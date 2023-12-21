@@ -1,6 +1,5 @@
 <script>
-	import { base } from '$app/paths';
-	import { List, Paragraph } from '$lib';
+	import { Anchor, List, Paragraph } from '$lib';
 	import { titleStore } from '../store';
 	titleStore.set('Koučink');
 </script>
@@ -41,5 +40,5 @@
 	Výjimky pouze po telefonické domluvě předem.
 </Paragraph>
 <Paragraph>
-	Ceník, podmínky a další informace naleznete <a href="{base}/cenik" class="underline">ZDE.</a>
+	Ceník, podmínky a další informace naleznete <Anchor href="cenik">ZDE.</Anchor>
 </Paragraph>

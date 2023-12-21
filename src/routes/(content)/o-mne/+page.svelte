@@ -1,5 +1,5 @@
 <script>
-	import { Paragraph, Heading3 } from '$lib';
+	import { Paragraph, Heading3, Anchor } from '$lib';
 	import { titleStore } from '../store';
 	titleStore.set('O mně');
 </script>
@@ -35,11 +35,9 @@
 			<td>
 				Bakalářské studium psychologie na univerzitě Humanitas, která má svou pobočku ve Vsetíně.
 				Získaný titul lic. je ekvivalentem českého Bc. na základě Lisabonské úmluvy. Více informací
-				o uznávání zahraničního titulu v České republice <a
+				o uznávání zahraničního titulu v České republice <Anchor
 					href="https://www.zakonyprolidi.cz/ms/2006-104/zneni-20061101"
-					target="_blank"
-					rel="noopener noreferrer"
-					class="underline">ZDE</a
+					external>ZDE</Anchor
 				>.
 			</td>
 		</tr>

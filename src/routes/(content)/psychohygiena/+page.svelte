@@ -1,7 +1,6 @@
 <script>
-	import { base } from '$app/paths';
 	import { titleStore } from '../store';
-	import { List, Paragraph } from '$lib';
+	import { Anchor, List, Paragraph } from '$lib';
 	titleStore.set('Psychohygiena');
 </script>
 
@@ -41,5 +40,5 @@
 	případě nenesu za terapeutický efekt žádnou odpovědnost.
 </Paragraph>
 <Paragraph>
-	Ceník, podmínky a další informace naleznete <a href="{base}/cenik" class="underline">ZDE.</a>
+	Ceník, podmínky a další informace naleznete <Anchor href="cenik">ZDE.</Anchor>
 </Paragraph>

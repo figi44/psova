@@ -1,6 +1,5 @@
 <script lang="ts">
-	import { base } from '$app/paths';
-	import { Paragraph, Heading3 } from '$lib';
+	import { Paragraph, Heading3, Anchor } from '$lib';
 	import { titleStore } from '../store';
 	let services = [
 		{
@@ -131,9 +130,8 @@
 </Paragraph>
 <Heading3>Objednání</Heading3>
 <Paragraph
-	>Objednat se lze telefonicky, SMS zprávou, e-mailem nebo prostřednictvím <a
-		href="{base}/kontakt"
-		class="underline">kontaktního formuláře</a
+	>Objednat se lze telefonicky, SMS zprávou, e-mailem nebo prostřednictvím <Anchor href="kontakt"
+		>kontaktního formuláře</Anchor
 	>.</Paragraph
 >
 <Paragraph>

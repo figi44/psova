@@ -59,7 +59,7 @@
 				{card.title}
 			</h1>
 			<div class="flex justify-center mb-6">
-				<TextLink href={card.href} rel="noopener noreferrer" target="_blank">Přejít</TextLink>
+				<TextLink href={card.href} external>Přejít</TextLink>
 			</div>
 		</div>
 	{/each}

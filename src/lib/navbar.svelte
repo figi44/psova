@@ -1,17 +1,17 @@
 <script lang="ts">
 	import { base } from '$app/paths';
 	import { slide } from 'svelte/transition';
-	import { NavButton } from '$lib';
+	import { Anchor, NavButton } from '$lib';
 	import LogoImg from '$lib/assets/logo-nav.svg';
 	import { goto } from '$app/navigation';
 
 	let buttonData = [
-		{ title: 'služby', href: `${base}/#services` },
-		{ title: 'o mně', href: `${base}/o-mne` },
-		{ title: 'ceník', href: `${base}/cenik` },
-		{ title: 'akutní problémy', href: `${base}/akutni-problemy` },
-		{ title: 'faq', href: `${base}/faq` },
-		{ title: 'kontakt', href: `${base}/kontakt` }
+		{ title: 'služby', href: `#services` },
+		{ title: 'o mně', href: `o-mne` },
+		{ title: 'ceník', href: `cenik` },
+		{ title: 'akutní problémy', href: `akutni-problemy` },
+		{ title: 'faq', href: `faq` },
+		{ title: 'kontakt', href: `kontakt` }
 	];
 	export let initialBg: string;
 	let scrollY: number;
@@ -27,7 +27,7 @@
 {scrollY ? 'bg-xlavender shadow-md' : initialBg} "
 	>
 		<nav class="max-w-[1120px] mx-auto flex w-full justify-between items-center pt-4 pb-5">
-			<a href={base || '/'}><img src={LogoImg} alt="Logo" class="text-white w-[200px]" /></a>
+			<Anchor href="" cls=""><img src={LogoImg} alt="Logo" class="text-white w-[200px]" /></Anchor>
 			<div>
 				<div class="justify-center items-center gap-7 flex">
 					{#each buttonData as button}
@@ -42,7 +42,7 @@
 	<div
 		class="sticky top-0 bg-xlavender shadow-md flex w-full justify-between items-center p-4 z-10"
 	>
-		<a href={base || '/'}><img src={LogoImg} alt="Logo" class="text-white h-12" /></a>
+		<Anchor href="" cls=""><img src={LogoImg} alt="Logo" class="text-white h-12" /></Anchor>
 		<button
 			class="flex flex-col h-12 w-12 justify-center items-center group"
 			on:click={() => {

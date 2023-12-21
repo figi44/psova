@@ -1,12 +1,14 @@
 <script lang="ts">
+	import { Anchor } from '$lib';
+
 	export let title: string;
 	export let href: string;
 </script>
 
-<a {href}
+<Anchor {href} cls=""
 	><button class="text-white text-xl font-normal relative nav-button hover:text-xpink">
 		{title}
-	</button></a
+	</button></Anchor
 >
 
 <style lang="postcss">

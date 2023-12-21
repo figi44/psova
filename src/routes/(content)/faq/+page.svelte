@@ -1,6 +1,5 @@
 <script>
-	import { base } from '$app/paths';
-	import { Accordion, Heading3 } from '$lib';
+	import { Accordion, CTAButton, Heading3, Anchor } from '$lib';
 	import { titleStore } from '../store';
 	titleStore.set('FAQ');
 </script>
@@ -22,9 +21,9 @@
 </Accordion>
 <Accordion title="S jakými problémy za Vámi mohu přijít?">
 	Se všemi psychologickými tématy od psychických a emočních potíží až po kariéru. Podrobnější výčet
-	naleznete na <a href="{base}/poradenstvi" class="underline">této stránce</a>. Nevěnuji se rodinné
-	a partnerské sféře, nepracuji s dětmi a s osobami se závažnými psychickými poruchami. Pracuji vždy
-	pouze s jednotlivci.
+	naleznete na <Anchor href="poradenstvi">této stránce</Anchor>. Nevěnuji se rodinné a partnerské
+	sféře, nepracuji s dětmi a s osobami se závažnými psychickými poruchami. Pracuji vždy pouze s
+	jednotlivci.
 </Accordion>
 <Accordion
 	title="Jak je možné, že poskytujete psychologické poradenství a ještě nemáte magisterský titul z psychologie?"
@@ -36,11 +35,9 @@
 </Accordion>
 <Accordion title="Můžete poskytovat psychologické poradenství v Česku s polským titulem?">
 	Ano, mohu. Česká republika má s Polskem dohodu o vzájemném uznávání titulů. Podrobnosti o této
-	dohodě a jejích podmínkách naleznete <a
+	dohodě a jejích podmínkách naleznete <Anchor
 		href="https://www.zakonyprolidi.cz/ms/2006-104/zneni-20061101"
-		target="_blank"
-		rel="noopener noreferrer"
-		class="underline">ZDE</a
+		external>ZDE</Anchor
 	>.
 </Accordion>
 <Accordion title="Mám Vám předem popsat podrobněji můj problém do emailu?">
@@ -72,4 +69,6 @@
 	obohacuji své obzory o nové techniky, metody a informace. Aktivně se věnuji dobrovolnickým
 	aktivitám v oblasti psychologie. Docházím pravidelně na supervize a terapie.
 </Accordion>
-<div class="flex justify-center mt-10"><Heading3>Máte další dotaz? Kontaktujte mne!</Heading3></div>
+<div class="flex justify-center mt-10">
+	<Heading3>Máte další dotaz? <Anchor href="kontakt">Kontaktujte mne!</Anchor></Heading3>
+</div>

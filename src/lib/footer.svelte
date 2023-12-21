@@ -1,5 +1,5 @@
 <script>
-	import { CTAButton } from '$lib';
+	import { Anchor, CTAButton } from '$lib';
 	import InstagramIcon from '$lib/assets/Instagram.svg';
 	import LinkedInIcon from '$lib/assets/LinkedIn.svg';
 	import FacebookIcon from '$lib/assets/Facebook.svg';
@@ -22,24 +22,15 @@
 	</p>
 </div>
 <div class="flex justify-center mt-12">
-	<a
-		href="https://instagram.com/psycho.knihy"
-		target="_blank"
-		rel="noopener noreferrer"
-		class="mx-2"
+	<Anchor href="https://instagram.com/psycho.knihy" external cls="mx-2"
 		><img class="" src={InstagramIcon} alt="Instagram" />
-	</a>
-	<a
-		href="https://www.linkedin.com/in/sznapkovakristyna/"
-		target="_blank"
-		rel="noopener noreferrer"
-		class="mx-2"
-	>
+	</Anchor>
+	<Anchor href="https://www.linkedin.com/in/sznapkovakristyna/" external cls="mx-2">
 		<img class="" src={LinkedInIcon} alt="LinkedIn" />
-	</a>
-	<a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="mx-2">
+	</Anchor>
+	<Anchor href="https://facebook.com" external cls="mx-2">
 		<img class="" src={FacebookIcon} alt="Facebook" />
-	</a>
+	</Anchor>
 </div>
 <p class="flex justify-center mt-7 pb-4 text-xdarkgray">
 	© {year} Kristýna Sznapková
