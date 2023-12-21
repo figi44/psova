@@ -1,5 +1,5 @@
 <script>
-	import { Accordion, CTAButton, Heading3, Anchor } from '$lib';
+	import { Accordion, Heading3, Anchor } from '$lib';
 	import { titleStore } from '../store';
 	titleStore.set('FAQ');
 </script>
@@ -11,10 +11,10 @@
 <Accordion title="Poskytujete poradenství a koučink online?">
 	Ano, poskytuji. Za stejných podmínek, jako osobní konzultace.
 </Accordion>
-<Accordion title="Může k Vám docházet i jiný člen rodiny?">
-	Bohužel ne. Jsem schopná pracovat vždy pouze s jedním členem rodiny, aby poradenství nebylo
-	zatíženo vztahy mezi klienty. Zároveň tak ctím psychologickou zásadu, že z jedné úzké sociální
-	skupiny mohu na individuální bázi pracovat pouze s jedním jejím členem.
+<Accordion title="Může k Vám docházet i jiný člen rodiny?">
+	Bohužel ne. Jsem schopná pracovat vždy pouze s jedním členem rodiny, aby poradenství nebylo
+	zatíženo vztahy mezi klienty. Zároveň tak ctím psychologickou zásadu, že z jedné úzké sociální
+	skupiny mohu na individuální bázi pracovat pouze s jedním jejím členem.
 </Accordion>
 <Accordion title="Pracujete s celou rodinou?">
 	Ne, pracuji pouze individuálně s jednotlivci.

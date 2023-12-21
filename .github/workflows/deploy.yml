@@ -34,7 +34,7 @@ jobs:
         run: npm ci
       
       - name: check
-        run: npm run lint 
+        run: npm run check 
       
       - name: lint
         run: npm run lint

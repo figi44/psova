@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { base } from '$app/paths';
 	import { slide } from 'svelte/transition';
 	import { Anchor, NavButton } from '$lib';
 	import LogoImg from '$lib/assets/logo-nav.svg';

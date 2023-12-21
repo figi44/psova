@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { base } from '$app/paths';
 	import { CardContainer, Heading2, Hero, Anchor, TextLink } from '$lib';
 	import PortraitImage from '$lib/assets/portrait1.png';
 	import PortalLogo from '$lib/assets/portal.png';
