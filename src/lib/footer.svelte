@@ -15,10 +15,10 @@
 	</div>
 	<p class="lg:justify-self-end text-xdarkgray text-center lg:text-left">
 		Kristýna Sznapková<br />
-		IČO: 1234567890<br />
-		Bankovní spojení: 123456/7890<br />
-		Ulice 123/4<br />
-		Ostrava
+		IČ: 21031495<br />
+		Bankovní spojení: TBA<br />
+		Žofinská 233/10<br />
+		Ostrava, 702 00
 	</p>
 </div>
 <div class="flex justify-center mt-12">

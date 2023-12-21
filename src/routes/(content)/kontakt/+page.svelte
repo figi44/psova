@@ -152,7 +152,7 @@
 					fill="black"
 				/>
 			</svg>
-			<p><a href="tel:+420 123 456 789" class="hover:underline">+420 123 456 789</a></p>
+			<p><a href="tel:+420 123 456 789" class="hover:underline">+420 TBA</a></p>
 		</div>
 		<div class="flex justify-start items-center gap-5">
 			<svg
@@ -186,7 +186,7 @@
 					fill="black"
 				/>
 			</svg>
-			<p>IČ: 12 34 56 78</p>
+			<p>IČ: 21031495</p>
 		</div>
 		<div class="flex justify-start items-center gap-5">
 			<svg
@@ -217,7 +217,7 @@
 					fill="black"
 				/>
 			</svg>
-			<p>Číslo účtu: 1234456/234</p>
+			<p>Číslo účtu: TBA</p>
 		</div>
 	</div>
 	<div>

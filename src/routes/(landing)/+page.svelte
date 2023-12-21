@@ -107,9 +107,6 @@
 		</p>
 	</div>
 	<div class="flex flex-col gap-10 md:flex-row justify-around mt-10">
-		<a href="https://obchod.portal.cz/" rel="noopener noreferrer" target="_blank" class="h-10">
-			<img src={PortalLogo} alt="Portál logo" class="object-contain w-full h-full" />
-		</a>
 		<a
 			href="https://www.pasparta.cz/e-shop/"
 			rel="noopener noreferrer"
@@ -117,6 +114,9 @@
 			class="h-10"
 		>
 			<img src={PaspartaLogo} alt="Pasparta logo" class="object-contain w-full h-full" />
+		</a>
+		<a href="https://obchod.portal.cz/" rel="noopener noreferrer" target="_blank" class="h-10">
+			<img src={PortalLogo} alt="Portál logo" class="object-contain w-full h-full" />
 		</a>
 	</div>
 </div>
