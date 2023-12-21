@@ -43,6 +43,7 @@
 	>
 		<Anchor href="" cls=""><img src={LogoImg} alt="Logo" class="text-white h-12" /></Anchor>
 		<button
+			aria-label="Menu"
 			class="flex flex-col h-12 w-12 justify-center items-center group"
 			on:click={() => {
 				isOpen = !isOpen;

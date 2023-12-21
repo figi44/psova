@@ -8,6 +8,10 @@
 	});
 </script>
 
+<svelte:head>
+	<title>{title} - PSOVA</title>
+</svelte:head>
+
 <NavBar initialBg="bg-xlavender" />
 <div class="bg-xlavender">
 	<div class="w-[95%] xl:max-w-[1120px] mx-auto">

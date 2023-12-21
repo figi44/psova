@@ -44,6 +44,10 @@
 	];
 </script>
 
+<svelte:head>
+	<title>PSOVA - Kristýna Sznapková, Psychologie Ostrava</title>
+</svelte:head>
+
 <Hero
 	title="lic. Kristýna Sznapková"
 	subtitle="S pokorou pomáhám rozvíjet lidskou duši."
