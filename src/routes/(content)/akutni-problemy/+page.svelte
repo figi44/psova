@@ -1,5 +1,5 @@
 <script>
-	import { Paragraph, TextLink } from '$lib';
+	import { Anchor, Paragraph, TextLink } from '$lib';
 	import ImgKriceos from '$lib/assets/kriceos.png';
 	import ImgCssostrava from '$lib/assets/cssostrava.svg';
 	import ImgNepanikar from '$lib/assets/nepanikar.png';
@@ -49,8 +49,10 @@
 </Paragraph>
 <div class="flex flex-wrap justify-center items-stretch gap-6 mt-12">
 	{#each cards as card}
-		<div
-			class="basis-[75%] sm:basis-[51%] md:basis-[45%] lg:basis-[30%] flex flex-col justify-between border border-xlavender rounded-[30px] group"
+		<Anchor
+			href={card.href}
+			external
+			cls="basis-[75%] sm:basis-[51%] md:basis-[45%] lg:basis-[30%] flex flex-col justify-between border border-xlavender rounded-[30px] group"
 		>
 			<div class="h-28 w-full border-b border-xlavender">
 				<img src={card.img} alt="" class="object-contain w-full h-full mx-auto p-4" />
@@ -61,6 +63,6 @@
 			<div class="flex justify-center mb-6">
 				<TextLink href={card.href} external>Přejít</TextLink>
 			</div>
-		</div>
+		</Anchor>
 	{/each}
 </div>

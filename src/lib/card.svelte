@@ -1,11 +1,11 @@
 <script lang="ts">
-	import { TextLink } from '$lib';
+	import { Anchor, TextLink } from '$lib';
 	import type { CardData } from './types';
 
 	export let data: CardData;
 </script>
 
-<div class="flex flex-col justify-between bg-white rounded-[30px] p-5 group">
+<Anchor href={data.linkHref} cls="flex flex-col justify-between bg-white rounded-[30px] p-5 group">
 	<div class="flex gap-2 mb-10">
 		<div class="border-x-4 border-xpink rounded" />
 		<div>
@@ -14,4 +14,4 @@
 		</div>
 	</div>
 	<TextLink href={data.linkHref}>{data.linkText || 'Chci vědět víc'}</TextLink>
-</div>
+</Anchor>
