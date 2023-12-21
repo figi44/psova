@@ -10,9 +10,12 @@
 	plánu.
 </Accordion>
 <Accordion title="Poskytujete poradenství a koučink online?">
-	Bohužel ne. Jsem schopná pracovat vždy pouze s jedním členem rodiny, aby poradenství nebylo
-	zatíženo vztahy mezi klienty. Zároveň tak ctím psychologickou zásadu, že z jedné úzké sociální
-	skupiny mohu na individuální bázi pracovat pouze s jedním jejím členem.
+	Ano, poskytuji. Za stejných podmínek, jako osobní konzultace.
+</Accordion>
+<Accordion title="Může k Vám docházet i jiný člen rodiny?">
+	Bohužel ne. Jsem schopná pracovat vždy pouze s jedním členem rodiny, aby poradenství nebylo
+	zatíženo vztahy mezi klienty. Zároveň tak ctím psychologickou zásadu, že z jedné úzké sociální
+	skupiny mohu na individuální bázi pracovat pouze s jedním jejím členem.
 </Accordion>
 <Accordion title="Pracujete s celou rodinou?">
 	Ne, pracuji pouze individuálně s jednotlivci.
@@ -62,7 +65,7 @@
 	Ctím klientovu anonymitu. Proto při takovém setkání vždy čekám, zda první kontakt udělá klient.
 	Pokud ano, pak odpovím zpět. Pokud ne, pak je vše v naprostém pořádku a není třeba se omlouvat.
 	Respektuji, že téma duševního zdraví je stále ve společnosti stigmatizováno a mým klientům nikdo a
-	nic neukládá právo se mnou komunikovat mimo domluvenou schůzku.
+	nic neukládá povinnost se mnou komunikovat mimo domluvenou schůzku.
 </Accordion>
 <Accordion title="Jak zajišťujete kvalitu poskytovaných služeb?">
 	Neustále se vzdělávám formou kurzů a workshopů. Díky nekonečnému přísunu nové literatury takto

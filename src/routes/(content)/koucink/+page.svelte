@@ -10,12 +10,6 @@
 	stanovenému cíli. Kouč není trenér, poradce ani mentor. Je v naprosto neexpertní roli a je
 	klientovi pouze nápomocen na jeho cestě.
 </Paragraph>
-
-<Paragraph>
-	Koučink je proces, kterým na základě vhodně a efektivně zvolených otázek kouč provází klienta ke
-	stanovenému cíli. Kouč není trenér, poradce ani mentor. Je v naprosto neexpertní roli a je
-	klientovi pouze nápomocen na jeho cestě.
-</Paragraph>
 <Paragraph>
 	<span class="font-bold"> Pomocí koučinku lze řešit například následující témata:</span>
 </Paragraph>
