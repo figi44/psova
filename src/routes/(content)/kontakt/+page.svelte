@@ -218,7 +218,7 @@
 					fill="black"
 				/>
 			</svg>
-			<p>Číslo účtu: TBA</p>
+			<p>Číslo účtu: 2869889028/3030</p>
 		</div>
 	</div>
 	<div>

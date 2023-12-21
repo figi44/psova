@@ -16,7 +16,7 @@
 	<p class="lg:justify-self-end text-xdarkgray text-center lg:text-left">
 		Kristýna Sznapková<br />
 		IČ: 21031495<br />
-		Bankovní spojení: TBA<br />
+		Bankovní spojení: 2869889028/3030<br />
 		Žofinská 233/10<br />
 		Ostrava, 702 00
 	</p>
