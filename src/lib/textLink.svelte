@@ -6,7 +6,7 @@
 </script>
 
 <Anchor
-	cls="ml-4 text-xdarkgray text-base inline-flex items-center leading-none gap-[6px] w-fit group hover:text-xpink transition-all ease-out duration-300"
+	cls="ml-4 text-xdarkgray text-base inline-flex items-center leading-none gap-[6px] w-fit group group-hover:text-xpink hover:text-xpink transition-all ease-out duration-300"
 	{external}
 	{href}
 >

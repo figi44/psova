@@ -50,7 +50,7 @@
 <div class="flex flex-wrap justify-center items-stretch gap-6 mt-12">
 	{#each cards as card}
 		<div
-			class="basis-[75%] sm:basis-[51%] md:basis-[45%] lg:basis-[30%] flex flex-col justify-between border border-xlavender rounded-[30px]"
+			class="basis-[75%] sm:basis-[51%] md:basis-[45%] lg:basis-[30%] flex flex-col justify-between border border-xlavender rounded-[30px] group"
 		>
 			<div class="h-28 w-full border-b border-xlavender">
 				<img src={card.img} alt="" class="object-contain w-full h-full mx-auto p-4" />

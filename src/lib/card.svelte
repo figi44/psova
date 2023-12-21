@@ -5,7 +5,7 @@
 	export let data: CardData;
 </script>
 
-<div class="flex flex-col justify-between bg-white rounded-[30px] p-5">
+<div class="flex flex-col justify-between bg-white rounded-[30px] p-5 group">
 	<div class="flex gap-2 mb-10">
 		<div class="border-x-4 border-xpink rounded" />
 		<div>
