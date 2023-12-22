@@ -57,7 +57,7 @@
 <div class="bg-white rounded-[30px] w-full px-10 py-8 mt-60 mb-28">
 	<Heading2>Kdo jsem?</Heading2>
 	<div class="xl:flex justify-between text-xdarkgray">
-		<p class="xl:w-5/12 text-justify">
+		<p class="xl:w-5/12 text-justify xl:leading-relaxed">
 			Svou kariéru jsem začala jako vývojář software. Během své cesty jsem vystřídala ohromné
 			množství pozic a dlouho jsem nemohla najít takovou, která by mne opravdu bavila a naplňovala.
 			Při manažerském postu jsem zjistila, že naslouchání lidem a jejich vedení je mi velmi blízké.
@@ -66,7 +66,7 @@
 			duše, protože komunikace s lidmi je mi mnohem bližší než komunikace se stroji. Lidské příběhy
 			jsou jako hvězdy ve vesmíru - každá je jiná a každá je unikátní.
 		</p>
-		<p class="xl:w-5/12 mt-3 xl:mt-0 text-justify">
+		<p class="xl:w-5/12 mt-3 xl:mt-0 text-justify xl:leading-relaxed">
 			Proto ke každému klientovi zaujímám individuální přístup plný pokory a respektu. Ve své praxi
 			čerpám kromě univerzitních poznatků také ze zkušeností z předchozího pracovního poměru. Dále
 			se neustále vzdělávám formou kurzů a workshopů. Díky nekonečnému přísunu nové literatury takto
@@ -81,7 +81,7 @@
 <CardContainer {cards} />
 <div class="bg-white rounded-[30px] w-full px-10 py-8 mt-48 mb-44">
 	<Heading2>Poděkování</Heading2>
-	<div class="text-justify text-xdarkgray">
+	<div class="text-justify text-xdarkgray xl:leading-relaxed">
 		<p>
 			Založit si vlastní praxi není vůbec jednoduchou záležitostí. Je potřeba mít mnoho znalostí,
 			dovedností, vytrvalosti při zajišťování administrativních úkonů a hlavně mít kolem sebe milé,
