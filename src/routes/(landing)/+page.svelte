@@ -45,7 +45,7 @@
 </script>
 
 <svelte:head>
-	<title>PSOVA - Kristýna Sznapková, Psychologie Ostrava</title>
+	<title>PSOVA - Psychologické poradenství a koučink Ostrava</title>
 </svelte:head>
 
 <Hero
