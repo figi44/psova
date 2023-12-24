@@ -23,11 +23,6 @@
 			price: '1600,-'
 		},
 		{
-			name: 'Podpůrná skupina',
-			length: '60 minut',
-			price: '150,-'
-		},
-		{
 			name: 'Zpráva z konzultací na žádost klienta',
 			length: 'zhotovení do 7 dní',
 			price: '800,-'

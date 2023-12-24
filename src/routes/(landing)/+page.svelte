@@ -81,7 +81,7 @@
 <CardContainer {cards} />
 <div class="bg-white rounded-[30px] w-full px-10 py-8 mt-48 mb-44">
 	<Heading2>Poděkování</Heading2>
-	<div class="text-justify text-xdarkgray xl:leading-relaxed">
+	<div class="text-justify text-xdarkgray">
 		<p>
 			Založit si vlastní praxi není vůbec jednoduchou záležitostí. Je potřeba mít mnoho znalostí,
 			dovedností, vytrvalosti při zajišťování administrativních úkonů a hlavně mít kolem sebe milé,
@@ -93,9 +93,9 @@
 			ujala mého odborného vedení a byla ochotná mne podpořit při administrativních krocích na této
 			mé cestě. Další díky bezesporu patří Davidu Tomanovi. Ten nezištně vytvořil krásné logo, které
 			zdobí mé stránky, vizitky, razítko i cedulku u poradny. Za podporu děkuji Adél Hudečkové,
-			Beátě Linhartové a Jakubu Rubešovi, protože mne podporovali a tím mi pomohli naplnit můj sen o
-			vlastní praxi. Nemalé poděkování si zaslouží také můj partner za to, že naprogramoval celé
-			stránky a trpělivě vyhovoval mým změnám a požadavkům.
+			Beátě Linhartové a Jakubu Rubešovi, protože tato jejich podpora mi pomohla odhodlat se a
+			naplnit můj sen o vlastní praxi. Nemalé poděkování si zaslouží také můj partner za to, že
+			naprogramoval celé stránky a trpělivě vyhovoval mým změnám a požadavkům.
 		</p>
 		<p class="mt-3">
 			A poslední díky plné vděčnosti posílám také do úžasných vydavatelství Pasparta a Portál, které
