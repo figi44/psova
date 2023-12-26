@@ -10,7 +10,6 @@
 
 <svelte:head>
 	<title>{title} - PSOVA</title>
-	<meta property="og:title" content="PSOVA - Psychologické poradenství a koučink Ostrava" />
 </svelte:head>
 
 <NavBar initialBg="bg-xlavender" />
