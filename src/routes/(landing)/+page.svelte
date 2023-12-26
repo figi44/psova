@@ -46,6 +46,8 @@
 
 <svelte:head>
 	<title>PSOVA - Psychologické poradenství a koučink Ostrava</title>
+	<meta property="og:title" content="PSOVA - Psychologické poradenství a koučink Ostrava" />
+	<!-- <meta property="og:image" content="http://example.com/your-image-1200x630px.jpg" /> -->
 </svelte:head>
 
 <Hero
