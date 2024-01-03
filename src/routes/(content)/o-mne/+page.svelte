@@ -43,16 +43,20 @@
 		</tr>
 	</tbody>
 </table>
-<Heading3>Kurzy a semináře</Heading3>
+<Heading3>Kurzy, semináře, výcviky</Heading3>
 <table class="text-lg border-separate border-spacing-2 lg:border-spacing-4">
 	<tbody>
 		<tr>
+			<td class="align-top font-bold">01/2024–nyní</td>
+			<td>Roční výcvik v ACTu - Terapie přijetí a odhodlání (Institut ACT+; 248 hodin)</td>
+		</tr>
+		<tr>
 			<td class="align-top font-bold">04/2023–nyní</td>
-			<td>INTECO: Integrativní kouč (230 hodin; probíhající roční výcvik)</td>
+			<td>INTECO: Integrativní kouč (Škola manažerského rozvoje; 230 hodin)</td>
 		</tr>
 		<tr>
 			<td class="align-top font-bold">11/2023</td>
-			<td>Understanding Dementia</td>
+			<td>Understanding Dementia MOOC (University of Tasmania; 21 hodin)</td>
 		</tr>
 		<tr>
 			<td class="align-top font-bold">11/2023</td>
@@ -64,31 +68,31 @@
 		</tr>
 		<tr>
 			<td class="align-top font-bold">09/2023</td>
-			<td>ACT for your mental health: Erasmus+ Training program (40 hodin)</td>
+			<td>ACT for your mental health (Erasmus+ Training program; 40 hodin)</td>
 		</tr>
 		<tr>
 			<td class="align-top font-bold">09/2021</td>
-			<td>Authentic (self)presentation and rhetoric (15 hodin)</td>
+			<td>Authentic (self)presentation and rhetoric (Shine Leadership; 15 hodin)</td>
 		</tr>
 		<tr>
 			<td class="align-top font-bold">09/2021</td>
-			<td>Emotional leadership (15 hodin)</td>
+			<td>Emotional leadership (Shine Leadership; 15 hodin)</td>
 		</tr>
 		<tr>
 			<td class="align-top font-bold">09/2021</td>
-			<td>Difficult conversations (16 hodin)</td>
+			<td>Difficult conversations (Cadet Start Tietoevry; 16 hodin)</td>
 		</tr>
 		<tr>
 			<td class="align-top font-bold">05/2021</td>
-			<td>Managerial basics (16 hodin)</td>
+			<td>Managerial basics (Cadet Start Tietoevry; 16 hodin)</td>
 		</tr>
 		<tr>
 			<td class="align-top font-bold">04/2019</td>
-			<td>Relaxace, Yoga Nidra a Regresní terapie (24 hodin)</td>
+			<td>Relaxace, Yoga Nidra a Regresní terapie (Bhavasya Yoga School; 24 hodin)</td>
 		</tr>
 		<tr>
 			<td class="align-top font-bold">04/2019</td>
-			<td>Yin Yoga I. (20 hodin)</td>
+			<td>Yin Yoga I. (Monika Winklerová; 20 hodin)</td>
 		</tr>
 	</tbody>
 </table>

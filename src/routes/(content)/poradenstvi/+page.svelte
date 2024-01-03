@@ -15,8 +15,6 @@
 
 <List>
 	<li>aktuální výskyt úzkostí před zkouškou nebo prezentací</li>
-	<li>náročná situace v partnerském nebo manželském vztahu</li>
-	<li>mezigenerační soužití</li>
 	<li>přístup k problémům dětí</li>
 	<li>příprava na roli rodiče nebo prarodiče</li>
 	<li>těžká rozhodnutí a složité životní křižovatky</li>
@@ -29,7 +27,6 @@
 	<li>otázky sebehodnoty a spirituality</li>
 	<li>budování komunikačních dovedností</li>
 	<li>seberozvojová témata (např. rozvíjení soft skills)</li>
-	<li>zvažování tranzice</li>
 	<li>ujasňování a hledání identity</li>
 </List>
 <Paragraph>
