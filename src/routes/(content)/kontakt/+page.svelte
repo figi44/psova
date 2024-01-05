@@ -242,11 +242,11 @@
 		</p>
 		<p class="mt-2">
 			Další možností parkování je placené parkoviště vedle budovy nebo parkoviště Smetanovo náměstí
-			naproti budově.
+			naproti budovy.
 		</p>
 		<p class="mt-12">
-			Po vstupu do budovy, zazvoňte na zvonek u levých dveří. Budova nedisponuje bezbariérovým
-			přístupem.
+			Po vstupu do budovy vyjděte schody do mezipatra a zazvoňte na zvonek u levých vstupních dveří.
+			Budova nedisponuje bezbariérovým přístupem.
 		</p>
 	</div>
 	<div class="w-full">
