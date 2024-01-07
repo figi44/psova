@@ -1,5 +1,8 @@
 <script>
 	import { Paragraph, Heading3, Anchor } from '$lib';
+	import EducationIcon from '$lib/assets/educationIcon.svg';
+	import groupIcon from '$lib/assets/group.svg';
+	import whiteboardIcon from '$lib/assets/whiteboard.svg';
 	import { titleStore } from '../store';
 	titleStore.set('O mně');
 </script>
@@ -20,7 +23,11 @@
 	literatury takto obohacuji své obzory o nové techniky, metody a informace. Aktivně se věnuji
 	dobrovolnickým aktivitám v oblasti psychologie. Docházím pravidelně na supervize a terapie.
 </Paragraph>
-<Heading3>Vzdělání</Heading3>
+<Heading3>
+	<div class="flex items-center gap-2">
+		<img src={EducationIcon} alt="" class="w-8" />Vzdělání
+	</div>
+</Heading3>
 <table class="text-lg border-separate border-spacing-2 lg:border-spacing-4">
 	<tbody>
 		<tr>
@@ -43,7 +50,12 @@
 		</tr>
 	</tbody>
 </table>
-<Heading3>Kurzy, semináře, výcviky</Heading3>
+<Heading3>
+	<div class="flex items-center gap-2">
+		<img src={whiteboardIcon} alt="" class="w-8" />
+		Kurzy, semináře, výcviky
+	</div>
+</Heading3>
 <table class="text-lg border-separate border-spacing-2 lg:border-spacing-4">
 	<tbody>
 		<tr>
@@ -96,7 +108,12 @@
 		</tr>
 	</tbody>
 </table>
-<Heading3>Praxe a zkušenosti</Heading3>
+<Heading3>
+	<div class="flex items-center gap-2">
+		<img src={groupIcon} alt="" class="w-8" />
+		Praxe a zkušenosti
+	</div>
+</Heading3>
 <table class="text-lg border-separate border-spacing-2 lg:border-spacing-4">
 	<tbody>
 		<tr>
