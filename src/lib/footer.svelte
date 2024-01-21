@@ -17,19 +17,16 @@
 		Kristýna Sznapková<br />
 		IČ: 21031495<br />
 		Bankovní spojení: 2869889028/3030<br />
-		Žofinská 233/10<br />
+		Na Hradbách 2632/18<br />
 		Ostrava, 702 00
 	</p>
 </div>
 <div class="flex justify-center mt-12">
-	<Anchor href="https://instagram.com/psycho.knihy" external cls="mx-2"
+	<Anchor href="https://instagram.com/psova_" external cls="mx-2"
 		><img class="" src={InstagramIcon} alt="Instagram" />
 	</Anchor>
 	<Anchor href="https://www.linkedin.com/in/sznapkovakristyna/" external cls="mx-2">
 		<img class="" src={LinkedInIcon} alt="LinkedIn" />
-	</Anchor>
-	<Anchor href="https://facebook.com" external cls="mx-2">
-		<img class="" src={FacebookIcon} alt="Facebook" />
 	</Anchor>
 </div>
 <p class="flex justify-center mt-7 pb-4 text-xdarkgray">
