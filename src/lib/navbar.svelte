@@ -69,13 +69,14 @@
 			class="fixed top-0 right-0 w-[75%] h-full py-24 flex flex-col items-center bg-white z-0 shadow-[-5px_0_10px_0_rgba(0,0,0,0.1)]"
 		>
 			{#each buttonData as button}
-				<button
-					class="my-4 p-4 text-3xl text-xdarkgray"
-					on:click={() => {
-						goto(button.href);
-						isOpen = false;
-					}}>{button.title}</button
-				>
+				<Anchor href={button.href} cls="">
+					<button
+						class="my-4 p-4 text-3xl text-xdarkgray"
+						on:click={() => {
+							isOpen = false;
+						}}>{button.title}</button
+					>
+				</Anchor>
 			{/each}
 		</nav>
 	{/if}
