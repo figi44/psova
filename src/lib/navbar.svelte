@@ -2,7 +2,6 @@
 	import { slide } from 'svelte/transition';
 	import { Anchor, NavButton } from '$lib';
 	import LogoImg from '$lib/assets/logo-nav.svg';
-	import { goto } from '$app/navigation';
 
 	let buttonData = [
 		{ title: 'služby', href: `#services` },
