@@ -225,28 +225,19 @@
 		<h1 class="text-center lg:text-left font-bold text-xl leading-[1.15] mb-3">
 			Jak se ke mně dostanete?
 		</h1>
+		<p>
+			Poradna sídlí v pátém patře budovy Business Center. Po vstupu zamiřte vpravo k výtahu, vyjeďte
+			do pátého patra a vydejte se chodbou vpravo. Dveře poradny jsou označeny.
+		</p>
+		<p class="mt-2">U vstupu do budovy se nachází recepce, kde Vás ke mně rádi nasměrují.</p>
+		<p class="mt-2">Budova nedisponuje bezbariérovým přístupem.</p>
 		<p class="font-bold mt-4">MHD</p>
-		<p>
-			V docházkové vzdálenosti jsou zastávky Výstaviště a Hotel Palace, případně lze přijít také od
-			zastávek Karolina a Elektra.
-		</p>
-		<p class="font-bold mt-4">Vlakem</p>
-		<p>
-			Nejbližsí vlaková stanice je Ostrava - Střed. Do poradny se pak lze dostat průchodem přes OC
-			Karolina.
-		</p>
+		<p>V docházkové vzdálenosti je zastávka Most Miloše Sýkory.</p>
 		<p class="font-bold mt-4">Autem</p>
 		<p>
-			Své auto můžete nechat v OC Karolina, které je vzdáleno 5 minut chůze. První dvě hodiny
-			parkování jsou zdarma, každá další započatá hodina je zpoplatněna 30 korunami.
-		</p>
-		<p class="mt-2">
-			Další možností parkování je placené parkoviště vedle budovy nebo parkoviště Smetanovo náměstí
-			naproti budovy.
-		</p>
-		<p class="mt-12">
-			Po vstupu do budovy vyjděte schody do mezipatra a zazvoňte na zvonek u levých vstupních dveří.
-			Budova nedisponuje bezbariérovým přístupem.
+			Parkoviště v okolí budovy bývají většinou plná. Alternativní možností je placené parkoviště v
+			OC Laso, které je vzdáleno 5 minut chůze. Další variantou může být placené parkoviště na
+			Havlíčkově nábřeží.
 		</p>
 	</div>
 	<div class="w-full">
