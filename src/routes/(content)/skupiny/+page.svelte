@@ -21,9 +21,3 @@
 	Podpůrná skupina se otevírá až je dostatečný počet členů. O aktuálním stavu se informujte
 	telefonicky nebo emailem.
 </Paragraph>
-
-<Paragraph>
-	Podpůrná skupina neslouží jako náhrada terapie. Terapeuticky však někdy může působit jen to, že se
-	člověk svěří nezúčastněné osobě - v takovém případě nenesu za terapeutický efekt žádnou
-	odpovědnost.
-</Paragraph>

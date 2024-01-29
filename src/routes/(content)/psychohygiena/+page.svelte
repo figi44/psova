@@ -34,11 +34,7 @@
 	Nevěnuji se rodinné a partnerské sféře, nepracuji s dětmi a s osobami se závažnými psychickými
 	poruchami. Pracuji vždy pouze s jednotlivci.
 </Paragraph>
-<Paragraph>
-	Služba psychohygieny je poskytována bez záměrného terapeutického účinku, neboť nejsem terapeut.
-	Terapeuticky však někdy může působit jen to, že se člověk svěří nezúčastněné osobě - v takovém
-	případě nenesu za terapeutický efekt žádnou odpovědnost.
-</Paragraph>
+
 <Paragraph>
 	Ceník, podmínky a další informace naleznete <Anchor href="cenik">ZDE.</Anchor>
 </Paragraph>

@@ -4,11 +4,7 @@
 	titleStore.set('FAQ');
 </script>
 
-<Accordion title="Poskytujete terapii?" topHr>
-	Neposkytuji terapii, neboť nemám potřebnou kvalifikaci pro tuto službu. Do budoucna je rozhodně na
-	plánu.
-</Accordion>
-<Accordion title="Poskytujete poradenství a koučink online?">
+<Accordion title="Poskytujete poradenství a koučink online?" topHr>
 	Ano, poskytuji. Za stejných podmínek, jako osobní konzultace.
 </Accordion>
 <Accordion title="Může k Vám docházet i jiný člen rodiny?">

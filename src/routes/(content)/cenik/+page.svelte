@@ -70,11 +70,7 @@
 	konzultaci je kratší čekací doba a je zajištěna anonymita.
 </Paragraph>
 <Paragraph>Pro osoby v tíživé finanční situaci a pro studenty možnost slevy.</Paragraph>
-<Paragraph>
-	Všechny služby jsou poskytovány bez záměrného terapeutického účinku, neboť nejsem terapeut.
-	Terapeuticky však někdy může působit jen to, že se člověk svěří nezúčastněné osobě - v takovém
-	případě nenesu za terapeutický efekt žádnou odpovědnost.
-</Paragraph>
+
 <Heading3>Změna či zrušení termínu</Heading3>
 
 <div class="text-lg lg:w-2/3">
