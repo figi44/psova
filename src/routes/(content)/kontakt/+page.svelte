@@ -242,7 +242,7 @@
 	</div>
 	<div class="w-full">
 		<iframe
-			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d160.8284348797533!2d18.293984134124234!3d49.83766676141195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4713e32e302307b1%3A0x949ac3583acfc25a!2zTmEgSHJhZGLDoWNoIDI2MzIvMTgsIDcwMiAwMCBNb3JhdnNrw6EgT3N0cmF2YSBhIFDFmcOtdm96!5e0!3m2!1scs!2scz!4v1705869544318!5m2!1scs!2scz"
+			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.2555003517905!2d18.29161037773462!3d49.83765657148174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4713e3c36f605aa1%3A0x6e53e7d2ee4fd0aa!2sKrist%C3%BDna%20Sznapkov%C3%A1%20(www.psova.cz)!5e0!3m2!1scs!2scz!4v1707908300508!5m2!1scs!2scz"
 			style="border:0;"
 			allow="fullscreen"
 			loading="lazy"
