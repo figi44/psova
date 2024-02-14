@@ -119,7 +119,7 @@
 	</form>
 	<div class="lg:justify-self-start flex flex-col justify-start gap-4">
 		<h1 class="font-bold text-xl leading-[1.15] mb-3 text-center lg:text-left">
-			lic. Kristýna Sznapková
+			Kristýna Sznapková
 		</h1>
 		<div class="flex justify-start items-center gap-5">
 			<svg

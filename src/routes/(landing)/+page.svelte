@@ -49,7 +49,7 @@
 </svelte:head>
 
 <Hero
-	title="lic. Kristýna Sznapková"
+	title="Kristýna Sznapková"
 	subtitle="S pokorou pomáhám rozvíjet lidskou duši."
 	buttonTitle="Objednejte se"
 	imgPath={PortraitImage}
