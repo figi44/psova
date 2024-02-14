@@ -65,6 +65,9 @@
 	obohacuji své obzory o nové techniky, metody a informace. Aktivně se věnuji dobrovolnickým
 	aktivitám v oblasti psychologie. Docházím pravidelně na supervize a terapie.
 </Accordion>
+<Accordion title="Dáte mi razítko na propustku z práce?">
+	Ano, dám. Ale musíte si ji přinést.
+</Accordion>
 <div class="flex justify-center mt-10">
 	<Heading3>Máte další dotaz? <Anchor href="kontakt">Kontaktujte mne!</Anchor></Heading3>
 </div>
