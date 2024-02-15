@@ -1,6 +1,6 @@
 <script>
 	import { Anchor, Paragraph, TextLink } from '$lib';
-	import ImgKriceos from '$lib/assets/kriceos.png';
+	import ImgKriceos from '$lib/assets/kriceos.svg';
 	import ImgCssostrava from '$lib/assets/cssostrava.svg';
 	import ImgNepanikar from '$lib/assets/nepanikar.png';
 	import ImgLinkabezpeci from '$lib/assets/linkabezpeci.svg';
