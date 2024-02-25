@@ -64,7 +64,14 @@
 		</tr>
 		<tr>
 			<td class="align-top font-bold">04/2023–nyní</td>
-			<td>INTECO: Integrativní kouč (Škola manažerského rozvoje; 230 hodin)</td>
+			<td>INTECO: Integrativní kouč (Škola manažerského rozvoje; 230 hodin; Akreditace MŠMT)</td>
+		</tr>
+		<tr>
+			<td class="align-top font-bold">02/2024</td>
+			<td
+				>Trauma respektující přístup k řešení náročného chování u dětí (SoFA; 16 hodin; Akreditace
+				MŠMT a MPSV)</td
+			>
 		</tr>
 		<tr>
 			<td class="align-top font-bold">11/2023</td>
@@ -100,7 +107,9 @@
 		</tr>
 		<tr>
 			<td class="align-top font-bold">04/2019</td>
-			<td>Relaxace, Yoga Nidra a Regresní terapie (Bhavasya Yoga School; 24 hodin)</td>
+			<td
+				>Relaxace, Yoga Nidra a Regresní terapie (Bhavasya Yoga School; 24 hodin; Akreditace MŠMT)</td
+			>
 		</tr>
 		<tr>
 			<td class="align-top font-bold">04/2019</td>
