@@ -1,5 +1,7 @@
 <script lang="ts">
 	import { Anchor } from '$lib';
+	import OfficeImage from '$lib/assets/office1.jpg';
+	import OfficeImage2 from '$lib/assets/office2.jpg';
 	import { titleStore } from '../store';
 	titleStore.set('Kontakt');
 
@@ -251,6 +253,13 @@
 			title="gmaps"
 		/>
 	</div>
+	<div>
+		<h1 class="text-center lg:text-left font-bold text-xl leading-[1.15] mb-3">
+			Jak to u mně vypadá?
+		</h1>
+		<img class="rounded-xl shadow-2xl" src={OfficeImage} alt="Fotografie kanclu" />
+	</div>
+	<img class="rounded-xl shadow-2xl self-end" src={OfficeImage2} alt="Fotografie kanclu" />
 </div>
 
 <style lang="postcss">

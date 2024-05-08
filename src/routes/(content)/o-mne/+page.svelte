@@ -63,8 +63,12 @@
 			<td>Roční výcvik v ACTu - Terapie přijetí a odhodlání (Institut ACT+; 248 hodin)</td>
 		</tr>
 		<tr>
-			<td class="align-top font-bold">04/2023–nyní</td>
+			<td class="align-top font-bold">04/2024</td>
 			<td>INTECO: Integrativní kouč (Škola manažerského rozvoje; 230 hodin; Akreditace MŠMT)</td>
+		</tr>
+		<tr>
+			<td class="align-top font-bold">03/2024</td>
+			<td>Jak reagovat na emoce klienta a první psychická pomoc (Táňa Mančíková; 30 hodin)</td>
 		</tr>
 		<tr>
 			<td class="align-top font-bold">02/2024</td>

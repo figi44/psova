@@ -5,6 +5,7 @@
 	export let omitBase: boolean = false;
 	export let external: boolean = false;
 	export let cls: string = 'underline hover:text-xpink transition ease-in';
+	export let download: string | undefined = undefined;
 
 	const getRel = (): string => {
 		if (!external) {
@@ -27,6 +28,6 @@
 	};
 </script>
 
-<a href={getHref()} rel={getRel()} target={getTarget()} class={cls}>
+<a href={getHref()} rel={getRel()} target={getTarget()} {download} class={cls}>
 	<slot />
 </a>

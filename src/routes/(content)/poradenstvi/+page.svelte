@@ -30,6 +30,7 @@
 			<li>budování komunikačních dovedností</li>
 			<li>seberozvojová témata (např. rozvíjení soft skills)</li>
 			<li>ujasňování a hledání identity</li>
+			<li>doprovázení na cestě za změnou pohlaví</li>
 		</List>
 	</div>
 	<div class="w-1/2 self-center xl:w-1/3">

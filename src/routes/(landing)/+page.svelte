@@ -7,37 +7,37 @@
 	let cards = [
 		{
 			title: 'Psychologické poradenství',
-			text: 'Konzultace a činnost zaměřena na překonání aktuálních psychických problémů nebo konfliktních situací za pomocí psychologickcýh metod a prostředků.',
+			text: 'Prozkoumejte hlubiny své mysli a objevte nové perspektivy prostřednictvím psychologického poradenství, které vám pomůže porozumět sobě samým a nastoupit na cestu řešení problémů a seberozvoje.',
 			linkText: '',
 			linkHref: `poradenstvi`
 		},
 		{
+			title: 'Terapie',
+			text: 'Objevte sílu přijetí a odhodlání skrze terapii založenou na principu ACT, která vám pomůže překonat překážky a žít hodnotnější a smysluplnější život.',
+			linkText: '',
+			linkHref: `terapie`
+		},
+		{
 			title: 'Koučink',
-			text: 'Proces, kterým na základě vhodně a efektivně zvolených otázek kouč provází klienta ke stanovenému cíli.',
+			text: 'Získejte podporu a povzbuzení k dosažení svých cílů skrze koučink, který kombinuje empatické naslouchání, motivování a neexpertní přístup k dosažení vašeho plného potenciálu.',
 			linkText: '',
 			linkHref: `koucink`
 		},
 		{
 			title: 'Psychohygiena',
-			text: 'Upevňování duševního zdraví a zvyšování odolnosti klienta vůči široké škále škodlivých vlivů.',
+			text: 'Obnovte svou duševní pohodu a balanc díky psychohygieně, která posiluje vaši mentální odolnost a pomáhá vám snáze zvládat každodenní výzvy a stres.',
 			linkText: '',
 			linkHref: `psychohygiena`
 		},
 		{
 			title: 'Psychodiagnostika',
-			text: 'Zjišťování a měření duševních vlastností a stavů dle zadání klienta.',
+			text: 'Odhalte skryté rozměry vašeho chování a prožívání prostřednictvím precizní psychodiagnostiky, která vám umožní lépe porozumět sobě samým a efektivněji dosáhnout cílů spolupráce.',
 			linkText: '',
 			linkHref: `psychodiagnostika`
 		},
 		{
-			title: 'Podpůrné skupiny',
-			text: 'Praktické metody a techniky pro všední den, přednášky pro školy i jednotlivce.',
-			linkText: '',
-			linkHref: `skupiny`
-		},
-		{
 			title: 'Firemní aktivity',
-			text: 'Individuálně nastavené balíčky na míru firmám a kolektivům pro podporu a prevenci duševního zdraví zaměstnanců.',
+			text: 'Rozvíjejte sílu a jedinečnost svého týmu skrze aktivity šité na míru, které podnítí kreativitu, inovaci a komunikaci pro prevenci syndromu vyhoření.',
 			linkText: '',
 			linkHref: `firmy`
 		}

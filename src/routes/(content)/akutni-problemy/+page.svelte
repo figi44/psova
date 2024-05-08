@@ -6,6 +6,8 @@
 	import ImgLinkabezpeci from '$lib/assets/linkabezpeci.svg';
 	import ImgLinkappp from '$lib/assets/linkappp.svg';
 	import ImgSluchatko from '$lib/assets/sluchatko.jpg';
+	import ImgFlyer1 from '$lib/assets/krize-flyer1.jpg';
+	import ImgFlyer2 from '$lib/assets/krize-flyer2.jpg';
 	import { titleStore } from '../store';
 	titleStore.set('Akutní problémy');
 
@@ -65,4 +67,26 @@
 			</div>
 		</Anchor>
 	{/each}
+</div>
+<div class="flex flex-col items-center xl:items-start xl:flex-row justify-between gap-10 mt-24">
+	<div class="flex flex-col">
+		<Paragraph
+			>Krize a náročné situace patří k životu a není potřeba se za to stydět. Pro takovéto případy
+			můžete využít krizových kontaktů a služeb, které jsem zpracovala v podobě letáčků. Ty si
+			můžete stáhnout, vytisknout a vylepit doma na takové místo, kde to bude užitečné (například na
+			lednici).</Paragraph
+		>
+		<Paragraph>Nezůstávejte na trápení sami a řekněte si o pomoc.</Paragraph>
+	</div>
+
+	<div class="flex gap-6">
+		<div class="w-40 flex flex-col items-center">
+			<a href={ImgFlyer1} download="Letak1.jpg"><img class="w-40" src={ImgFlyer1} alt="" /></a>
+			<Anchor href={ImgFlyer1} download="Letak1.jpg" omitBase={true}>Stáhnout</Anchor>
+		</div>
+		<div class="w-40 flex flex-col items-center">
+			<a href={ImgFlyer2} download="Letak2.jpg"><img class="w-40" src={ImgFlyer2} alt="" /></a>
+			<Anchor href={ImgFlyer2} download="Letak2.jpg" omitBase={true}>Stáhnout</Anchor>
+		</div>
+	</div>
 </div>

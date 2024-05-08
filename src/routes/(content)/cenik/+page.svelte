@@ -3,12 +3,12 @@
 	import { titleStore } from '../store';
 	let services = [
 		{
-			name: 'Psychologická konzultace standard',
+			name: 'Psychologické poradenství, terapie, psychohygiena',
 			length: '50 minut',
 			price: '1000,-'
 		},
 		{
-			name: 'Psychologická konzultace prodloužená',
+			name: 'Psychologické poradenství, terapie, psychohygiena',
 			length: '75 minut',
 			price: '1500,-'
 		},
