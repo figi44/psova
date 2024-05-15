@@ -4,6 +4,17 @@
 	import groupIcon from '$lib/assets/group.svg';
 	import whiteboardIcon from '$lib/assets/whiteboard.svg';
 	import { titleStore } from '../store';
+
+	import yinyogaImg from '$lib/assets/yin_yoga.png';
+	import bcdiplomImg from '$lib/assets/bc_diplom.png';
+	import relaxaceImg from '$lib/assets/relaxace.png';
+	import acterasmusImg from '$lib/assets/ACT_Erasmus.png';
+	import emocnileadershipImg from '$lib/assets/emocni_leadership.png';
+	import koucImg from '$lib/assets/kouc.png';
+	import projevretorikaImg from '$lib/assets/projev_retorika.png';
+	import traumapristupImg from '$lib/assets/trauma_respektujici_pristup_SOFA.pdf';
+	import dementiaImg from '$lib/assets/Understanding_Dementia_2023_11_Certificate_Kristyna_Sznapkova.pdf';
+
 	titleStore.set('O mně');
 </script>
 
@@ -41,8 +52,8 @@
 			<td class="align-top font-bold">2020–2023</td>
 			<td>
 				Bakalářské studium psychologie na univerzitě Humanitas, která má svou pobočku ve Vsetíně.
-				Získaný titul lic. je ekvivalentem českého Bc. na základě Lisabonské úmluvy. Více informací
-				o uznávání zahraničního titulu v České republice <Anchor
+				<Anchor href={bcdiplomImg} external>Získaný titul lic.</Anchor> je ekvivalentem českého Bc. na
+				základě Lisabonské úmluvy. Více informací o uznávání zahraničního titulu v České republice <Anchor
 					href="https://www.zakonyprolidi.cz/ms/2006-104/zneni-20061101"
 					external>ZDE</Anchor
 				>.
@@ -64,7 +75,10 @@
 		</tr>
 		<tr>
 			<td class="align-top font-bold">04/2024</td>
-			<td>INTECO: Integrativní kouč (Škola manažerského rozvoje; 230 hodin; Akreditace MŠMT)</td>
+			<td
+				><Anchor href={koucImg} external>INTECO: Integrativní kouč</Anchor> (Škola manažerského rozvoje;
+				230 hodin; Akreditace MŠMT)</td
+			>
 		</tr>
 		<tr>
 			<td class="align-top font-bold">03/2024</td>
@@ -72,14 +86,18 @@
 		</tr>
 		<tr>
 			<td class="align-top font-bold">02/2024</td>
-			<td
-				>Trauma respektující přístup k řešení náročného chování u dětí (SoFA; 16 hodin; Akreditace
-				MŠMT a MPSV)</td
+			<td>
+				<Anchor href={traumapristupImg} external>
+					Trauma respektující přístup k řešení náročného chování u dětí
+				</Anchor> (SoFA; 16 hodin; Akreditace MŠMT a MPSV)</td
 			>
 		</tr>
 		<tr>
 			<td class="align-top font-bold">11/2023</td>
-			<td>Understanding Dementia MOOC (University of Tasmania; 21 hodin)</td>
+			<td>
+				<Anchor href={dementiaImg} external>Understanding Dementia MOOC</Anchor> (University of Tasmania;
+				21 hodin)</td
+			>
 		</tr>
 		<tr>
 			<td class="align-top font-bold">11/2023</td>
@@ -91,15 +109,24 @@
 		</tr>
 		<tr>
 			<td class="align-top font-bold">09/2023</td>
-			<td>ACT for your mental health (Erasmus+ Training program; 40 hodin)</td>
+			<td
+				><Anchor href={acterasmusImg} external>ACT for your mental health</Anchor> (Erasmus+ Training
+				program; 40 hodin)</td
+			>
 		</tr>
 		<tr>
 			<td class="align-top font-bold">09/2021</td>
-			<td>Authentic (self)presentation and rhetoric (Shine Leadership; 15 hodin)</td>
+			<td
+				><Anchor href={projevretorikaImg} external>Authentic (self)presentation and rhetoric</Anchor
+				> (Shine Leadership; 15 hodin)</td
+			>
 		</tr>
 		<tr>
 			<td class="align-top font-bold">09/2021</td>
-			<td>Emotional leadership (Shine Leadership; 15 hodin)</td>
+			<td
+				><Anchor href={emocnileadershipImg} external>Emotional leadership</Anchor> (Shine Leadership;
+				15 hodin)</td
+			>
 		</tr>
 		<tr>
 			<td class="align-top font-bold">09/2021</td>
@@ -112,12 +139,15 @@
 		<tr>
 			<td class="align-top font-bold">04/2019</td>
 			<td
-				>Relaxace, Yoga Nidra a Regresní terapie (Bhavasya Yoga School; 24 hodin; Akreditace MŠMT)</td
+				><Anchor href={relaxaceImg} external>Relaxace, Yoga Nidra a Regresní terapie</Anchor> (Bhavasya
+				Yoga School; 22 hodin; Akreditace MŠMT)</td
 			>
 		</tr>
 		<tr>
 			<td class="align-top font-bold">04/2019</td>
-			<td>Yin Yoga I. (Monika Winklerová; 20 hodin)</td>
+			<td>
+				<Anchor href={yinyogaImg} external>Yin Yoga I.</Anchor> (Monika Winklerová; 18 hodin)
+			</td>
 		</tr>
 	</tbody>
 </table>
@@ -135,7 +165,10 @@
 		</tr>
 		<tr>
 			<td class="align-top font-bold">09/2023–nyní</td>
-			<td>Terapie tmou – Koordinátorka projektových aktivit (dobrovolnictví)</td>
+			<td
+				>Terapie tmou – Koordinátorka projAuthentic (self)presentation and rhetoric (Shine
+				Leadership; 15 hodin)ektových aktivit (dobrovolnictví)</td
+			>
 		</tr>
 		<tr>
 			<td class="align-top font-bold">07/2023</td>
