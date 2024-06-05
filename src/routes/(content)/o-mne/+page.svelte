@@ -74,6 +74,10 @@
 			<td>Roční výcvik v ACTu - Terapie přijetí a odhodlání (Institut ACT+; 248 hodin)</td>
 		</tr>
 		<tr>
+			<td class="align-top font-bold">05/2024</td>
+			<td>Fairytale Therapy (Erasmus+ Training program; 56 hodin)</td>
+		</tr>
+		<tr>
 			<td class="align-top font-bold">04/2024</td>
 			<td
 				><Anchor href={koucImg} external>INTECO: Integrativní kouč</Anchor> (Škola manažerského rozvoje;
@@ -111,7 +115,7 @@
 			<td class="align-top font-bold">09/2023</td>
 			<td
 				><Anchor href={acterasmusImg} external>ACT for your mental health</Anchor> (Erasmus+ Training
-				program; 40 hodin)</td
+				program; 56 hodin)</td
 			>
 		</tr>
 		<tr>
