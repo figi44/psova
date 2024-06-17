@@ -169,10 +169,7 @@
 		</tr>
 		<tr>
 			<td class="align-top font-bold">09/2023–nyní</td>
-			<td
-				>Terapie tmou – Koordinátorka projAuthentic (self)presentation and rhetoric (Shine
-				Leadership; 15 hodin)ektových aktivit (dobrovolnictví)</td
-			>
+			<td>Terapie tmou – Koordinátorka projektových aktivit (dobrovolnictví)</td>
 		</tr>
 		<tr>
 			<td class="align-top font-bold">07/2023</td>
