@@ -1,6 +1,7 @@
 <script>
 	import { Paragraph, Heading3, Anchor } from '$lib';
 	import EducationIcon from '$lib/assets/educationIcon.svg';
+	import IDCardIcon from '$lib/assets/id-card-icon.svg';
 	import groupIcon from '$lib/assets/group.svg';
 	import whiteboardIcon from '$lib/assets/whiteboard.svg';
 	import { titleStore } from '../store';
@@ -14,6 +15,9 @@
 	import projevretorikaImg from '$lib/assets/projev_retorika.png';
 	import traumapristupImg from '$lib/assets/trauma_respektujici_pristup_SOFA.pdf';
 	import dementiaImg from '$lib/assets/Understanding_Dementia_2023_11_Certificate_Kristyna_Sznapkova.pdf';
+	import CMPSYLogo from '$lib/assets/cmpsy.png';
+	import JREKImg from '$lib/assets/JREK.pdf';
+	import FairytaleImg from '$lib/assets/fairytale-therapy.pdf';
 
 	titleStore.set('O mně');
 </script>
@@ -36,7 +40,8 @@
 </Paragraph>
 <Heading3>
 	<div class="flex items-center gap-2">
-		<img src={EducationIcon} alt="" class="w-8" />Vzdělání
+		<img src={EducationIcon} alt="" class="w-8" />
+		Vzdělání
 	</div>
 </Heading3>
 <table class="text-lg border-separate border-spacing-2 lg:border-spacing-4">
@@ -63,6 +68,28 @@
 </table>
 <Heading3>
 	<div class="flex items-center gap-2">
+		<img src={IDCardIcon} alt="" class="w-8" />
+		Členství
+	</div>
+</Heading3>
+<table class="text-lg border-separate border-spacing-2 lg:border-spacing-4">
+	<tbody>
+		<tr>
+			<td class="align-top font-bold">
+				<Anchor href="https://www.cmpsy.cz/?page=adresar&id=1159&action=detail" external cls="">
+					<img
+						src={CMPSYLogo}
+						alt="Českomoravská psychologická společnost"
+						class="object-contain w-full h-full"
+					/>
+				</Anchor>
+			</td>
+			<td>Řádná členka</td>
+		</tr>
+	</tbody>
+</table>
+<Heading3>
+	<div class="flex items-center gap-2">
 		<img src={whiteboardIcon} alt="" class="w-8" />
 		Kurzy, semináře, výcviky
 	</div>
@@ -75,7 +102,10 @@
 		</tr>
 		<tr>
 			<td class="align-top font-bold">05/2024</td>
-			<td>Fairytale Therapy (Erasmus+ Training program; 56 hodin)</td>
+			<td
+				><Anchor href={FairytaleImg} external>Fairytale Therapy</Anchor> (Erasmus+ Training program;
+				56 hodin)</td
+			>
 		</tr>
 		<tr>
 			<td class="align-top font-bold">04/2024</td>
@@ -86,7 +116,11 @@
 		</tr>
 		<tr>
 			<td class="align-top font-bold">03/2024</td>
-			<td>Jak reagovat na emoce klienta a první psychická pomoc (Táňa Mančíková; 30 hodin)</td>
+			<td
+				><Anchor href={JREKImg} external
+					>Jak reagovat na emoce klienta a první psychická pomoc</Anchor
+				> (Táňa Mančíková; 23 hodin)</td
+			>
 		</tr>
 		<tr>
 			<td class="align-top font-bold">02/2024</td>
@@ -163,6 +197,21 @@
 </Heading3>
 <table class="text-lg border-separate border-spacing-2 lg:border-spacing-4">
 	<tbody>
+		<tr>
+			<td class="align-top font-bold">07/2024</td>
+			<td
+				>Mikasa z.s. Ostrava – Relax zóna (dobrovolnictví na festivalu Colours of Ostrava v rozsahu
+				20 hodin)</td
+			>
+		</tr>
+		<tr>
+			<td class="align-top font-bold">06/2024</td>
+			<td>Poradenské a kariérní centrum OSU (školní praxe v rozsahu 24 hodin)</td>
+		</tr>
+		<tr>
+			<td class="align-top font-bold">04-06/2024</td>
+			<td>ZŠ Provaznická 64 – školní psycholog (školní praxe v rozsahu 60 hodin)</td>
+		</tr>
 		<tr>
 			<td class="align-top font-bold">09/2023–nyní</td>
 			<td>PsyHub – Koordinátorka studentského projektu (dobrovolnictví)</td>

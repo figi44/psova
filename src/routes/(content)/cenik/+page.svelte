@@ -1,4 +1,7 @@
 <script lang="ts">
+	import GDPRImg from '$lib/assets/gdpr.pdf';
+	import EbenefityLogo from '$lib/assets/ebenefity-logo.png';
+	import BenefitPlusLogo from '$lib/assets/benefit-plus-logo.png';
 	import { Paragraph, Heading3, Anchor } from '$lib';
 	import { titleStore } from '../store';
 	let services = [
@@ -91,14 +94,24 @@
 		</tbody>
 	</table>
 </div>
+<Paragraph>Objednáním a čerpáním služeb se zavazujete k plnění uvedených podmínek.</Paragraph>
 
 <Heading3>Jak platit?</Heading3>
 <Paragraph>
 	Za úvodní konzultaci nebo koučink je vyžadována platba na účet dva dny předem. Za každou další
 	konzultaci nebo koučink se platí vždy na konci aktuální konzultace nebo koučinku, a to buď hotově
-	nebo prostřednictvím poskytnutého QR kódu.
+	nebo prostřednictvím poskytnutého QR kódu. <span class="font-bold"
+		>Do poznámky, prosím, vždy uvádějte Vaše příjmení.</span
+	>
 </Paragraph>
-<Paragraph>Do poznámky, prosím, vždy uvádějte Vaše příjmení.</Paragraph>
+<Paragraph>
+	Konzultace lze hradit také z programů Benefit+ a eBenefity. Při úhradě benefity lze využít
+	terminálu nebo on-line platby.
+</Paragraph>
+<div class="flex flex-col gap-10 md:flex-row mx-8">
+	<img class="h-8" src={BenefitPlusLogo} alt="Benefit+ logo" />
+	<img class="bg-slate-700 h-8" src={EbenefityLogo} alt="eBenefity logo" />
+</div>
 <Paragraph>
 	Pro dlouhodobé klienty možnost platit jednou za určitou dohodnutou dobu prostřednictvím faktury.
 </Paragraph>
@@ -123,7 +136,7 @@
 <Paragraph
 	>Objednat se lze telefonicky, SMS zprávou, e-mailem nebo prostřednictvím <Anchor href="kontakt"
 		>kontaktního formuláře</Anchor
-	>.</Paragraph
+	>. V případě úhrady prostřednictvím benefitních služeb je potřeba se předem domluvit na termínu.</Paragraph
 >
 <Paragraph>
 	Při kontaktování prostřednictvím SMS zprávy nebo e-mailu uveďte pro rychlejší domluvu do poptávky
@@ -133,3 +146,11 @@
 <Paragraph>
 	Pokud telefon nebudu zvedat, pravděpodobně se věnuji klientovi. Prosím, zavolejte znovu později.
 </Paragraph>
+<Heading3>První setkání</Heading3>
+<Paragraph
+	>Během prvního setkání si stanovíme podmínky spolupráce, seznámím Vás s tím, kdo jsem, jak pracuji
+	a také dostanete k podpisu <Anchor href={GDPRImg} external
+		>Souhlas se zpracováním osobních údajů (GDPR)</Anchor
+	>. Následně bude prostor pro Váš příběh, pro stanovení cílů spolupráce a vybrání nejvhodnější
+	služby.</Paragraph
+>
