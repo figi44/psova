@@ -84,7 +84,11 @@
 					/>
 				</Anchor>
 			</td>
-			<td>Řádná členka</td>
+			<td
+				><Anchor href="https://www.cmpsy.cz/?page=adresar&id=1159&action=detail" external
+					>Řádná členka</Anchor
+				></td
+			>
 		</tr>
 	</tbody>
 </table>
