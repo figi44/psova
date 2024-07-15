@@ -108,9 +108,9 @@
 	Konzultace lze hradit také z programů Benefit+ a eBenefity. Při úhradě benefity lze využít
 	terminálu nebo on-line platby.
 </Paragraph>
-<div class="flex flex-col gap-10 md:flex-row mx-8">
-	<img class="h-8" src={BenefitPlusLogo} alt="Benefit+ logo" />
-	<img class="bg-slate-700 h-8" src={EbenefityLogo} alt="eBenefity logo" />
+<div class="flex flex-col gap-10 justify-start items-start md:flex-row mx-8">
+	<img class="h-8 object-contain max-w-min" src={BenefitPlusLogo} alt="Benefit+ logo" />
+	<img class="bg-slate-700 h-8 object-contain max-w-min" src={EbenefityLogo} alt="eBenefity logo" />
 </div>
 <Paragraph>
 	Pro dlouhodobé klienty možnost platit jednou za určitou dohodnutou dobu prostřednictvím faktury.
