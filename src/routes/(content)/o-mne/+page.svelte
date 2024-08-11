@@ -202,6 +202,10 @@
 <table class="text-lg border-separate border-spacing-2 lg:border-spacing-4">
 	<tbody>
 		<tr>
+			<td class="align-top font-bold">08/2024-nyní</td>
+			<td> ISNA-MSE z.s. - Psycholog/Terapeut (full-time zaměstnání) </td>
+		</tr>
+		<tr>
 			<td class="align-top font-bold">07/2024</td>
 			<td
 				>Mikasa z.s. Ostrava – Relax zóna (dobrovolnictví na festivalu Colours of Ostrava v rozsahu
