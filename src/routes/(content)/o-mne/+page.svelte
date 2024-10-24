@@ -16,6 +16,7 @@
 	import traumapristupImg from '$lib/assets/trauma_respektujici_pristup_SOFA.pdf';
 	import dementiaImg from '$lib/assets/Understanding_Dementia_2023_11_Certificate_Kristyna_Sznapkova.pdf';
 	import CMPSYLogo from '$lib/assets/cmpsy.png';
+	import AIKLogo from '$lib/assets/aik.png';
 	import JREKImg from '$lib/assets/JREK.pdf';
 	import FairytaleImg from '$lib/assets/fairytale-therapy.pdf';
 
@@ -72,26 +73,22 @@
 		Členství
 	</div>
 </Heading3>
-<table class="text-lg border-separate border-spacing-2 lg:border-spacing-4">
-	<tbody>
-		<tr>
-			<td class="align-top font-bold">
-				<Anchor href="https://www.cmpsy.cz/?page=adresar&id=1159&action=detail" external cls="">
-					<img
-						src={CMPSYLogo}
-						alt="Českomoravská psychologická společnost"
-						class="object-contain w-full h-full"
-					/>
-				</Anchor>
-			</td>
-			<td
-				><Anchor href="https://www.cmpsy.cz/?page=adresar&id=1159&action=detail" external
-					>Řádná členka</Anchor
-				></td
-			>
-		</tr>
-	</tbody>
-</table>
+<div class="flex gap-4">
+	<div class="flex items-center gap-2 p-2">
+		<Anchor href="https://www.cmpsy.cz/?page=adresar&id=1159&action=detail" external cls="">
+			<img
+				src={CMPSYLogo}
+				alt="Českomoravská psychologická společnost"
+				class="object-contain w-full h-full"
+			/>
+		</Anchor>
+	</div>
+	<div class="flex items-center gap-2 p-2">
+		<Anchor href="https://www.asociacekoucu.com/profily-koucu/" external cls="">
+			<img src={AIKLogo} alt="Asociace integrativních koučů" class="object-contain w-3/4 h-3/4" />
+		</Anchor>
+	</div>
+</div>
 <Heading3>
 	<div class="flex items-center gap-2">
 		<img src={whiteboardIcon} alt="" class="w-8" />
@@ -202,8 +199,8 @@
 <table class="text-lg border-separate border-spacing-2 lg:border-spacing-4">
 	<tbody>
 		<tr>
-			<td class="align-top font-bold">08/2024-nyní</td>
-			<td> ISNA-MSE z.s. - Psycholog/Terapeut (full-time zaměstnání) </td>
+			<td class="align-top font-bold">08/2024–nyní</td>
+			<td> ISNA-MSE z.s. – Psycholog a Snoezelen Terapeut (poloviční úvazek) </td>
 		</tr>
 		<tr>
 			<td class="align-top font-bold">07/2024</td>
@@ -217,6 +214,10 @@
 			<td>Poradenské a kariérní centrum OSU (školní praxe v rozsahu 24 hodin)</td>
 		</tr>
 		<tr>
+			<td class="align-top font-bold">04/2024–nyní</td>
+			<td>Ostrava Expat Centre – Psychologist, Therapist & Coach for English-speaking Clients</td>
+		</tr>
+		<tr>
 			<td class="align-top font-bold">04-06/2024</td>
 			<td>ZŠ Provaznická 64 – školní psycholog (školní praxe v rozsahu 60 hodin)</td>
 		</tr>
@@ -225,7 +226,7 @@
 			<td>PsyHub – Koordinátorka studentského projektu (dobrovolnictví)</td>
 		</tr>
 		<tr>
-			<td class="align-top font-bold">09/2023–nyní</td>
+			<td class="align-top font-bold">09/2023–02/2024</td>
 			<td>Terapie tmou – Koordinátorka projektových aktivit (dobrovolnictví)</td>
 		</tr>
 		<tr>
