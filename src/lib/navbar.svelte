@@ -7,6 +7,7 @@
 		{ title: 'služby', href: `#services` },
 		{ title: 'o mně', href: `o-mne` },
 		{ title: 'ceník', href: `cenik` },
+		{ title: 'kanban', href: `kanban` },
 		{ title: 'akutní problémy', href: `akutni-problemy` },
 		{ title: 'faq', href: `faq` },
 		{ title: 'kontakt', href: `kontakt` }
