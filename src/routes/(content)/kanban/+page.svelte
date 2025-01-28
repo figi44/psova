@@ -15,14 +15,49 @@
 		id: string;
 		title: string;
 		cards: Card[];
-		limit?: number;
 	};
 
-	const columnDefinitions = [
-		{ id: '0', title: '' },
-		{ id: '1', title: '😀', limit: 15 },
-		{ id: '2', title: '🙂', limit: 15 },
-		{ id: '3', title: '🙁', limit: 20 }
+	type ColumnDefinition = {
+		id: string;
+		title: string;
+		stageLimits: {
+			[key: number]: number;
+		};
+	};
+
+	const columnDefinitions: ColumnDefinition[] = [
+		{
+			id: '0',
+			title: '',
+			stageLimits: {
+				1: 0,
+				2: 0
+			}
+		},
+		{
+			id: '1',
+			title: '😀',
+			stageLimits: {
+				1: 3,
+				2: 2
+			}
+		},
+		{
+			id: '2',
+			title: '🙂',
+			stageLimits: {
+				1: 3,
+				2: 2
+			}
+		},
+		{
+			id: '3',
+			title: '🙁',
+			stageLimits: {
+				1: 3,
+				2: 2
+			}
+		}
 	];
 
 	// Create a map of card id to card data for easy lookup
@@ -36,6 +71,7 @@
 
 	let showResetConfirmation = false;
 	let stage = 1;
+	let canAdvance = false;
 
 	onMount(() => {
 		const savedColumnIds = localStorage.getItem('kanbanColumnIds');
@@ -76,13 +112,6 @@
 
 	function handleDndConsider(e: CustomEvent, columnId: string) {
 		const colIndex = columns.findIndex((col) => col.id === columnId);
-		const targetColumn = columnDefinitions[colIndex];
-
-		// Check if the target column has a limit and would exceed it
-		if (targetColumn.limit && e.detail.items.length > targetColumn.limit) {
-			return; // Prevent the drop by not updating the column
-		}
-
 		columns[colIndex].cards = e.detail.items;
 		columns = columns;
 		saveState();
@@ -120,36 +149,33 @@
 		showResetConfirmation = false;
 	}
 
-	function canAdvanceToStage2(): boolean {
-		return stage === 1 && columns[0].cards.length === 0;
-	}
-
-	function canAdvanceToStage3(): boolean {
-		if (stage !== 2) return false;
-
-		// Check if all columns are exactly at their limits (10)
-		return columns.every((col, index) => {
-			if (index === 0) return col.cards.length === 0; // First column should be empty
-			return col.cards.length === 10; // Other columns should be exactly at limit
-		});
+	// Add reactive statement to update canAdvance
+	$: {
+		if (stage === 1 || stage === 2) {
+			canAdvance = columns.every(
+				(col, index) => col.cards.length === columnDefinitions[index].stageLimits[stage]
+			);
+		} else {
+			canAdvance = false;
+		}
 	}
 
 	function handleContinue() {
-		if (canAdvanceToStage2()) {
+		if (stage === 1) {
 			// Clear column 3
 			const colIndex = columns.findIndex((col) => col.id === '3');
 			columns[colIndex].cards = [];
 
-			// Update limits
-			columnDefinitions[1].limit = 10; // Column 1
-			columnDefinitions[2].limit = 10; // Column 2
-			columnDefinitions[3].limit = 10; // Column 3
-
-			stage += 1;
+			stage = 2;
 			columns = columns;
 			saveState();
-		} else if (canAdvanceToStage3()) {
-			stage += 1;
+		} else if (stage === 2) {
+			// Clear columns 2 and 3
+			columns = columns.map((col) => ({
+				...col,
+				cards: ['2', '3'].includes(col.id) ? [] : col.cards
+			}));
+			stage = 3;
 			saveState();
 		}
 	}
@@ -157,13 +183,19 @@
 	function isHighlighted(columnId: string, cardIndex: number): boolean {
 		return stage === 3 && columnId === '1' && cardIndex < 5;
 	}
+
+	function isOverLimit(column: Column): boolean {
+		const definition = columnDefinitions[parseInt(column.id)];
+		const currentLimit = definition?.stageLimits[stage] ?? 0;
+		return column.cards.length > currentLimit;
+	}
 </script>
 
 <div class="space-y-4">
 	<div class="flex justify-end gap-4 px-4">
 		<button
 			on:click={handleContinue}
-			disabled={!(canAdvanceToStage2() || canAdvanceToStage3())}
+			disabled={!canAdvance}
 			class="bg-xlavender bg-opacity-20 hover:bg-opacity-30 disabled:opacity-50 disabled:cursor-not-allowed transition-colors px-4 py-2 rounded-md text-sm font-medium"
 		>
 			{#if stage === 3}
@@ -187,14 +219,26 @@
 						{column.title}
 					</span>
 					{#if column.id !== '0'}
-						<span class="text-sm text-gray-500">
-							{column.cards.length}/{columnDefinitions[parseInt(column.id)].limit}
+						<span
+							class="text-sm transition-colors h-[1.25rem] opacity-0"
+							class:opacity-100={stage !== 3}
+							class:text-red-500={isOverLimit(column)}
+							class:text-gray-500={!isOverLimit(column)}
+						>
+							{column.cards.length}/{columnDefinitions[parseInt(column.id)].stageLimits[stage] ?? 0}
 						</span>
 					{/if}
 				</div>
 				<div class="bg-white rounded-lg p-4 shadow">
 					<div
-						use:dndzone={{ items: column.cards, flipDurationMs: 300 }}
+						use:dndzone={{
+							items: column.cards,
+							flipDurationMs: 300,
+							dragDisabled: false,
+							dropTargetStyle: {
+								'background-color': 'rgb(229 231 235 / 0.2)'
+							}
+						}}
 						on:consider={(e) => handleDndConsider(e, column.id)}
 						on:finalize={(e) => handleDndFinalize(e, column.id)}
 						class="space-y-2 min-h-[50px]"
@@ -208,7 +252,7 @@
 								{#if isHighlighted(column.id, index)}
 									<div class="flex justify-between items-center">
 										<span>{card.text}</span>
-										<span class="text-sm font-medium">Top {index + 1}</span>
+										<span class="text-sm font-medium">#{index + 1}</span>
 									</div>
 								{:else}
 									{card.text}
