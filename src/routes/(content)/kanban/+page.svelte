@@ -4,6 +4,7 @@
 	import kanbanData from '$lib/data/values_cards.json';
 	import { onMount } from 'svelte';
 	import ConfirmModal from '$lib/components/ConfirmModal.svelte';
+	import SubmissionModal from '$lib/components/SubmissionModal.svelte';
 	titleStore.set('Kanban Board');
 
 	type Card = {
@@ -72,6 +73,11 @@
 	let showResetConfirmation = false;
 	let stage = 1;
 	let canAdvance = false;
+	let isSubmitting = false;
+	let showSubmissionModal = false;
+	let submissionError = false;
+	let isSubmitted = false;
+	const topCardsCount = 2; // TODO: change to 5
 
 	onMount(() => {
 		const savedColumnIds = localStorage.getItem('kanbanColumnIds');
@@ -155,8 +161,47 @@
 			canAdvance = columns.every(
 				(col, index) => col.cards.length === columnDefinitions[index].stageLimits[stage]
 			);
+		} else if (stage === 3 && columns[1].cards.length >= topCardsCount && !isSubmitted) {
+			canAdvance = true;
 		} else {
 			canAdvance = false;
+		}
+	}
+
+	async function submitTopCards() {
+		const topColumn = columns.find((col) => col.id === '1');
+		if (!topColumn) return;
+
+		const top5Cards = topColumn.cards.slice(0, topCardsCount);
+
+		isSubmitting = true;
+		try {
+			// Simulate API request
+			await new Promise((resolve) => setTimeout(resolve, 1000));
+
+			// This would be the actual API call when ready:
+			// await fetch('/api/submit-cards', {
+			//     method: 'POST',
+			//     headers: { 'Content-Type': 'application/json' },
+			//     body: JSON.stringify({ cards: top5Cards })
+			// });
+
+			submissionError = false;
+			isSubmitted = true;
+		} catch (error) {
+			console.error('Failed to submit cards:', error);
+			submissionError = true;
+		} finally {
+			isSubmitting = false;
+			showSubmissionModal = true;
+		}
+	}
+
+	function handleSubmissionModalClose() {
+		showSubmissionModal = false;
+		if (submissionError) {
+			// Allow retry if there was an error
+			isSubmitting = false;
 		}
 	}
 
@@ -177,11 +222,13 @@
 			}));
 			stage = 3;
 			saveState();
+		} else if (stage === 3) {
+			submitTopCards();
 		}
 	}
 
 	function isHighlighted(columnId: string, cardIndex: number): boolean {
-		return stage === 3 && columnId === '1' && cardIndex < 5;
+		return stage === 3 && columnId === '1' && cardIndex < topCardsCount;
 	}
 
 	function isOverLimit(column: Column): boolean {
@@ -195,11 +242,17 @@
 	<div class="flex justify-end gap-4 px-4">
 		<button
 			on:click={handleContinue}
-			disabled={!canAdvance}
+			disabled={!canAdvance || isSubmitting || isSubmitted}
 			class="bg-xlavender bg-opacity-20 hover:bg-opacity-30 disabled:opacity-50 disabled:cursor-not-allowed transition-colors px-4 py-2 rounded-md text-sm font-medium"
 		>
 			{#if stage === 3}
-				Complete
+				{#if isSubmitted}
+					Submitted
+				{:else if isSubmitting}
+					Submitting...
+				{:else}
+					Complete
+				{/if}
 			{:else}
 				Continue to Stage {stage + 1}
 			{/if}
@@ -270,4 +323,10 @@
 	show={showResetConfirmation}
 	onConfirm={handleResetConfirm}
 	onCancel={handleResetCancel}
+/>
+
+<SubmissionModal
+	show={showSubmissionModal}
+	isError={submissionError}
+	onClose={handleSubmissionModalClose}
 />
