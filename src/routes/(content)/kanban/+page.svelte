@@ -168,7 +168,7 @@
 		}
 	}
 
-	async function submitTopCards() {
+	async function submitTopCards(email: string) {
 		const topColumn = columns.find((col) => col.id === '1');
 		if (!topColumn) return;
 
@@ -183,7 +183,7 @@
 			// await fetch('/api/submit-cards', {
 			//     method: 'POST',
 			//     headers: { 'Content-Type': 'application/json' },
-			//     body: JSON.stringify({ cards: top5Cards })
+			//     body: JSON.stringify({ cards: top5Cards, email })
 			// });
 
 			submissionError = false;
@@ -193,7 +193,6 @@
 			submissionError = true;
 		} finally {
 			isSubmitting = false;
-			showSubmissionModal = true;
 		}
 	}
 
@@ -223,7 +222,7 @@
 			stage = 3;
 			saveState();
 		} else if (stage === 3) {
-			submitTopCards();
+			showSubmissionModal = true;
 		}
 	}
 
@@ -235,6 +234,10 @@
 		const definition = columnDefinitions[parseInt(column.id)];
 		const currentLimit = definition?.stageLimits[stage] ?? 0;
 		return column.cards.length > currentLimit;
+	}
+
+	function handleSubmission(email: string) {
+		submitTopCards(email);
 	}
 </script>
 
@@ -329,4 +332,6 @@
 	show={showSubmissionModal}
 	isError={submissionError}
 	onClose={handleSubmissionModalClose}
+	onSubmit={handleSubmission}
+	isSubmitting={!isSubmitted}
 />
