@@ -2,31 +2,43 @@
 	export let show = false;
 	export let isError = false;
 	export let onClose: () => void;
-	export let onSubmit: (email: string) => void;
+	export let onSubmit: (name: string, email: string) => void;
 	export let isSubmitting = false;
 
+	let name = '';
 	let email = '';
+	let nameError = '';
 	let emailError = '';
 	let isSubmitClicked = false;
 
-	function validateEmail(email: string): boolean {
+	function validateForm(): boolean {
+		let isValid = true;
+
+		if (!name.trim()) {
+			nameError = 'Name is required';
+			isValid = false;
+		} else {
+			nameError = '';
+		}
+
 		const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 		if (!email) {
 			emailError = 'Email is required';
-			return false;
-		}
-		if (!emailRegex.test(email)) {
+			isValid = false;
+		} else if (!emailRegex.test(email)) {
 			emailError = 'Please enter a valid email address';
-			return false;
+			isValid = false;
+		} else {
+			emailError = '';
 		}
-		emailError = '';
-		return true;
+
+		return isValid;
 	}
 
 	function handleSubmit() {
-		if (validateEmail(email)) {
+		if (validateForm()) {
 			isSubmitClicked = true;
-			onSubmit(email);
+			onSubmit(name, email);
 		}
 	}
 </script>
@@ -44,20 +56,37 @@
 				{/if}
 			</h3>
 			{#if isSubmitting}
-				<div class="mb-6">
-					<label for="email" class="block text-sm font-medium text-gray-700 mb-2">
-						Enter your email to receive the results
-					</label>
-					<input
-						type="email"
-						id="email"
-						bind:value={email}
-						class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-xlavender focus:border-transparent"
-						placeholder="your@email.com"
-					/>
-					{#if emailError}
-						<p class="mt-1 text-sm text-red-500">{emailError}</p>
-					{/if}
+				<div class="mb-6 space-y-4">
+					<div>
+						<label for="name" class="block text-sm font-medium text-gray-700 mb-2">
+							Your name
+						</label>
+						<input
+							type="text"
+							id="name"
+							bind:value={name}
+							class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-xlavender focus:border-transparent"
+							placeholder="John Doe"
+						/>
+						{#if nameError}
+							<p class="mt-1 text-sm text-red-500">{nameError}</p>
+						{/if}
+					</div>
+					<div>
+						<label for="email" class="block text-sm font-medium text-gray-700 mb-2">
+							Your email
+						</label>
+						<input
+							type="email"
+							id="email"
+							bind:value={email}
+							class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-xlavender focus:border-transparent"
+							placeholder="your@email.com"
+						/>
+						{#if emailError}
+							<p class="mt-1 text-sm text-red-500">{emailError}</p>
+						{/if}
+					</div>
 				</div>
 				<div class="flex justify-end space-x-3">
 					<button
@@ -79,9 +108,13 @@
 					{#if isError}
 						Failed to submit your choices. Please try again.
 					{:else}
-						Your choices have been successfully submitted! We'll send the results to <span
-							class="italic">{email}</span
-						>.
+						<div class="space-y-2">
+							<p>Your choices have been successfully submitted!</p>
+							<div class="flex gap-1">
+								<span>We'll send the results to:</span>
+								<span>{email}</span>
+							</div>
+						</div>
 					{/if}
 				</p>
 				<div class="flex justify-end">

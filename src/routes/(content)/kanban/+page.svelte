@@ -168,11 +168,19 @@
 		}
 	}
 
-	async function submitTopCards(email: string) {
+	async function submitTopCards(name: string, email: string) {
 		const topColumn = columns.find((col) => col.id === '1');
 		if (!topColumn) return;
 
 		const top5Cards = topColumn.cards.slice(0, topCardsCount);
+
+		const data = {
+			name: name,
+			email: email,
+			subject: 'Výběr karet',
+			body: top5Cards.map((card) => card.text).join('\n'),
+			send_to_author: true
+		};
 
 		isSubmitting = true;
 		try {
@@ -183,7 +191,7 @@
 			// await fetch('/api/submit-cards', {
 			//     method: 'POST',
 			//     headers: { 'Content-Type': 'application/json' },
-			//     body: JSON.stringify({ cards: top5Cards, email })
+			//     body: JSON.stringify(data)
 			// });
 
 			submissionError = false;
@@ -236,8 +244,8 @@
 		return column.cards.length > currentLimit;
 	}
 
-	function handleSubmission(email: string) {
-		submitTopCards(email);
+	function handleSubmission(name: string, email: string) {
+		submitTopCards(name, email);
 	}
 </script>
 
