@@ -4,7 +4,6 @@
 	import kanbanData from '$lib/data/values_cards.json';
 	import { onMount } from 'svelte';
 	import ConfirmModal from '$lib/components/ConfirmModal.svelte';
-	import SubmissionModal from '$lib/components/SubmissionModal.svelte';
 	titleStore.set('Kanban Board');
 
 	type Card = {
@@ -73,10 +72,6 @@
 	let showResetConfirmation = false;
 	let stage = 1;
 	let canAdvance = false;
-	let isSubmitting = false;
-	let showSubmissionModal = false;
-	let submissionError = false;
-	let isSubmitted = false;
 	const topCardsCount = 2; // TODO: change to 5
 
 	onMount(() => {
@@ -161,54 +156,10 @@
 			canAdvance = columns.every(
 				(col, index) => col.cards.length === columnDefinitions[index].stageLimits[stage]
 			);
-		} else if (stage === 3 && columns[1].cards.length >= topCardsCount && !isSubmitted) {
+		} else if (stage === 3 && columns[1].cards.length >= topCardsCount) {
 			canAdvance = true;
 		} else {
 			canAdvance = false;
-		}
-	}
-
-	async function submitTopCards(name: string, email: string) {
-		const topColumn = columns.find((col) => col.id === '1');
-		if (!topColumn) return;
-
-		const top5Cards = topColumn.cards.slice(0, topCardsCount);
-
-		const data = {
-			name: name,
-			email: email,
-			subject: 'Výběr karet',
-			body: top5Cards.map((card) => card.text).join('\n'),
-			send_to_author: true
-		};
-
-		isSubmitting = true;
-		try {
-			// Simulate API request
-			await new Promise((resolve) => setTimeout(resolve, 1000));
-
-			// This would be the actual API call when ready:
-			// await fetch('/api/submit-cards', {
-			//     method: 'POST',
-			//     headers: { 'Content-Type': 'application/json' },
-			//     body: JSON.stringify(data)
-			// });
-
-			submissionError = false;
-			isSubmitted = true;
-		} catch (error) {
-			console.error('Failed to submit cards:', error);
-			submissionError = true;
-		} finally {
-			isSubmitting = false;
-		}
-	}
-
-	function handleSubmissionModalClose() {
-		showSubmissionModal = false;
-		if (submissionError) {
-			// Allow retry if there was an error
-			isSubmitting = false;
 		}
 	}
 
@@ -230,7 +181,7 @@
 			stage = 3;
 			saveState();
 		} else if (stage === 3) {
-			showSubmissionModal = true;
+			// prompt download results
 		}
 	}
 
@@ -242,10 +193,6 @@
 		const definition = columnDefinitions[parseInt(column.id)];
 		const currentLimit = definition?.stageLimits[stage] ?? 0;
 		return column.cards.length > currentLimit;
-	}
-
-	function handleSubmission(name: string, email: string) {
-		submitTopCards(name, email);
 	}
 </script>
 
@@ -272,17 +219,11 @@
 	<div class="flex justify-end gap-4 px-4">
 		<button
 			on:click={handleContinue}
-			disabled={!canAdvance || isSubmitting || isSubmitted}
+			disabled={!canAdvance}
 			class="bg-xlavender bg-opacity-20 hover:bg-opacity-30 disabled:opacity-50 disabled:cursor-not-allowed transition-colors px-4 py-2 rounded-md text-sm font-medium"
 		>
 			{#if stage === 3}
-				{#if isSubmitted}
-					Submitted
-				{:else if isSubmitting}
-					Submitting...
-				{:else}
-					Complete
-				{/if}
+				Complete
 			{:else}
 				Continue to Stage {stage + 1}
 			{/if}
@@ -353,12 +294,4 @@
 	show={showResetConfirmation}
 	onConfirm={handleResetConfirm}
 	onCancel={handleResetCancel}
-/>
-
-<SubmissionModal
-	show={showSubmissionModal}
-	isError={submissionError}
-	onClose={handleSubmissionModalClose}
-	onSubmit={handleSubmission}
-	isSubmitting={!isSubmitted}
 />
