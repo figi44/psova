@@ -250,6 +250,25 @@
 </script>
 
 <div class="space-y-4">
+	<div class="mx-4 px-4 py-2 bg-white">
+		{#if stage === 1}
+			<p>
+				Roztřiďte karty do tří skupin podle toho, jak moc s danou hodnotou souhlasíte: 😀 (velmi
+				souhlasím), 🙂 (souhlasím), 🙁 (méně souhlasím). V každé skupině můžete mít maximálně 3
+				karty.
+			</p>
+		{:else if stage === 2}
+			<p>
+				Nyní vyberte z každé skupiny maximálně 2 karty, které nejlépe vystihují vaše hodnoty. Karty,
+				které nevyberete, se automaticky vrátí do výchozí skupiny.
+			</p>
+		{:else if stage === 3}
+			<p>
+				V posledním kroku seřaďte {topCardsCount} karet, které nejlépe vystihují vaše hodnoty, do skupiny
+				😀. Tyto karty budou zvýrazněny a očíslovány podle pořadí důležitosti.
+			</p>
+		{/if}
+	</div>
 	<div class="flex justify-end gap-4 px-4">
 		<button
 			on:click={handleContinue}
