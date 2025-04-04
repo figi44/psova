@@ -4,7 +4,8 @@
 	import kanbanData from '$lib/data/values_cards.json';
 	import { onMount } from 'svelte';
 	import ConfirmModal from '$lib/components/ConfirmModal.svelte';
-	titleStore.set('Kanban Board');
+	import { Paragraph } from '$lib';
+	titleStore.set('Hodnoty');
 
 	type Card = {
 		id: string;
@@ -200,21 +201,35 @@
 <div class="space-y-4">
 	<div class="mx-4 px-4 py-2 bg-white">
 		{#if stage === 1}
-			<p>
-				Roztřiďte karty do tří skupin podle toho, jak moc s danou hodnotou souhlasíte: 😀 (velmi
-				souhlasím), 🙂 (souhlasím), 🙁 (méně souhlasím). V každé skupině můžete mít maximálně 3
-				karty.
-			</p>
+			<Paragraph>
+				Život někdy připomíná výlet, na který jsme se kdysi vydali s mapou nebo kompasem v ruce — s
+				jasnou představou o tom, kam míříme a kudy jít. Jenže mapy se mohou rozmočit deštěm
+				okolností a kompas občas zapadne mezi věci, které už nenosíme. A tak bloudíme, ne proto, že
+				bychom byli ztracení, ale protože jsme ztratili směr. Právě v těchto chvílích nám mohou být
+				oporou naše hodnoty — vnitřní kompas, který sice neukazuje konkrétní cestu, ale pomáhá nám
+				jít správným směrem. S následujícím cvičením si svůj kompas můžete zkusit seřídit.
+			</Paragraph>
+			<Paragraph>
+				<span class="font-bold">Krok 1:</span> Vyberte oblast svého života, pro kterou chcete určit své
+				hodnoty. Ty seřadte do tří sloupců podle jejich důležitosti. Zkuste se oprostit od toho, jak
+				dobře danou hodnotu umíte naplnit. Jen si zvědomte, jak moc je pro vás důležitá:
+			</Paragraph>
+
+			<Paragraph>
+				<div class="text-center">
+					😀 (velmi důležitá, 15 hodnot), 🙂 (důležitá, 15 hodnot), 🙁 (málo důležitá, 20 hodnot)
+				</div>
+			</Paragraph>
 		{:else if stage === 2}
-			<p>
-				Nyní vyberte z každé skupiny maximálně 2 karty, které nejlépe vystihují vaše hodnoty. Karty,
-				které nevyberete, se automaticky vrátí do výchozí skupiny.
-			</p>
+			<Paragraph>
+				<span class="font-bold">Krok 2:</span> Nyní můžete dle libosti hodnoty přesouvat tak, aby jich
+				v každém sloupci bylo deset.
+			</Paragraph>
 		{:else if stage === 3}
-			<p>
-				V posledním kroku seřaďte {topCardsCount} karet, které nejlépe vystihují vaše hodnoty, do skupiny
-				😀. Tyto karty budou zvýrazněny a očíslovány podle pořadí důležitosti.
-			</p>
+			<Paragraph>
+				Nyní na vás čeká krok poslední - seřadit hodnoty v prvním sloupci tak, abyste získali pět
+				takových, které jsou pro vás ze všech nejdůležitější.
+			</Paragraph>
 		{/if}
 	</div>
 	<div class="flex justify-end gap-4 px-4">
@@ -224,9 +239,9 @@
 			class="bg-xlavender bg-opacity-20 hover:bg-opacity-30 disabled:opacity-50 disabled:cursor-not-allowed transition-colors px-4 py-2 rounded-md text-sm font-medium"
 		>
 			{#if stage === 3}
-				Complete
+				Stáhnout výsledky
 			{:else}
-				Continue to Stage {stage + 1}
+				Pokračovat
 			{/if}
 		</button>
 		<button
