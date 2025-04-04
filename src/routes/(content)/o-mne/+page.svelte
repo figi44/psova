@@ -19,6 +19,7 @@
 	import AIKLogo from '$lib/assets/aik.png';
 	import JREKImg from '$lib/assets/JREK.pdf';
 	import FairytaleImg from '$lib/assets/fairytale-therapy.pdf';
+	import TransgenImg from '$lib/assets/transgen-vzorce.pdf';
 
 	titleStore.set('O mně');
 </script>
@@ -100,6 +101,13 @@
 		<tr>
 			<td class="align-top font-bold">01/2024–nyní</td>
 			<td>Roční výcvik v ACTu - Terapie přijetí a odhodlání (Institut ACT+; 248 hodin)</td>
+		</tr>
+		<tr>
+			<td class="align-top font-bold">04/2025</td>
+			<td
+				><Anchor href={TransgenImg} external>Transgenerační vzorce</Anchor> (Mansio; 16 hodin; Akreditace
+				MPSV)</td
+			>
 		</tr>
 		<tr>
 			<td class="align-top font-bold">05/2024</td>
@@ -199,6 +207,10 @@
 <table class="text-lg border-separate border-spacing-2 lg:border-spacing-4">
 	<tbody>
 		<tr>
+			<td class="align-top font-bold">11/2024–nyní</td>
+			<td> Magistrát města Ostravy – Terénní psycholog (DPP)</td>
+		</tr>
+		<tr>
 			<td class="align-top font-bold">08/2024–nyní</td>
 			<td> ISNA-MSE z.s. – Psycholog a Snoezelen Terapeut (poloviční úvazek) </td>
 		</tr>
@@ -219,10 +231,10 @@
 		</tr>
 		<tr>
 			<td class="align-top font-bold">04-06/2024</td>
-			<td>ZŠ Provaznická 64 – školní psycholog (školní praxe v rozsahu 60 hodin)</td>
+			<td>ZŠ Provaznická 64 – Školní psycholog (školní praxe v rozsahu 60 hodin)</td>
 		</tr>
 		<tr>
-			<td class="align-top font-bold">09/2023–nyní</td>
+			<td class="align-top font-bold">09/2023–12/2024</td>
 			<td>PsyHub – Koordinátorka studentského projektu (dobrovolnictví)</td>
 		</tr>
 		<tr>
