@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { dndzone } from 'svelte-dnd-action';
 	import { titleStore } from '../store';
-	import kanbanData from '$lib/data/values_cards.json';
+	import kanbanData from '$lib/data/values_cards_all.json';
 	import { onMount } from 'svelte';
 	import ConfirmModal from '$lib/components/ConfirmModal.svelte';
 	import { Paragraph } from '$lib';
@@ -9,6 +9,7 @@
 
 	type Card = {
 		id: string;
+		title: string;
 		text: string;
 	};
 
@@ -39,24 +40,24 @@
 			id: '1',
 			title: '😀',
 			stageLimits: {
-				1: 3,
-				2: 2
+				1: 15,
+				2: 10
 			}
 		},
 		{
 			id: '2',
 			title: '🙂',
 			stageLimits: {
-				1: 3,
-				2: 2
+				1: 15,
+				2: 10
 			}
 		},
 		{
 			id: '3',
 			title: '🙁',
 			stageLimits: {
-				1: 3,
-				2: 2
+				1: 20,
+				2: 10
 			}
 		}
 	];
@@ -73,7 +74,7 @@
 	let showResetConfirmation = false;
 	let stage = 1;
 	let canAdvance = false;
-	const topCardsCount = 2; // TODO: change to 5
+	const topCardsCount = 5;
 
 	onMount(() => {
 		const savedColumnIds = localStorage.getItem('kanbanColumnIds');
@@ -251,7 +252,7 @@
 			Reset
 		</button>
 	</div>
-	<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 p-4">
+	<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-3 p-4">
 		{#each columns as column}
 			<div>
 				<div class="h-12 text-center mb-2 flex items-center justify-center flex-col">
@@ -269,7 +270,7 @@
 						</span>
 					{/if}
 				</div>
-				<div class="bg-white rounded-lg p-4 shadow">
+				<div class="bg-white rounded-lg p-2 shadow">
 					<div
 						use:dndzone={{
 							items: column.cards,
@@ -285,17 +286,27 @@
 					>
 						{#each column.cards as card, index (card.id)}
 							<div
-								class="bg-xlavender p-3 rounded cursor-move transition-colors"
+								class="bg-xlavender p-4 rounded-md cursor-move transition-colors shadow-sm border border-opacity-20 border-gray-200"
 								class:bg-opacity-20={!isHighlighted(column.id, index)}
 								class:bg-opacity-60={isHighlighted(column.id, index)}
 							>
 								{#if isHighlighted(column.id, index)}
-									<div class="flex justify-between items-center">
-										<span>{card.text}</span>
-										<span class="text-sm font-medium">#{index + 1}</span>
+									<div class="relative">
+										<span
+											class="absolute top-0 right-0 text-sm font-medium bg-xlavender bg-opacity-40 px-2 py-1 rounded-bl rounded-tr-md"
+										>
+											#{index + 1}
+										</span>
+										<div class="flex flex-col space-y-1 pt-1">
+											<span class="font-semibold text-lg pr-8">{card.title}</span>
+											<span class="text-sm text-gray-700">{card.text}</span>
+										</div>
 									</div>
 								{:else}
-									{card.text}
+									<div class="flex flex-col space-y-1">
+										<span class="font-semibold text-md">{card.title}</span>
+										<span class="text-sm text-gray-700">{card.text}</span>
+									</div>
 								{/if}
 							</div>
 						{/each}

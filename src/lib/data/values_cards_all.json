@@ -1,0 +1,254 @@
+{
+	"cards": [
+		{
+			"id": "1",
+			"title": "AUTENTIČNOST/OPRAVDOVOST",
+			"text": "BÝT SAMI SEBOU, AUTENTIČTÍ; ŽÍT V SOULADU SE SEBOU SAMÝMI"
+		},
+		{
+			"id": "2",
+			"title": "TRPĚLIVOST",
+			"text": "UMĚT S TRPĚLIVOSTÍ A KLIDEM VYČKAT NA TO, CO CHCEME"
+		},
+		{
+			"id": "3",
+			"title": "ZAPOJENÍ SE",
+			"text": "NAPLNO SE ZAPOJIT DO VŠEHO, CO DĚLÁME, A BÝT PLNĚ PŘÍTOMNI V KONTAKTU S OSTATNÍMI"
+		},
+		{
+			"id": "4",
+			"title": "INTIMITA/DŮVĚRNOST",
+			"text": "OTEVŘÍT SE, SVĚŘOVAT SE A SDÍLET SVÉ EMOČNÍ A TĚLESNÉ PROŽITKY"
+		},
+		{
+			"id": "5",
+			"title": "NEZAUJATOST, OBJEKTIVITA",
+			"text": "PŘEMÝŠLET O VĚCECH Z RŮZNÝCH ÚHLŮ POHLEDU BEZ PŘEDSUDKŮ, UMĚT VIDĚT VĚCI ZE STANOVISKA DRUHÝCH A PEČLIVĚ ZVAŽOVAT ARGUMENTY"
+		},
+		{
+			"id": "6",
+			"title": "DISCIPLÍNA",
+			"text": "JEDNAT V SOULADU S VLASTNÍMI PŘEDSTAVAMI A IDEÁLY A SYSTEMATICKY PRACOVAT NA SVÝCH CÍLECH"
+		},
+		{
+			"id": "7",
+			"title": "TVOŘIVOST",
+			"text": "VYTVÁŘET NOVÉ VĚCI A VYHLEDÁVAT ZLEPŠENÍ"
+		},
+		{
+			"id": "8",
+			"title": "SPOLUPRÁCE",
+			"text": "NA/POMÁHAT DRUHÝM A SPOLUPRACOVAT S NIMI"
+		},
+		{
+			"id": "9",
+			"title": "PODPORA",
+			"text": "PODPOROVAT, POMÁHAT A NAJÍT SI ČAS PRO SEBE I PRO DRUHÉ"
+		},
+		{
+			"id": "10",
+			"title": "PÉČE",
+			"text": "PEČOVAT A STARAT SE O SEBE, O DRUHÉ A O SVÉ PROSTŘEDÍ"
+		},
+		{
+			"id": "11",
+			"title": "DOBRODRUŽSTVÍ",
+			"text": "BÝT DOBRODRUŽNÍ A AKTIVNĚ VYHLEDÁVAT, VYTVÁŘET A PROŽÍVAT NOVÉ A PODNĚTNÉ ZÁŽITKY"
+		},
+		{
+			"id": "12",
+			"title": "PŘIJETÍ",
+			"text": "S POCHOPENÍM PŘIJMOUT SEBE SAMÉ, DRUHÉ A ŽIVOT JAKÝ JE"
+		},
+		{
+			"id": "13",
+			"title": "VYVÁŽENOST",
+			"text": "VYTVÁŘET A ROZVÍJET VZTAHY, VE KTERÝCH \"DÁVAT\" A \"BRÁT\" JE V ROVNOVÁZE"
+		},
+		{
+			"id": "14",
+			"title": "RESPEKT",
+			"text": "BÝT OHLEDUPLNÍ A MÍT RESPEKT K SOBĚ I DRUHÝM"
+		},
+		{
+			"id": "15",
+			"title": "DOBRÁ KONDICE",
+			"text": "UDRŽOVAT ANEBO ZLEPŠOVAT SVOU VLASTNÍ FYZIČKU; STARAT SE O SVÉ VLASTNÍ TĚLESNÉ A DUŠEVNÍ ZDRAVÍ A POHODU"
+		},
+		{
+			"id": "16",
+			"title": "PRUŽNOST",
+			"text": "UMĚT SE PŘIZPŮSOBIT A ZVYKNOUT SI NA MĚNÍCÍ SE PODMÍNKY A SKUTEČNOSTI"
+		},
+		{
+			"id": "17",
+			"title": "ASERTIVITA",
+			"text": "ZDVOŘILE SI STÁT ZA SVÝM A VYŽADOVAT TO, NA CO MÁM NÁROK"
+		},
+		{
+			"id": "18",
+			"title": "POŘÁDEK",
+			"text": "BÝT ORGANIZOVANÍ A SPOŘÁDANÍ"
+		},
+		{
+			"id": "19",
+			"title": "ODVAHA",
+			"text": "BÝT ODVÁŽNÍ A STATEČNÍ; VYTRVAT NAVZDORY STRACHU, POCITU OHROŽENÍ, POTÍŽÍM NEBO PŘEKÁŽKÁM"
+		},
+		{
+			"id": "20",
+			"title": "ANGAŽOVANOST",
+			"text": "NAPLNO SE ZAPOJIT DO VŠEHO, CO DĚLÁM (ANGAŽOVAT SE)"
+		},
+		{
+			"id": "21",
+			"title": "PRACOVITOST",
+			"text": "BÝT PILNÍ, PRACOVITÍ A NADŠENÍ V ČINNOSTECH"
+		},
+		{
+			"id": "22",
+			"title": "ZVÍDAVOST",
+			"text": "BÝT ZVÍDAVÍ, ZAJÍMAT SE O VĚCI A MÍT OTEVŘENOU/ZVÍDAVOU MYSL; ZKOUMAT A OBJEVOVAT"
+		},
+		{
+			"id": "23",
+			"title": "NEZÁVISLOST",
+			"text": "BÝT SOBĚSTAČNÍ A DĚLAT VĚCI PO SVÉM"
+		},
+		{
+			"id": "24",
+			"title": "VŠÍMAVOST",
+			"text": "UMĚT SE OTEVŘÍT PROŽITKŮM PŘÍTOMNÉHO OKAMŽIKU S PŘÁTELSKOU ZVÍDAVOSTÍ"
+		},
+		{
+			"id": "25",
+			"title": "VYTRVALOST A ODHODLÁNÍ",
+			"text": "ODHODLANĚ POKRAČOVAT NAVZDORY POTÍŽÍM A PŘEKÁŽKÁM"
+		},
+		{
+			"id": "26",
+			"title": "SPIRITUALITA",
+			"text": "VZTAHOVAT SE K NĚČEMU, CO MNE PŘESAHUJE"
+		},
+		{
+			"id": "27",
+			"title": "ROZVOJ SEBE SAMA",
+			"text": "USILOVAT O OSOBNÍ ROZVOJ A RŮST; SNAHA UČIT SE A ZLEPŠOVAT SEBE SAMÉ, SVÉ ZNALOSTI, DOVEDNOSTI A CHARAKTER"
+		},
+		{
+			"id": "28",
+			"title": "SEBEOVLÁDÁNÍ",
+			"text": "PROJEVOVAT EMOCE PŘIMĚŘENĚ DANÉ SITUACI"
+		},
+		{
+			"id": "29",
+			"title": "DOVEDNOST",
+			"text": "TRÉNOVAT A ZLEPŠOVAT SVÉ DOVEDNOSTI A PLNĚ JICH VYUŽÍVAT"
+		},
+		{
+			"id": "30",
+			"title": "ODPUŠTĚNÍ",
+			"text": "ODPOUŠTĚT SOBĚ I DRUHÝM"
+		},
+		{
+			"id": "31",
+			"title": "VDĚČNOST",
+			"text": "BÝT VDĚČNÍ, OCEŇOVAT A VÁŽIT SI SEBE SAMA, DRUHÝCH I ŽIVOTA"
+		},
+		{
+			"id": "32",
+			"title": "SOUCIT",
+			"text": "ZACHÁZET VLÍDNĚ A LASKAVĚ SE SEBOU SAMÝMI A TĚMI, KDO TRPÍ"
+		},
+		{
+			"id": "33",
+			"title": "ZODPOVĚDNOST",
+			"text": "CHOVAT SE ZODPOVĚDNĚ A ZODPOVÍDAT SE ZA SVÉ ČINY"
+		},
+		{
+			"id": "34",
+			"title": "SPRAVEDLNOST",
+			"text": "PROSAZOVAT A TAKÉ BÝT ČESTNÍ/SPRAVEDLIVÍ K SOBĚ I DRUHÝM; BÝT POCTIVÍ"
+		},
+		{
+			"id": "35",
+			"title": "ROVNOST",
+			"text": "CHOVAT SE K DRUHÝM JAKO K SOBĚ ROVNÝM A POVAŽOVAT SEBE ZA ROVNÉHO DRUHÝM"
+		},
+		{
+			"id": "36",
+			"title": "DŮVĚRA",
+			"text": "BÝT SPOLEHLIVÍ, VĚRNÍ, UPŘÍMNÍ A DŮVĚRYHODNÍ"
+		},
+		{
+			"id": "37",
+			"title": "LÁSKA",
+			"text": "CHOVAT SE LÁSKYPLNĚ VŮČI SOBĚ I DRUHÝM"
+		},
+		{
+			"id": "38",
+			"title": "UPŘÍMNOST",
+			"text": "BÝT UPŘÍMNÍ, POCTIVÍ A PRAVDIVÍ VŮČI SOBĚ I DRUHÝM"
+		},
+		{
+			"id": "39",
+			"title": "ZÁBAVA A HUMOR",
+			"text": "BAVIT SE; VYHLEDÁVAT, VYTVÁŘET A UŽÍVAT SI ZÁBAVU A ZÁBAVNÉ AKTIVITY; VIDĚT A OCEŇOVAT HUMORNÉ STRÁNKY ŽIVOTA"
+		},
+		{
+			"id": "40",
+			"title": "PŘÁTELSTVÍ",
+			"text": "BÝT PŘÁTELŠTÍ, SPOLEČENŠTÍ A MILÍ VE VZTAHU KE DRUHÝM"
+		},
+		{
+			"id": "41",
+			"title": "POTĚŠENÍ A RADOST",
+			"text": "VYTVÁŘET A ROZDÁVAT RADOST SOBĚ I DRUHÝM"
+		},
+		{
+			"id": "42",
+			"title": "ŠTĚDROST",
+			"text": "BÝT ŠTĚDŘÍ; SDÍLET A OBDAROVÁVAT SEBE I DRUHÉ"
+		},
+		{
+			"id": "43",
+			"title": "SKROMNOST/POKORA",
+			"text": "BÝT SKROMNÍ A POKORNÍ; NECHAT SVÉ VÝSLEDKY, ABY HOVOŘILY SAMY ZA SEBE"
+		},
+		{
+			"id": "44",
+			"title": "SVOBODA",
+			"text": "SVOBODNĚ SI URČIT/ZVOLIT, JAK ŽÍT SVŮJ VLASTNÍ ŽIVOT A NAPOMÁHAT V TOM I DRUHÝM"
+		},
+		{
+			"id": "45",
+			"title": "POVZBUZENÍ",
+			"text": "POVZBUZOVAT A ODMĚŇOVAT ČINY A CHOVÁNÍ, KTERÝCH SI VÁŽÍM U SEBE I U DRUHÝCH"
+		},
+		{
+			"id": "46",
+			"title": "PÉČE O SEBE",
+			"text": "PEČOVAT O SVÉ ZDRAVÍ, POHODU, STARAT SE O NAPLNĚNÍ SVÝCH POTŘEB"
+		},
+		{
+			"id": "47",
+			"title": "ROMANTIKA",
+			"text": "BÝT ROMANTIČTÍ; PROJEVOVAT A VYJADŘOVAT LÁSKU A CITY"
+		},
+		{
+			"id": "48",
+			"title": "DOBROSRDEČNOST",
+			"text": "BÝT VLÍDNÍ A OHLEDUPLNÍ; SOUCÍTIT, PEČOVAT A STARAT SE O SEBE I DRUHÉ"
+		},
+		{
+			"id": "49",
+			"title": "BEZPEČÍ A OCHRANA",
+			"text": "ZAJISTIT, CHRÁNIT A STARAT SE O BEZPEČÍ SEBE I DRUHÝCH"
+		},
+		{
+			"id": "50",
+			"title": "SMYSLNOST A POTĚŠENÍ",
+			"text": "VYTVÁŘET, VYHLEDÁVAT A PROŽÍVAT PŘÍJEMNÉ SMYSLOVÉ PROŽITKY"
+		}
+	]
+}
