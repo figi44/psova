@@ -20,6 +20,7 @@
 	import JREKImg from '$lib/assets/JREK.pdf';
 	import FairytaleImg from '$lib/assets/fairytale-therapy.pdf';
 	import TransgenImg from '$lib/assets/transgen-vzorce.pdf';
+	import ACBSLogo from '$lib/assets/acbs-logo.png';
 
 	titleStore.set('O mně');
 </script>
@@ -74,21 +75,28 @@
 		Členství
 	</div>
 </Heading3>
-<div class="flex gap-4">
-	<div class="flex items-center gap-2 p-2">
-		<Anchor href="https://www.cmpsy.cz/?page=adresar&id=1159&action=detail" external cls="">
-			<img
-				src={CMPSYLogo}
-				alt="Českomoravská psychologická společnost"
-				class="object-contain w-full h-full"
-			/>
-		</Anchor>
-	</div>
-	<div class="flex items-center gap-2 p-2">
-		<Anchor href="https://www.asociacekoucu.com/profily-koucu/" external cls="">
-			<img src={AIKLogo} alt="Asociace integrativních koučů" class="object-contain w-3/4 h-3/4" />
-		</Anchor>
-	</div>
+<div class="flex gap-4 items-center justify-center">
+	<Anchor href="https://www.cmpsy.cz/?page=adresar&id=1159&action=detail" external cls="">
+		<img
+			src={CMPSYLogo}
+			alt="Českomoravská psychologická společnost"
+			class="object-contain w-full h-full"
+		/>
+	</Anchor>
+	<Anchor href="https://www.asociacekoucu.com/profily-koucu/" external cls="">
+		<img
+			src={AIKLogo}
+			alt="Asociace integrativních koučů"
+			class="object-contain w-3/4 h-3/4 mx-auto"
+		/>
+	</Anchor>
+	<Anchor href="https://contextualscience.org/" external cls="">
+		<img
+			src={ACBSLogo}
+			alt="Association for Contextual Behavioral Science"
+			class="object-contain w-1/3 h-1/3"
+		/>
+	</Anchor>
 </div>
 <Heading3>
 	<div class="flex items-center gap-2">
