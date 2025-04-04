@@ -182,6 +182,7 @@
 			saveState();
 		} else if (stage === 3) {
 			// prompt download results
+			//  TODO: create a separate component where we insert the selected values and create a png from that
 		}
 	}
 
