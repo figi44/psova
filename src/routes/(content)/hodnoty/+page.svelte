@@ -1,31 +1,13 @@
 <script lang="ts">
+	import { Paragraph } from '$lib';
+	import ConfirmModal from '$lib/components/ConfirmModal.svelte';
+	import kanbanData from '$lib/data/values_cards_all.json';
+	import type { Card, Column, ColumnDefinition } from '$lib/types/values';
+	import { onMount } from 'svelte';
 	import { dndzone } from 'svelte-dnd-action';
 	import { titleStore } from '../store';
-	import kanbanData from '$lib/data/values_cards_all.json';
-	import { onMount } from 'svelte';
-	import ConfirmModal from '$lib/components/ConfirmModal.svelte';
-	import { Paragraph } from '$lib';
+
 	titleStore.set('Hodnoty');
-
-	type Card = {
-		id: string;
-		title: string;
-		text: string;
-	};
-
-	type Column = {
-		id: string;
-		title: string;
-		cards: Card[];
-	};
-
-	type ColumnDefinition = {
-		id: string;
-		title: string;
-		stageLimits: {
-			[key: number]: number;
-		};
-	};
 
 	const columnDefinitions: ColumnDefinition[] = [
 		{
@@ -170,7 +152,6 @@
 			// Clear column 3
 			const colIndex = columns.findIndex((col) => col.id === '3');
 			columns[colIndex].cards = [];
-
 			stage = 2;
 			columns = columns;
 			saveState();
@@ -183,8 +164,11 @@
 			stage = 3;
 			saveState();
 		} else if (stage === 3) {
-			// prompt download results
-			//  TODO: create a separate component where we insert the selected values and create a png from that
+			localStorage.setItem(
+				'valuesWorksheet',
+				JSON.stringify(columns[1].cards.slice(0, topCardsCount))
+			);
+			window.open('/values-worksheet', '_blank');
 		}
 	}
 
@@ -193,7 +177,7 @@
 	}
 
 	function isOverLimit(column: Column): boolean {
-		const definition = columnDefinitions[parseInt(column.id)];
+		const definition = columnDefinitions.find((def) => def.id === column.id);
 		const currentLimit = definition?.stageLimits[stage] ?? 0;
 		return column.cards.length > currentLimit;
 	}
@@ -266,7 +250,10 @@
 							class:text-red-500={isOverLimit(column)}
 							class:text-gray-500={!isOverLimit(column)}
 						>
-							{column.cards.length}/{columnDefinitions[parseInt(column.id)].stageLimits[stage] ?? 0}
+							{#key stage}
+								{column.cards.length}/{columnDefinitions.find((def) => def.id === column.id)
+									?.stageLimits[stage] ?? 0}
+							{/key}
 						</span>
 					{/if}
 				</div>

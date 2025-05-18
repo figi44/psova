@@ -33,7 +33,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"html-to-image": "^1.11.13",
 		"svelte-dnd-action": "^0.9.55"
 	}
 }
