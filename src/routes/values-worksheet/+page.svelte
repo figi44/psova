@@ -31,7 +31,7 @@
 	{#if selectedValues.length > 0}
 		<div class="values-list mb-8 border-2 border-gray-300 rounded-lg p-4 text-sm">
 			<ul class="list-disc pl-8 space-y-2">
-				{#each selectedValues as value, index}
+				{#each selectedValues as value}
 					<li>
 						<span class="font-semibold">{value.title}</span>
 						{#if value.text}
