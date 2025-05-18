@@ -12,6 +12,7 @@
 			selectedValues = JSON.parse(savedValues);
 		}
 		setTimeout(() => {
+			document.title = 'Hodnoty';
 			window.print();
 		}, 200);
 	});
@@ -44,35 +45,33 @@
 	{/if}
 
 	<div class="mb-10">
-		<h3 class="font-semibold text-lg">V jakých konkrétních situacích se těmito hodnotami řídím?</h3>
+		<h3 class="font-semibold">V jakých konkrétních situacích se těmito hodnotami řídím?</h3>
 		<div class="dotted-lines mb-6">
 			<div class="h-6 border-b border-dotted border-gray-400" />
 			<div class="h-6 border-b border-dotted border-gray-400" />
 			<div class="h-6 border-b border-dotted border-gray-400" />
 		</div>
 
-		<h3 class="font-semibold text-lg">Kdybych se těmito hodnotami řídit chtěl*a, ale neumím to?</h3>
+		<h3 class="font-semibold">Kdy bych se těmito hodnotami řídit chtěl*a, ale neumím to?</h3>
 		<div class="dotted-lines mb-6">
 			<div class="h-6 border-b border-dotted border-gray-400" />
 			<div class="h-6 border-b border-dotted border-gray-400" />
 			<div class="h-6 border-b border-dotted border-gray-400" />
 		</div>
 
-		<h3 class="font-semibold text-lg">
-			Na které z těchto hodnot bych rád*a intenzivněji pracoval*a?
-		</h3>
+		<h3 class="font-semibold">Na které z těchto hodnot bych rád*a intenzivněji pracoval*a?</h3>
 		<div class="dotted-lines mb-6">
 			<div class="h-6 border-b border-dotted border-gray-400" />
 			<div class="h-6 border-b border-dotted border-gray-400" />
 		</div>
 
-		<h3 class="font-semibold text-lg">Co mi přinese, když se těmito hodnotami začnu více řídit?</h3>
+		<h3 class="font-semibold">Co mi přinese, když se těmito hodnotami začnu více řídit?</h3>
 		<div class="dotted-lines mb-6">
 			<div class="h-6 border-b border-dotted border-gray-400" />
 			<div class="h-6 border-b border-dotted border-gray-400" />
 		</div>
 
-		<h3 class="font-semibold text-lg">Co ztratím, když se těmito hodnotami začnu více řídit?</h3>
+		<h3 class="font-semibold">Co ztratím, když se těmito hodnotami začnu více řídit?</h3>
 		<div class="dotted-lines mb-6">
 			<div class="h-6 border-b border-dotted border-gray-400" />
 			<div class="h-6 border-b border-dotted border-gray-400" />

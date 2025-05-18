@@ -195,6 +195,9 @@
 				jít správným směrem. S následujícím cvičením si svůj kompas můžete zkusit seřídit.
 			</Paragraph>
 			<Paragraph>
+				<div class=" text-sm">Poznámka: Cvičení nejlépe funguje na notebooku nebo PC.</div>
+			</Paragraph>
+			<Paragraph>
 				<span class="font-bold">Krok 1:</span> Vyberte oblast svého života, pro kterou chcete určit své
 				hodnoty. Ty seřadte do tří sloupců podle jejich důležitosti. Zkuste se oprostit od toho, jak
 				dobře danou hodnotu umíte naplnit. Jen si zvědomte, jak moc je pro vás důležitá:
@@ -226,7 +229,7 @@
 			{#if stage === 3}
 				Stáhnout výsledky
 			{:else}
-				Pokračovat
+				Pokračovat ke kroku {stage + 1}
 			{/if}
 		</button>
 		<button
@@ -261,15 +264,13 @@
 					<div
 						use:dndzone={{
 							items: column.cards,
-							flipDurationMs: 300,
-							dragDisabled: false,
 							dropTargetStyle: {
 								'background-color': 'rgb(229 231 235 / 0.2)'
 							}
 						}}
 						on:consider={(e) => handleDndConsider(e, column.id)}
 						on:finalize={(e) => handleDndFinalize(e, column.id)}
-						class="space-y-2 min-h-[50px]"
+						class="space-y-2 min-h-[50px] pb-14"
 					>
 						{#each column.cards as card, index (card.id)}
 							<div
@@ -285,13 +286,13 @@
 											#{index + 1}
 										</span>
 										<div class="flex flex-col space-y-1 pt-1">
-											<span class="font-semibold text-lg pr-8">{card.title}</span>
+											<span class="font-semibold text-sm pr-8">{card.title}</span>
 											<span class="text-sm text-gray-700">{card.text}</span>
 										</div>
 									</div>
 								{:else}
 									<div class="flex flex-col space-y-1">
-										<span class="font-semibold text-md">{card.title}</span>
+										<span class="font-semibold text-sm">{card.title}</span>
 										<span class="text-sm text-gray-700">{card.text}</span>
 									</div>
 								{/if}
