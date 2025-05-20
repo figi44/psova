@@ -1,12 +1,12 @@
 <script lang="ts">
 	import { Paragraph } from '$lib';
+	import QrCode from '$lib/assets/qr-code.jpg';
 	import ConfirmModal from '$lib/components/ConfirmModal.svelte';
 	import kanbanData from '$lib/data/values_cards_all.json';
 	import type { Card, Column, ColumnDefinition } from '$lib/types/values';
 	import { onMount } from 'svelte';
 	import { dndzone } from 'svelte-dnd-action';
 	import { titleStore } from '../store';
-
 	titleStore.set('Hodnoty');
 
 	const columnDefinitions: ColumnDefinition[] = [
@@ -303,6 +303,14 @@
 			</div>
 		{/each}
 	</div>
+</div>
+
+<div class="flex justify-center items-center">
+	<Paragraph>
+		Volně k užívání všem ACT terapeutům. Kdybyste chtěli podpořit mou aktivitu a pozvat mě na kafe,
+		můžete tak učinit prostřednictvím QR kódu. Posílám vděčné děkuji.
+	</Paragraph>
+	<img src={QrCode} alt="QR kód" class="w-32" />
 </div>
 
 <ConfirmModal
