@@ -1,26 +1,27 @@
 <script>
-	import { Paragraph, Heading3, Anchor } from '$lib';
+	import { Anchor, Heading3, Paragraph } from '$lib';
 	import EducationIcon from '$lib/assets/educationIcon.svg';
-	import IDCardIcon from '$lib/assets/id-card-icon.svg';
 	import groupIcon from '$lib/assets/group.svg';
+	import IDCardIcon from '$lib/assets/id-card-icon.svg';
 	import whiteboardIcon from '$lib/assets/whiteboard.svg';
 	import { titleStore } from '../store';
 
-	import yinyogaImg from '$lib/assets/yin_yoga.png';
-	import bcdiplomImg from '$lib/assets/bc_diplom.png';
-	import relaxaceImg from '$lib/assets/relaxace.png';
+	import ACBSLogo from '$lib/assets/acbs-logo.png';
+	import ACTImg from '$lib/assets/act-cert.pdf';
 	import acterasmusImg from '$lib/assets/ACT_Erasmus.png';
+	import AIKLogo from '$lib/assets/aik.png';
+	import bcdiplomImg from '$lib/assets/bc_diplom.png';
+	import CMPSYLogo from '$lib/assets/cmpsy.png';
 	import emocnileadershipImg from '$lib/assets/emocni_leadership.png';
+	import FairytaleImg from '$lib/assets/fairytale-therapy.pdf';
+	import JREKImg from '$lib/assets/JREK.pdf';
 	import koucImg from '$lib/assets/kouc.png';
 	import projevretorikaImg from '$lib/assets/projev_retorika.png';
+	import relaxaceImg from '$lib/assets/relaxace.png';
+	import TransgenImg from '$lib/assets/transgen-vzorce.pdf';
 	import traumapristupImg from '$lib/assets/trauma_respektujici_pristup_SOFA.pdf';
 	import dementiaImg from '$lib/assets/Understanding_Dementia_2023_11_Certificate_Kristyna_Sznapkova.pdf';
-	import CMPSYLogo from '$lib/assets/cmpsy.png';
-	import AIKLogo from '$lib/assets/aik.png';
-	import JREKImg from '$lib/assets/JREK.pdf';
-	import FairytaleImg from '$lib/assets/fairytale-therapy.pdf';
-	import TransgenImg from '$lib/assets/transgen-vzorce.pdf';
-	import ACBSLogo from '$lib/assets/acbs-logo.png';
+	import yinyogaImg from '$lib/assets/yin_yoga.png';
 
 	titleStore.set('O mně');
 </script>
@@ -107,8 +108,11 @@
 <table class="text-lg border-separate border-spacing-2 lg:border-spacing-4">
 	<tbody>
 		<tr>
-			<td class="align-top font-bold">01/2024–nyní</td>
-			<td>Roční výcvik v ACTu - Terapie přijetí a odhodlání (Institut ACT+; 248 hodin)</td>
+			<td class="align-top font-bold">01/2024–12/2024</td>
+			<td
+				><Anchor href={ACTImg} external>Roční výcvik v ACTu - Terapie přijetí a odhodlání</Anchor> (Institut
+				ACT+; 250 hodin)</td
+			>
 		</tr>
 		<tr>
 			<td class="align-top font-bold">04/2025</td>
@@ -153,14 +157,6 @@
 				<Anchor href={dementiaImg} external>Understanding Dementia MOOC</Anchor> (University of Tasmania;
 				21 hodin)</td
 			>
-		</tr>
-		<tr>
-			<td class="align-top font-bold">11/2023</td>
-			<td>Health Across the Gender Spectrum (Stanford University e-learning; 2,5 hodiny)</td>
-		</tr>
-		<tr>
-			<td class="align-top font-bold">10/2023</td>
-			<td>Introduction to Food and Health (Stanford University e-learning; 2,5 hodiny)</td>
 		</tr>
 		<tr>
 			<td class="align-top font-bold">09/2023</td>
@@ -214,6 +210,10 @@
 </Heading3>
 <table class="text-lg border-separate border-spacing-2 lg:border-spacing-4">
 	<tbody>
+		<tr>
+			<td class="align-top font-bold">03/2025–nyní</td>
+			<td>Nakladatelství Forum (skoleninaklic.cz) – Externí lektor</td>
+		</tr>
 		<tr>
 			<td class="align-top font-bold">11/2024–nyní</td>
 			<td> Magistrát města Ostravy – Terénní psycholog (DPP)</td>
