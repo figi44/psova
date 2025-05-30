@@ -219,7 +219,7 @@
 			<td> Magistrát města Ostravy – Terénní psycholog (DPP)</td>
 		</tr>
 		<tr>
-			<td class="align-top font-bold">08/2024–nyní</td>
+			<td class="align-top font-bold">08/2024–05/2025</td>
 			<td> ISNA-MSE z.s. – Psycholog a Snoezelen Terapeut (poloviční úvazek) </td>
 		</tr>
 		<tr>
