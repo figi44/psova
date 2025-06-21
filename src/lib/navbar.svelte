@@ -1,7 +1,7 @@
 <script lang="ts">
-	import { slide } from 'svelte/transition';
 	import { Anchor, NavButton } from '$lib';
 	import LogoImg from '$lib/assets/logo-nav.svg';
+	import { slide } from 'svelte/transition';
 
 	let buttonData = [
 		{ title: 'služby', href: `#services` },
@@ -9,6 +9,7 @@
 		{ title: 'ceník', href: `cenik` },
 		{ title: 'akutní problémy', href: `akutni-problemy` },
 		{ title: 'faq', href: `faq` },
+		{ title: 'materiály', href: `materialy` },
 		{ title: 'kontakt', href: `kontakt` }
 	];
 	export let initialBg: string;
