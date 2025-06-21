@@ -22,7 +22,7 @@
 
 {#if innerWidth > 1280}
 	<div
-		class="sticky top-0 transition-all duration-300 ease-out
+		class="sticky top-0 transition-all duration-300 ease-out z-50
 {scrollY ? 'bg-xlavender shadow-md' : initialBg} "
 	>
 		<nav class="max-w-[1120px] mx-auto flex w-full justify-between items-center pt-4 pb-5">
@@ -39,7 +39,7 @@
 	</div>
 {:else}
 	<div
-		class="sticky top-0 bg-xlavender shadow-md flex w-full justify-between items-center p-4 z-10"
+		class="sticky top-0 bg-xlavender shadow-md flex w-full justify-between items-center p-4 z-50"
 	>
 		<Anchor href="" cls=""><img src={LogoImg} alt="Logo" class="text-white h-12" /></Anchor>
 		<button

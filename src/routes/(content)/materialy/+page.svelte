@@ -336,8 +336,10 @@
 						</audio>
 					{:else}
 						<!-- Placeholder while loading -->
-						<div class="h-10 bg-gray-200 rounded-md animate-pulse flex items-center justify-center">
-							<span class="text-gray-500 text-sm">Načítání přehrávače...</span>
+						<div
+							class="h-10 bg-gray-200 rounded-md animate-pulse flex items-center justify-center relative z-0"
+						>
+							<span class="text-gray-500 text-sm relative z-0">Načítání přehrávače...</span>
 						</div>
 					{/if}
 				</div>
