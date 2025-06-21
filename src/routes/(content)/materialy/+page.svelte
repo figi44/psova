@@ -123,6 +123,9 @@
 	let selectedFilters: FilterType[] = [];
 	let filteredMaterials: Material[] = materials;
 
+	// Audio player visibility state
+	let audioPlayersReady = false;
+
 	// Get all unique categories from materials
 	function getAllCategories(): string[] {
 		const categoriesSet = new Set<string>();
@@ -217,8 +220,23 @@
 		return '🏷️';
 	}
 
+	// Get button text based on file type (for non-audio files)
+	function getActionButtonText(material: Material): string {
+		return 'Stáhnout';
+	}
+
+	// Get button icon based on file type (for non-audio files)
+	function getActionButtonIcon(material: Material): string {
+		return 'M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z';
+	}
+
 	onMount(() => {
 		updateFilteredMaterials();
+
+		// Wait for layout to stabilize before showing audio players
+		setTimeout(() => {
+			audioPlayersReady = true;
+		}, 1);
 	});
 </script>
 
@@ -303,21 +321,44 @@
 				{/each}
 			</div>
 
-			<Anchor
-				href={material.url}
-				external
-				cls="inline-flex items-center px-4 py-2 bg-xlavender text-white rounded-md hover:bg-opacity-90 transition-colors duration-200 font-medium"
-			>
-				<svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-					<path
-						stroke-linecap="round"
-						stroke-linejoin="round"
-						stroke-width="2"
-						d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
-					/>
-				</svg>
-				Stáhnout
-			</Anchor>
+			{#if material.type.id === 'audio'}
+				<!-- Inline Audio Player -->
+				<div class="w-full h-10">
+					{#if audioPlayersReady}
+						<audio
+							controls
+							controlslist="nodownload"
+							class="w-full h-10 rounded-md"
+							src={material.url}
+							preload="metadata"
+						>
+							Váš prohlížeč nepodporuje přehrávání audio souborů.
+						</audio>
+					{:else}
+						<!-- Placeholder while loading -->
+						<div class="h-10 bg-gray-200 rounded-md animate-pulse flex items-center justify-center">
+							<span class="text-gray-500 text-sm">Načítání přehrávače...</span>
+						</div>
+					{/if}
+				</div>
+			{:else}
+				<!-- Download Button for PDFs and Images -->
+				<Anchor
+					href={material.url}
+					external={true}
+					cls="inline-flex items-center px-4 py-2 bg-xlavender text-white rounded-md hover:bg-opacity-90 transition-colors duration-200 font-medium"
+				>
+					<svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="2"
+							d={getActionButtonIcon(material)}
+						/>
+					</svg>
+					{getActionButtonText(material)}
+				</Anchor>
+			{/if}
 		</div>
 	{/each}
 </div>
