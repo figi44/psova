@@ -9,7 +9,6 @@
 		{ title: 'ceník', href: `cenik` },
 		{ title: 'akutní problémy', href: `akutni-problemy` },
 		{ title: 'faq', href: `faq` },
-		{ title: 'materiály', href: `materialy` },
 		{ title: 'kontakt', href: `kontakt` }
 	];
 	export let initialBg: string;
