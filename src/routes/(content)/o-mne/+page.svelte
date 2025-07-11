@@ -108,10 +108,12 @@
 <table class="text-lg border-separate border-spacing-2 lg:border-spacing-4">
 	<tbody>
 		<tr>
-			<td class="align-top font-bold">01/2024–12/2024</td>
+			<td class="align-top font-bold">09/2025</td>
 			<td
-				><Anchor href={ACTImg} external>Roční výcvik v ACTu - Terapie přijetí a odhodlání</Anchor> (Institut
-				ACT+; 250 hodin)</td
+				>Frekventantka výcviku v analytické psychoterapii vedený <Anchor
+					href="https://www.csap-cz.eu/o-csap"
+					external>ČSAP</Anchor
+				></td
 			>
 		</tr>
 		<tr>
@@ -119,6 +121,13 @@
 			<td
 				><Anchor href={TransgenImg} external>Transgenerační vzorce</Anchor> (Mansio; 16 hodin; Akreditace
 				MPSV)</td
+			>
+		</tr>
+		<tr>
+			<td class="align-top font-bold">12/2024</td>
+			<td
+				><Anchor href={ACTImg} external>Roční výcvik v ACTu - Terapie přijetí a odhodlání</Anchor> (Institut
+				ACT+; 250 hodin)</td
 			>
 		</tr>
 		<tr>
