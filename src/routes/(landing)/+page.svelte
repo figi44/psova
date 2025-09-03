@@ -45,7 +45,7 @@
 </script>
 
 <svelte:head>
-	<title>PSOVA - Psychologické poradenství a koučink Ostrava</title>
+	<title>PSOVA - Psychologické poradenství, terapie a koučink Ostrava</title>
 </svelte:head>
 
 <Hero
