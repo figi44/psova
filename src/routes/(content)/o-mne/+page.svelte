@@ -51,14 +51,14 @@
 <table class="text-lg border-separate border-spacing-2 lg:border-spacing-4">
 	<tbody>
 		<tr>
-			<td class="align-top font-bold">2023–2025</td>
+			<td class="align-top font-bold whitespace-nowrap">2023–2025</td>
 			<td>
 				Magisterské studium psychologie se zaměřením na klinickou psychologii a psychologii
 				osobnosti na univerzitě Humanitas s pobočkou ve Vsetíně.
 			</td>
 		</tr>
 		<tr>
-			<td class="align-top font-bold">2020–2023</td>
+			<td class="align-top font-bold whitespace-nowrap">2020–2023</td>
 			<td>
 				Bakalářské studium psychologie na univerzitě Humanitas, která má svou pobočku ve Vsetíně.
 				<Anchor href={bcdiplomImg} external>Získaný titul lic.</Anchor> je ekvivalentem českého Bc. na

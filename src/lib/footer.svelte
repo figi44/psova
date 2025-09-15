@@ -13,7 +13,7 @@
 		<CTAButton title="Objednejte se" />
 	</div>
 	<p class="lg:justify-self-end text-xdarkgray text-center lg:text-left">
-		Kristýna Sznapková<br />
+		Mgr. Kristýna Sznapková<br />
 		IČ: 21031495<br />
 		Bankovní spojení: 2869889028/3030<br />
 		Na Hradbách 2632/18<br />

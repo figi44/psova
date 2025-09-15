@@ -1,8 +1,8 @@
 <script lang="ts">
-	import { CardContainer, Heading2, Hero, Anchor, TextLink } from '$lib';
-	import PortraitImage from '$lib/assets/portrait1.png';
-	import PortalLogo from '$lib/assets/portal.png';
+	import { Anchor, CardContainer, Heading2, Hero, TextLink } from '$lib';
 	import PaspartaLogo from '$lib/assets/pasparta.png';
+	import PortalLogo from '$lib/assets/portal.png';
+	import PortraitImage from '$lib/assets/portrait1.png';
 
 	let cards = [
 		{
@@ -49,7 +49,7 @@
 </svelte:head>
 
 <Hero
-	title="Kristýna Sznapková"
+	title="Mgr. Kristýna Sznapková"
 	subtitle="S pokorou pomáhám rozvíjet lidskou duši."
 	buttonTitle="Objednejte se"
 	imgPath={PortraitImage}
