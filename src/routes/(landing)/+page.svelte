@@ -59,14 +59,26 @@
 	<div class="xl:flex justify-between text-xdarkgray">
 		<div class="xl:w-5/12 text-justify xl:leading-relaxed">
 			<p>
-				Vystudovala jsem jednooborovou psychologii se zaměřením na klinickou psychologii a psychologii osobnosti. Pracuji jako psycholožka, koučka a terapeutka ACT směru (III. vlna kognitivně-behaviorálních terapií). Aktuálně jsem také frekventantkou psychoterapeutického výcviku v hlubinném směru. Aktivně se připravuji pro budoucí práci ve zdravotnictví.
+				Vystudovala jsem jednooborovou psychologii se zaměřením na klinickou psychologii a
+				psychologii osobnosti. Pracuji jako psycholožka, koučka a terapeutka ACT směru (III. vlna
+				kognitivně-behaviorálních terapií). Aktuálně jsem také frekventantkou psychoterapeutického
+				výcviku v hlubinném směru. Aktivně se připravuji pro budoucí práci ve zdravotnictví.
 			</p>
 			<p class="mt-3">
-				Míchám krupici a mám ráda ananas na pizze. Hodně a často čtu, poslouchám vážnou hudbu. V létě se ráda schovávám ve stínu a v zimě pozoruji ptáky na krmítku s hrnkem čaje v rukách. S vděčností naslouchám přírodě, jak mě zve k pobytu v ní. Praktikuji jógu, medituji.
+				Míchám krupici a mám ráda ananas na pizze. Hodně a často čtu, poslouchám vážnou hudbu. V
+				létě se ráda schovávám ve stínu a v zimě pozoruji ptáky na krmítku s hrnkem čaje v rukách. S
+				vděčností naslouchám přírodě, jak mě zve k pobytu v ní. Praktikuji jógu, medituji.
 			</p>
 		</div>
 		<p class="xl:w-5/12 mt-3 xl:mt-0 text-justify xl:leading-relaxed">
-			V praxi se setkávám s lidmi z vyloučených lokalit nebo v náročných životních situacích, kteří využili nabídky města a splnili podmínky pro získání sociálního bydlení. U těchto klientů se starám o jejich psychickou pohodu a dosahování osobních cílů. Pracuji také jako školní psycholožka na sportovní škole, kde podporuji nejen žáky, ale i pedagogický sbor. Školím pedagogické pracovníky v oblasti well-beingu a předcházení syndromu vyhoření. Za dveřmi soukromé poradny se věnuji dospělé klientele a rozmanitým radostem i strastem, které život přináší. Především se vynořují témata zvyšování odolnosti, nastavování hranic, efektivní komunikace a sebepéče.
+			V praxi se setkávám s lidmi z vyloučených lokalit nebo v náročných životních situacích, kteří
+			využili nabídky města a splnili podmínky pro získání sociálního bydlení. U těchto klientů se
+			starám o jejich psychickou pohodu a dosahování osobních cílů. Pracuji také jako školní
+			psycholožka na sportovní škole, kde podporuji nejen žáky, ale i pedagogický sbor. Školím
+			pedagogické pracovníky v oblasti well-beingu a předcházení syndromu vyhoření. Za dveřmi
+			soukromé poradny se věnuji dospělé klientele a rozmanitým radostem i strastem, které život
+			přináší. Především se vynořují témata zvyšování odolnosti, nastavování hranic, efektivní
+			komunikace a sebepéče.
 		</p>
 	</div>
 	<div class="w-full flex justify-end mt-5">
