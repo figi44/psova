@@ -10,7 +10,6 @@
 	import ACTImg from '$lib/assets/act-cert.pdf';
 	import acterasmusImg from '$lib/assets/ACT_Erasmus.png';
 	import AIKLogo from '$lib/assets/aik.png';
-	import bcdiplomImg from '$lib/assets/bc_diplom.png';
 	import CMPSYLogo from '$lib/assets/cmpsy.png';
 	import emocnileadershipImg from '$lib/assets/emocni_leadership.png';
 	import FairytaleImg from '$lib/assets/fairytale-therapy.pdf';
@@ -37,10 +36,8 @@
 	přístup plný pokory a respektu.
 </Paragraph>
 <Paragraph>
-	Ve své praxi čerpám kromě univerzitních poznatků také ze zkušeností z předchozího pracovního
-	poměru. Dále se neustále vzdělávám formou kurzů a workshopů. Díky nekonečnému přísunu nové
-	literatury takto obohacuji své obzory o nové techniky, metody a informace. Aktivně se věnuji
-	dobrovolnickým aktivitám v oblasti psychologie. Docházím pravidelně na supervize a terapie.
+	Aktivně se věnuji dobrovolnickým aktivitám v oblasti psychologie. Docházím pravidelně na supervize
+	a terapie.
 </Paragraph>
 <Heading3>
 	<div class="flex items-center gap-2">
@@ -61,11 +58,6 @@
 			<td class="align-top font-bold whitespace-nowrap">2020–2023</td>
 			<td>
 				Bakalářské studium psychologie na univerzitě Humanitas, která má svou pobočku ve Vsetíně.
-				<Anchor href={bcdiplomImg} external>Získaný titul lic.</Anchor> je ekvivalentem českého Bc. na
-				základě Lisabonské úmluvy. Více informací o uznávání zahraničního titulu v České republice <Anchor
-					href="https://www.zakonyprolidi.cz/ms/2006-104/zneni-20061101"
-					external>ZDE</Anchor
-				>.
 			</td>
 		</tr>
 	</tbody>
@@ -107,6 +99,10 @@
 </Heading3>
 <table class="text-lg border-separate border-spacing-2 lg:border-spacing-4">
 	<tbody>
+		<tr>
+			<td class="align-top font-bold">10/2025-nyní</td>
+			<td> Psycholog ve zdravotnictví (Ambulance klinické psychologie Ostrava) </td>
+		</tr>
 		<tr>
 			<td class="align-top font-bold">09/2025</td>
 			<td
@@ -189,14 +185,6 @@
 			>
 		</tr>
 		<tr>
-			<td class="align-top font-bold">09/2021</td>
-			<td>Difficult conversations (Cadet Start Tietoevry; 16 hodin)</td>
-		</tr>
-		<tr>
-			<td class="align-top font-bold">05/2021</td>
-			<td>Managerial basics (Cadet Start Tietoevry; 16 hodin)</td>
-		</tr>
-		<tr>
 			<td class="align-top font-bold">04/2019</td>
 			<td
 				><Anchor href={relaxaceImg} external>Relaxace, Yoga Nidra a Regresní terapie</Anchor> (Bhavasya
@@ -220,12 +208,16 @@
 <table class="text-lg border-separate border-spacing-2 lg:border-spacing-4">
 	<tbody>
 		<tr>
+			<td class="align-top font-bold">09/2025–nyní</td>
+			<td>ZŠ J. Šoupala 1609, Ostrava-Poruba – Školní psycholog (poloviční úvazek)</td>
+		</tr>
+		<tr>
 			<td class="align-top font-bold">03/2025–nyní</td>
 			<td>Nakladatelství Forum (skoleninaklic.cz) – Externí lektor</td>
 		</tr>
 		<tr>
 			<td class="align-top font-bold">11/2024–nyní</td>
-			<td> Magistrát města Ostravy – Terénní psycholog (DPP)</td>
+			<td>Statutární město Ostrava – Terénní psycholog projektu sociálního bydlení (DPP)</td>
 		</tr>
 		<tr>
 			<td class="align-top font-bold">08/2024–05/2025</td>
@@ -253,10 +245,6 @@
 		<tr>
 			<td class="align-top font-bold">09/2023–12/2024</td>
 			<td>PsyHub – Koordinátorka studentského projektu (dobrovolnictví)</td>
-		</tr>
-		<tr>
-			<td class="align-top font-bold">09/2023–02/2024</td>
-			<td>Terapie tmou – Koordinátorka projektových aktivit (dobrovolnictví)</td>
 		</tr>
 		<tr>
 			<td class="align-top font-bold">07/2023</td>
@@ -289,10 +277,6 @@
 		<tr>
 			<td class="align-top font-bold">01–02/2021</td>
 			<td>Charitní středisko Michala Magone Ostrava – Dubina (školní praxe v rozsahu 36 hodin)</td>
-		</tr>
-		<tr>
-			<td class="align-top font-bold">11/2019–12/2022</td>
-			<td>Tietoevry – Vedoucí pozice (3 roky full-time zaměstnání)</td>
 		</tr>
 	</tbody>
 </table>
