@@ -5,7 +5,7 @@
 </script>
 
 <Accordion title="Berete i děti?" topHr>Ne, pracuji pouze s dospělými.</Accordion>
-<Accordion title="Poskytujete poradenství a koučink online?" topHr>
+<Accordion title="Poskytujete poradenství a koučink online?">
 	Ano, poskytuji. Za stejných podmínek, jako osobní konzultace.
 </Accordion>
 <Accordion title="Může k Vám docházet i jiný člen rodiny?">
