@@ -171,20 +171,6 @@
 			>
 		</tr>
 		<tr>
-			<td class="align-top font-bold">09/2021</td>
-			<td
-				><Anchor href={projevretorikaImg} external>Authentic (self)presentation and rhetoric</Anchor
-				> (Shine Leadership; 15 hodin)</td
-			>
-		</tr>
-		<tr>
-			<td class="align-top font-bold">09/2021</td>
-			<td
-				><Anchor href={emocnileadershipImg} external>Emotional leadership</Anchor> (Shine Leadership;
-				15 hodin)</td
-			>
-		</tr>
-		<tr>
 			<td class="align-top font-bold">04/2019</td>
 			<td
 				><Anchor href={relaxaceImg} external>Relaxace, Yoga Nidra a Regresní terapie</Anchor> (Bhavasya
