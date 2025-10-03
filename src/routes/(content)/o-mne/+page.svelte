@@ -11,11 +11,9 @@
 	import acterasmusImg from '$lib/assets/ACT_Erasmus.png';
 	import AIKLogo from '$lib/assets/aik.png';
 	import CMPSYLogo from '$lib/assets/cmpsy.png';
-	import emocnileadershipImg from '$lib/assets/emocni_leadership.png';
 	import FairytaleImg from '$lib/assets/fairytale-therapy.pdf';
 	import JREKImg from '$lib/assets/JREK.pdf';
 	import koucImg from '$lib/assets/kouc.png';
-	import projevretorikaImg from '$lib/assets/projev_retorika.png';
 	import relaxaceImg from '$lib/assets/relaxace.png';
 	import TransgenImg from '$lib/assets/transgen-vzorce.pdf';
 	import traumapristupImg from '$lib/assets/trauma_respektujici_pristup_SOFA.pdf';
