@@ -102,7 +102,7 @@
 			<td> Psycholog ve zdravotnictví (Ambulance klinické psychologie Ostrava) </td>
 		</tr>
 		<tr>
-			<td class="align-top font-bold">09/2025</td>
+			<td class="align-top font-bold">09/2025-nyní</td>
 			<td
 				>Frekventantka výcviku v analytické psychoterapii vedený <Anchor
 					href="https://www.csap-cz.eu/o-csap"
