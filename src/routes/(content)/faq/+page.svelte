@@ -4,6 +4,7 @@
 	titleStore.set('FAQ');
 </script>
 
+<Accordion title="Berete i děti?" topHr>Ne, pracuji pouze s dospělými.</Accordion>
 <Accordion title="Poskytujete poradenství a koučink online?" topHr>
 	Ano, poskytuji. Za stejných podmínek, jako osobní konzultace.
 </Accordion>
@@ -20,21 +21,6 @@
 	naleznete na <Anchor href="poradenstvi">této stránce</Anchor>. Nevěnuji se rodinné a partnerské
 	sféře, nepracuji s dětmi a s osobami se závažnými psychickými poruchami. Pracuji vždy pouze s
 	jednotlivci.
-</Accordion>
-<Accordion
-	title="Jak je možné, že poskytujete psychologické poradenství a ještě nemáte magisterský titul z psychologie?"
->
-	Psychologické poradenství a diagnostika patří mezi tzv. vázané živnosti a k jejich výkonu je
-	potřeba mít vysokoškolský titul v oblasti psychologie, přičemž stupeň vzdělání není blíže
-	specifikován. Dále je potřeba u jednooborové psychologie mít jeden rok praxe. Ten nemám, a proto
-	se za mne zaručuje můj odborný vedoucí, kterým je PhDr. Sylvie Navarová.
-</Accordion>
-<Accordion title="Můžete poskytovat psychologické poradenství v Česku s polským titulem?">
-	Ano, mohu. Česká republika má s Polskem dohodu o vzájemném uznávání titulů. Podrobnosti o této
-	dohodě a jejích podmínkách naleznete <Anchor
-		href="https://www.zakonyprolidi.cz/ms/2006-104/zneni-20061101"
-		external>ZDE</Anchor
-	>.
 </Accordion>
 <Accordion title="Mám Vám předem popsat podrobněji můj problém do emailu?">
 	Prosím, ne. Pokud tak učiníte, s největší pravděpodobností Vám odpovím, že není v mých časových
