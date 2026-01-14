@@ -49,7 +49,7 @@
 			<td class="align-top font-bold whitespace-nowrap">2023–2025</td>
 			<td>
 				Magisterské studium psychologie se zaměřením na klinickou psychologii a psychologii
-				osobnosti na univerzitě Humanitas s pobočkou ve Vsetíně.
+				osobnosti na univerzitě Humanitas s pobočkou ve Vsetíně (nostrifikováno UPOL).
 			</td>
 		</tr>
 		<tr>
@@ -109,6 +109,12 @@
 					external>ČSAP</Anchor
 				></td
 			>
+		</tr>
+		<tr>
+			<td class="align-top font-bold">01/2026</td>
+			<td>
+				Dvoudenní kurz Sandplay (Mgr. Alžběta Michalčíková; 15 hodin)
+			</td>
 		</tr>
 		<tr>
 			<td class="align-top font-bold">04/2025</td>
