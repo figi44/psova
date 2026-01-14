@@ -28,7 +28,7 @@
 			text: 'Obnovte svou duševní pohodu a balanc díky psychohygieně, která posiluje vaši mentální odolnost a pomáhá vám snáze zvládat každodenní výzvy a stres.',
 			linkText: '',
 			linkHref: `psychohygiena`
-		},
+		}
 		// {
 		// 	title: 'Psychodiagnostika',
 		// 	text: 'Odhalte skryté rozměry vašeho chování a prožívání prostřednictvím precizní psychodiagnostiky, která vám umožní lépe porozumět sobě samým a efektivněji dosáhnout cílů spolupráce.',
