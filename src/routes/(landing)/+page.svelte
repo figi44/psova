@@ -29,18 +29,18 @@
 			linkText: '',
 			linkHref: `psychohygiena`
 		},
-		{
-			title: 'Psychodiagnostika',
-			text: 'Odhalte skryté rozměry vašeho chování a prožívání prostřednictvím precizní psychodiagnostiky, která vám umožní lépe porozumět sobě samým a efektivněji dosáhnout cílů spolupráce.',
-			linkText: '',
-			linkHref: `psychodiagnostika`
-		},
-		{
-			title: 'Firemní aktivity',
-			text: 'Rozvíjejte sílu a jedinečnost svého týmu skrze aktivity šité na míru, které podnítí kreativitu, inovaci a komunikaci pro prevenci syndromu vyhoření.',
-			linkText: '',
-			linkHref: `firmy`
-		}
+		// {
+		// 	title: 'Psychodiagnostika',
+		// 	text: 'Odhalte skryté rozměry vašeho chování a prožívání prostřednictvím precizní psychodiagnostiky, která vám umožní lépe porozumět sobě samým a efektivněji dosáhnout cílů spolupráce.',
+		// 	linkText: '',
+		// 	linkHref: `psychodiagnostika`
+		// },
+		// {
+		// 	title: 'Firemní aktivity',
+		// 	text: 'Rozvíjejte sílu a jedinečnost svého týmu skrze aktivity šité na míru, které podnítí kreativitu, inovaci a komunikaci pro prevenci syndromu vyhoření.',
+		// 	linkText: '',
+		// 	linkHref: `firmy`
+		// }
 	];
 </script>
 
