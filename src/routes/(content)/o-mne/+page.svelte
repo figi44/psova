@@ -112,9 +112,7 @@
 		</tr>
 		<tr>
 			<td class="align-top font-bold">01/2026</td>
-			<td>
-				Dvoudenní kurz Sandplay (Mgr. Alžběta Michalčíková; 15 hodin)
-			</td>
+			<td> Dvoudenní kurz Sandplay (Mgr. Alžběta Michalčíková; 15 hodin) </td>
 		</tr>
 		<tr>
 			<td class="align-top font-bold">04/2025</td>
