@@ -1,16 +1,12 @@
 <script lang="ts">
-	import { goto } from '$app/navigation';
-	import { base } from '$app/paths';
+	import { Anchor } from '$lib';
 	export let title: string;
 </script>
 
-<button
-	class="py-[6px] px-[14px] rounded-[30px] text-white text-xl font-bold bg-xpink border-xpink border-2
-			 hover:border-black hover:text-black transition-all ease-in
-           "
-	on:click={() => {
-		goto(`${base}/kontakt`);
-	}}
+<Anchor
+	href="https://reenio.cz/cs/redirect/reservationpage/24992"
+	external
+	cls="py-[8px] px-[14px] rounded-[30px] text-white text-xl font-bold bg-xpink border-xpink border-2 hover:border-black hover:text-black transition-all ease-in"
 >
 	{title}
-</button>
+</Anchor>
