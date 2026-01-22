@@ -1,7 +1,6 @@
 <script lang="ts">
-	import { Anchor, CardContainer, Heading2, Hero, TextLink } from '$lib';
-	import PaspartaLogo from '$lib/assets/pasparta.png';
-	import PortalLogo from '$lib/assets/portal.png';
+	import { CardContainer, Heading2, Hero, TextLink } from '$lib';
+
 	import PortraitImage from '$lib/assets/portrait1.png';
 
 	let cards = [
@@ -86,4 +85,3 @@
 	</div>
 </div>
 <CardContainer {cards} />
-
