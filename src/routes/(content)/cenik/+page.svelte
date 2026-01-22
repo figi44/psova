@@ -1,10 +1,12 @@
 <script lang="ts">
-	import GDPRImg from '$lib/assets/gdpr.pdf';
-	import EbenefityLogo from '$lib/assets/ebenefity-logo.png';
+	import { Anchor, Heading3, Paragraph } from '$lib';
+	import gdprImage from '$lib/assets/gdpr.pdf';
+	import dohodaImage from '$lib/assets/dohoda.pdf';
 	import BenefitPlusLogo from '$lib/assets/benefit-plus-logo.png';
-	import { Paragraph, Heading3, Anchor } from '$lib';
+	import EbenefityLogo from '$lib/assets/ebenefity-logo.png';
 	import { titleStore } from '../store';
-	let services = [
+
+		let services = [
 		{
 			name: 'Psychologické poradenství, terapie, psychohygiena',
 			length: '50 minut',
@@ -29,13 +31,7 @@
 			name: 'Zpráva z konzultací na žádost klienta',
 			length: 'zhotovení do 7 dní',
 			price: '800,-'
-		},
-		{
-			name: 'Diagnostika',
-			length: '-',
-			price: 'cena dle zadání'
-		}
-	];
+		}];
 
 	titleStore.set('Ceník');
 </script>
@@ -61,96 +57,73 @@
 	</table>
 </div>
 
-<Paragraph>Nejsem plátce DPH, cenu tedy o DPH nenavyšuji.</Paragraph>
-<Paragraph>Cena on-line konzultací a koučování je shodná s cenou za osobní konzultaci.</Paragraph>
 <Paragraph>
-	Cena programů a balíčků aktivit pro firmy bude stanovena na základě rozsahu dohodnutých služeb.
-	Platba na fakturu možná.
+	Uvedené služby jsou poskytovány za přímou úhradu (nejsem plátce DPH). Vzhledem k tomu, že nejsem klinický psycholog, nepracuji v režimu zdravotní péče hrazené pojišťovnami. Tento model spolupráce je však pro klienta v mnoha ohledech výhodnější:
 </Paragraph>
-<Paragraph>
-	Nejsem smluvním zařízením zdravotních pojišťoven, neboť nejsem klinický psycholog a neposkytuji
-	služby v rámci zdravotní péče. Pro Vás to znamená, že nemáte záznam ve zdravotní kartě, na úvodní
-	konzultaci je kratší čekací doba a je zajištěna anonymita.
+<ul class="list-inside list-disc ml-4 text-lg">
+	<li><span class="font-bold">Absence záznamů v lékařské kartě:</span> Informace o průběhu konzultací jsou důvěrné a nejsou přístupné třetím stranám.</li>
+	<li><span class="font-bold">Jednoduchost:</span> Odpadá nutnost vyřizovat žádanky u specialistů.</li>
+	<li><span class="font-bold">Flexibilita:</span> Kratší čekací lhůty na termíny než v klinické praxi</li>
+	<li><span class="font-bold">Efektivita:</span> Finanční spoluúčast klienta je silným motivačním prvkem, který prokazatelně urychluje terapeutický proces.</li>
+</ul>
+<Paragraph italic>
+	Studentům a lidem v tíživé situaci poskytuji po pečlivém zvážení a předchozí domluvě slevu.
 </Paragraph>
-<Paragraph>Pro osoby v tíživé finanční situaci a pro studenty možnost slevy.</Paragraph>
 
-<Heading3>Změna či zrušení termínu</Heading3>
+<h2 class="text-black font-bold text-3xl mt-8 mb-4 leading-[115%]">Podmínky spolupráce a praktické informace</h2>
+<Paragraph>Cesta k efektivní terapeutické i koučovací práci vede přes vzájemnou důvěru a respekt k dohodnutým pravidlům. Tento jasně nastavený rámec nám umožňuje vytvořit bezpečný a profesionální prostor pro naši spolupráci, kterou poskytuji výhradně formou <span class="font-bold">osobního setkání.</span></Paragraph>
 
-<div class="text-lg lg:w-2/3">
-	<table class="table-auto min-w-full text-left lg:whitespace-nowrap">
-		<tbody>
-			<tr>
-				<td class="px-4">Zrušení nebo změna více než 24h předem</td>
-				<td class="align-top">poplatek 0,- Kč</td>
-			</tr>
-			<tr>
-				<td class="px-4">Zrušení nebo změna méně než 24h předem</td>
-				<td class="align-top">poplatek 80% z ceny</td>
-			</tr>
-			<tr>
-				<td class="px-4">Neomluvená absence</td>
-				<td class="align-top">poplatek 100% z ceny</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-<Paragraph>Objednáním a čerpáním služeb se zavazujete k plnění uvedených podmínek.</Paragraph>
+<Heading3>Objednání a první kontakt</Heading3>
+<Paragraph>
+	Nejefektivnějším způsobem pro výběr termínu je <Anchor href="https://reenio.cz/cs/redirect/reservationpage/24992" external cls="underline">on-line rezervační systém</Anchor>, kde získáte okamžitý přehled o aktuálně volných termínech.
+</Paragraph>
 
-<Heading3>Jak platit?</Heading3>
+<ul class="list-inside list-disc ml-4 text-lg">
+	<li><span class="font-bold">Individuální domluva:</span> Pokud v systému nenajdete vyhovující termín, můžete mě kontaktovat e-mailem, SMS zprávou nebo telefonicky.</li>
+	<li><span class="font-bold">Pokud telefon nezvedám:</span> Pravděpodobně se právě věnuji jinému klientovi. Prosím, napište mi SMS nebo e-mail, ozvu se vám zpět, jakmile to bude možné.</li>
+</ul>
+
+<Heading3>První setkání a terapeutický rámec</Heading3>
 <Paragraph>
-	Za úvodní konzultaci nebo koučink je vyžadována platba na účet dva dny předem. Za každou další
-	konzultaci nebo koučink se platí vždy na konci aktuální konzultace nebo koučinku, a to buď hotově
-	nebo prostřednictvím poskytnutého QR kódu. <span class="font-bold"
-		>Do poznámky, prosím, vždy uvádějte Vaše příjmení.</span
-	>
+	Během úvodní konzultace se vzájemně seznámíme a představím vám svůj způsob práce. Společně zmapujeme vaši situaci a stanovíme cíle, kterých chcete dosáhnout. Součástí je i nezbytná administrativa (<Anchor href={gdprImage} external>Souhlas se zpracováním osobních údajů - GDPR</Anchor> a <Anchor href={dohodaImage} external>Dohoda o podmínkách spolupráce</Anchor>). Na základě tohoto setkání zvolíme nejvhodnější formu další péče
 </Paragraph>
+
+<Heading3>Frekvence a délka spolupráce</Heading3>
 <Paragraph>
-	Konzultace lze hradit také z programů Benefit+ a eBenefity. Při úhradě benefity lze využít
-	terminálu nebo on-line platby.
+	Frekvenci setkávání domlouváme individuálně podle vašich potřeb a témat - naše spolupráce může mít formu jednorázové konzultace i dlouhodobého provázení. Nejste vázáni konkrétním počtem sezení a spolupráci lze kdykoliv ukončit, ovšem s vědomím, že pro efektivní proces je důležitá jeho kontinuita. V případě ukončení proto doporučuji věnovat poslední setkání společnému závěrečnému shrnutí a uzavření naší práce.</Paragraph>
+
+
+<Heading3>Platební podmínky</Heading3>
+<Paragraph>
+	Jako neplátce DPH uvádím ceny konečné.
 </Paragraph>
-<div class="flex flex-col gap-10 justify-start items-start md:flex-row mx-8">
+<ul class="list-inside list-disc ml-4 text-lg">
+	<li><span class="font-bold">Standardní úhrada:</span> Konzultace jsou hrazeny <span class="font-bold">předem bankovním převodem</span>. Termín je závazně rezervován po připsání platby na účet (nejpozději 2 pracovní dny před setkáním).</li>
+	<li><span class="font-bold">Dlouhodobá spolupráce:</span> U stálých klientů je po vzájemné dohodě možná platba přímo na místě (hotově nebo přes QR kód).</li>
+	<li><span class="font-bold">Benefity:</span> Přijímám karty Benefit+ a eBenefity. Platbu lze provést on-line objednávkou předem, nebo prostřednictvím on-line platebního systému přímo v poradně. U úvodní konzultace preferuji úhradu předem.</li>
+</ul>
+
+<div class="flex flex-col gap-10 justify-start items-start md:flex-row mx-8 mt-6">
 	<img class="h-8 object-contain max-w-min" src={BenefitPlusLogo} alt="Benefit+ logo" />
 	<img class="bg-slate-700 h-8 object-contain max-w-min" src={EbenefityLogo} alt="eBenefity logo" />
 </div>
+
+<Heading3>Storno podmínky (Změna a zrušení termínu)</Heading3>
 <Paragraph>
-	Pro dlouhodobé klienty možnost platit jednou za určitou dohodnutou dobu prostřednictvím faktury.
+	Váš čas i můj čas jsou cenné. Pokud se na setkání nemůžete dostavit, dejte mi vědět co nejdříve.
 </Paragraph>
-<Paragraph bold>
-	Jako poskytovatel služeb si vyhrazuji právo s nesolidními klienty ukončit spolupráci.
-</Paragraph>
-<Paragraph bold>Všem zodpovědným klientům děkuji za pochopení a zodpovědnost.</Paragraph>
-<Heading3>Frekvence a počet setkání</Heading3>
-<Paragraph>
-	Frekvence setkávání se domlouvá individuálně podle tématu, které chcete řešit, nebo dle Vaší
-	potřeby. Nejčastější počáteční frekvence u poradenství je obvykle 1x za 3-4 týdny. Může to však
-	být častěji a nebo naopak méně často. U koučinku je nejčastěji volená počáteční frekvence
-	setkávání 1x za 14 dní.
-</Paragraph>
-<Paragraph>
-	Poradenství stejně jako koučink může být jednorázovou záležitostí. Všechny typy služeb mohou být
-	nastaveny jako krátkodobé, střednědobé nebo dlouhodobé provázení. Tím, že ke mně přijdete, se
-	nezavazujete k počtu ani konkrétní frekvenci setkání. Vždy záleží na Vaší potřebě. Můžete
-	absolvovat tolik setkání, kolik Vám bude připadat prospěšných.
-</Paragraph>
-<Heading3>Objednání</Heading3>
-<Paragraph
-	>Objednat se lze telefonicky, SMS zprávou, e-mailem nebo prostřednictvím <Anchor href="kontakt"
-		>kontaktního formuláře</Anchor
-	>. V případě úhrady prostřednictvím benefitních služeb je potřeba se předem domluvit na termínu.</Paragraph
->
-<Paragraph>
-	Při kontaktování prostřednictvím SMS zprávy nebo e-mailu uveďte pro rychlejší domluvu do poptávky
-	preferovaný den v týdnu a také preferovanou denní dobu (dopoledne/odpoledne). V co nejkratší možné
-	době se Vám ozvu zpět s nabídkou termínů. Až si je potvrdíme, zašlu také platební údaje.
-</Paragraph>
-<Paragraph>
-	Pokud telefon nebudu zvedat, pravděpodobně se věnuji klientovi. Prosím, zavolejte znovu později.
-</Paragraph>
-<Heading3>První setkání</Heading3>
-<Paragraph
-	>Během prvního setkání si stanovíme podmínky spolupráce, seznámím Vás s tím, kdo jsem, jak pracuji
-	a také dostanete k podpisu <Anchor href={GDPRImg} external
-		>Souhlas se zpracováním osobních údajů (GDPR)</Anchor
-	>. Následně bude prostor pro Váš příběh, pro stanovení cílů spolupráce a vybrání nejvhodnější
-	služby.</Paragraph
->
+<ul class="list-inside list-disc ml-4 text-lg">
+	<li><span class="font-bold">Více než 24 hodin předem:</span> Zrušení či změna termínu je zdarma (platba bude převedena na další termín nebo vrácena).</li>
+	<li><span class="font-bold">Méně než 24 hodin předem:</span> Účtuji storno poplatek ve výši <span class="font-bold">80 %</span> z ceny konzultace.</li>
+	<li><span class="font-bold">Neomluvená absence:</span> Uhrazená částka propadá v plné výši (<span class="font-bold">100 %</span>) na pokrytí nákladů na rezervovaný čas.</li>
+	<li><span class="font-bold">Pozdní příchod:</span> Čas sezení nelze z organizačních důvodů prodloužit, cena však zůstává v plné výši.</li>
+	<li><span class="font-bold">Vzájemná férovost:</span> Pokud zruším termín méně než 24 hodin předem nebo se na setkání dostavím se zpožděním, poskytnu vám na příští konzultaci <span class="font-bold">slevu ve výši 40 %</span>.</li>
+</ul>
+
+<Heading3>Etika, důvěrnost a hranice</Heading3>
+<ul class="list-inside list-disc ml-4 text-lg">
+	<li><span class="font-bold">Kvalita a etika:</span> Pracuji pod pravidelnou odbornou supervizí a řídím se etickými kodexy odborných organizací (ČMPS, AIK, ACT+ a ČSAP).</li>
+	<li><span class="font-bold">Mlčenlivost:</span> Veškeré informace sdílené v rámci konzultací jsou přísně důvěrné (s výjimkou zákonné ohlašovací povinnosti).</li>
+	<li><span class="font-bold">Komunikace:</span> SMS a e-maily využíváme výhradně k organizačním účelům (termíny, platby). Obsahová práce probíhá pouze při osobním setkání.</li>
+	<li><span class="font-bold">Krizová pomoc:</span> Neposkytuji nonstop krizovou intervenci. V případě akutní nouze se prosím obraťte na <Anchor href="akutni-problemy">linky důvěry nebo krizová centra</Anchor>.</li>
+</ul>
