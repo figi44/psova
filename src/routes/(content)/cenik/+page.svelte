@@ -1,9 +1,9 @@
 <script lang="ts">
 	import { Anchor, Heading3, Paragraph } from '$lib';
-	import gdprImage from '$lib/assets/gdpr.pdf';
-	import dohodaImage from '$lib/assets/dohoda.pdf';
 	import BenefitPlusLogo from '$lib/assets/benefit-plus-logo.png';
+	import dohodaImage from '$lib/assets/dohoda.pdf';
 	import EbenefityLogo from '$lib/assets/ebenefity-logo.png';
+	import gdprImage from '$lib/assets/gdpr.pdf';
 	import { titleStore } from '../store';
 
 	let services = [
@@ -159,7 +159,7 @@
 
 <Heading3>Storno podmínky (Změna a zrušení termínu)</Heading3>
 <Paragraph>
-	Váš čas i můj čas jsou cenné. Pokud se na setkání nemůžete dostavit, dejte mi vědět co nejdříve.
+	Váš čas i můj čas je cenný. Pokud se na setkání nemůžete dostavit, dejte mi vědět co nejdříve.
 </Paragraph>
 <ul class="list-inside list-disc ml-4 text-lg">
 	<li>
