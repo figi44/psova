@@ -15,6 +15,7 @@
 	import JREKImg from '$lib/assets/JREK.pdf';
 	import koucImg from '$lib/assets/kouc.png';
 	import relaxaceImg from '$lib/assets/relaxace.png';
+	import SandplayImg from '$lib/assets/sandplay.pdf';
 	import TransgenImg from '$lib/assets/transgen-vzorce.pdf';
 	import traumapristupImg from '$lib/assets/trauma_respektujici_pristup_SOFA.pdf';
 	import dementiaImg from '$lib/assets/Understanding_Dementia_2023_11_Certificate_Kristyna_Sznapkova.pdf';
@@ -112,7 +113,10 @@
 		</tr>
 		<tr>
 			<td class="align-top font-bold">01/2026</td>
-			<td> Dvoudenní kurz Sandplay (Mgr. Alžběta Michalčíková; 15 hodin) </td>
+			<td
+				><Anchor href={SandplayImg} external>Dvoudenní kurz Sandplay</Anchor> (Mgr. Alžběta Michalčíková;
+				16 hodin)
+			</td>
 		</tr>
 		<tr>
 			<td class="align-top font-bold">04/2025</td>
