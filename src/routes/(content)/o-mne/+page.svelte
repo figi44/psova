@@ -204,12 +204,12 @@
 			<td>ZŠ J. Šoupala 1609, Ostrava-Poruba – Školní psycholog (poloviční úvazek)</td>
 		</tr>
 		<tr>
-			<td class="align-top font-bold">03/2025–nyní</td>
-			<td>Nakladatelství Forum (skoleninaklic.cz) – Externí lektor</td>
-		</tr>
-		<tr>
 			<td class="align-top font-bold">11/2024–nyní</td>
 			<td>Statutární město Ostrava – Terénní psycholog projektu sociálního bydlení (DPP)</td>
+		</tr>
+		<tr>
+			<td class="align-top font-bold">03/2025–12/2025</td>
+			<td>Nakladatelství Forum (skoleninaklic.cz) – Externí lektor</td>
 		</tr>
 		<tr>
 			<td class="align-top font-bold">08/2024–05/2025</td>
