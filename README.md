@@ -1,1 +1,1 @@
-# kristyna-website
+# Psova.cz
