@@ -14,6 +14,7 @@
 	import FairytaleImg from '$lib/assets/fairytale-therapy.pdf';
 	import JREKImg from '$lib/assets/JREK.pdf';
 	import koucImg from '$lib/assets/kouc.png';
+	import pvzImg from '$lib/assets/PvZ.pdf';
 	import relaxaceImg from '$lib/assets/relaxace.png';
 	import SandplayImg from '$lib/assets/sandplay.pdf';
 	import TransgenImg from '$lib/assets/transgen-vzorce.pdf';
@@ -99,18 +100,17 @@
 <table class="text-lg border-separate border-spacing-2 lg:border-spacing-4">
 	<tbody>
 		<tr>
-			<td class="align-top font-bold">10/2025-nyní</td>
-			<td> Psycholog ve zdravotnictví (Ambulance klinické psychologie Ostrava) </td>
-		</tr>
-		<tr>
 			<td class="align-top font-bold">09/2025-nyní</td>
 			<td
 				>Frekventantka výcviku v analytické psychoterapii vedený <Anchor
 					href="https://www.csap-cz.eu/o-csap"
 					external>ČSAP</Anchor
-				></td
-			>
-		</tr>
+				></td>
+			</tr>
+			<tr>
+				<td class="align-top font-bold">03/2026</td>
+				<td> <Anchor href={pvzImg} external>Psycholog ve zdravotnictví</Anchor> (Ambulance klinické psychologie Ostrava) </td>
+			</tr>
 		<tr>
 			<td class="align-top font-bold">01/2026</td>
 			<td
@@ -200,11 +200,15 @@
 <table class="text-lg border-separate border-spacing-2 lg:border-spacing-4">
 	<tbody>
 		<tr>
+			<td class="align-top font-bold">04/2026–nyní</td>
+			<td>FNO, Rehabilitační ústav Chuchelná - Psycholog ve zdravotnictví</td>
+		</tr>
+		<tr>
 			<td class="align-top font-bold">09/2025–nyní</td>
 			<td>ZŠ J. Šoupala 1609, Ostrava-Poruba – Školní psycholog (poloviční úvazek)</td>
 		</tr>
 		<tr>
-			<td class="align-top font-bold">11/2024–nyní</td>
+			<td class="align-top font-bold">11/2024–03/2026</td>
 			<td>Statutární město Ostrava – Terénní psycholog projektu sociálního bydlení (DPP)</td>
 		</tr>
 		<tr>
