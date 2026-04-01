@@ -105,12 +105,16 @@
 				>Frekventantka výcviku v analytické psychoterapii vedený <Anchor
 					href="https://www.csap-cz.eu/o-csap"
 					external>ČSAP</Anchor
-				></td>
-			</tr>
-			<tr>
-				<td class="align-top font-bold">03/2026</td>
-				<td> <Anchor href={pvzImg} external>Psycholog ve zdravotnictví</Anchor> (Ambulance klinické psychologie Ostrava) </td>
-			</tr>
+				></td
+			>
+		</tr>
+		<tr>
+			<td class="align-top font-bold">03/2026</td>
+			<td>
+				<Anchor href={pvzImg} external>Psycholog ve zdravotnictví</Anchor> (Ambulance klinické psychologie
+				Ostrava)
+			</td>
+		</tr>
 		<tr>
 			<td class="align-top font-bold">01/2026</td>
 			<td
