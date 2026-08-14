@@ -34,7 +34,7 @@
 <Hero
 	title="Mgr. Kristýna Sznapková"
 	subtitle="S pokorou pomáhám rozvíjet lidskou duši."
-	description="Psychologické poradenství, psychoterapie a koučink pro dospělé v bezpečném prostoru."
+	description="Psychologické poradenství, psychoterapie a koučink pro dospělé"
 	buttonTitle="Objednejte se"
 	imgPath={PortraitImage}
 />
