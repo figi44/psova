@@ -2,32 +2,29 @@
 	import { CardContainer, Heading2, Hero, TextLink } from '$lib';
 
 	import PortraitImage from '$lib/assets/portrait1.png';
+	import type { CardData } from '$lib/types';
 
-	let cards = [
+	const cards: CardData[] = [
 		{
 			title: 'Psychologické poradenství',
-			text: 'Prozkoumejte hlubiny své mysli a objevte nové perspektivy prostřednictvím psychologického poradenství, které vám pomůže porozumět sobě samým a nastoupit na cestu řešení problémů a seberozvoje.',
-			linkText: '',
-			linkHref: `poradenstvi`
-		},
-		{
-			title: 'ACT terapie',
-			text: 'Objevte sílu přijetí a odhodlání skrze terapii založenou na principu ACT, která vám pomůže překonat překážky a žít hodnotnější a smysluplnější život.',
-			linkText: '',
-			linkHref: `act-terapie`
+			linkHref: `poradenstvi`,
+			icon: 'conversation'
 		},
 		{
 			title: 'Hlubinně orientovaná psychoterapie',
-			text: 'TBA',
-			linkText: '',
-			linkHref: `hlubinna-psychoterapie`
+			linkHref: `hlubinna-psychoterapie`,
+			icon: 'depth'
+		},
+		{
+			title: 'ACT terapie',
+			linkHref: `act-terapie`,
+			icon: 'compass'
 		},
 		{
 			title: 'Koučink',
-			text: 'Získejte podporu a povzbuzení k dosažení svých cílů skrze koučink, který kombinuje empatické naslouchání, motivování a neexpertní přístup k dosažení vašeho plného potenciálu.',
-			linkText: '',
-			linkHref: `koucink`
-		},
+			linkHref: `koucink`,
+			icon: 'growth'
+		}
 	];
 </script>
 

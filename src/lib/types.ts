@@ -1,6 +1,7 @@
+export type ServiceIcon = 'conversation' | 'compass' | 'depth' | 'growth';
+
 export type CardData = {
 	title: string;
-	text: string;
-	linkText: string;
 	linkHref: string;
+	icon: ServiceIcon;
 };
