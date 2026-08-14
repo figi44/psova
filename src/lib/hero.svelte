@@ -3,25 +3,36 @@
 
 	export let title: string;
 	export let subtitle: string;
+	export let description: string;
 	export let buttonTitle: string;
 	export let imgPath: string;
 </script>
 
 <section
-	class="flex w-full flex-col-reverse items-center justify-between pb-20 pt-16 xl:flex-row xl:pb-24 xl:pt-24"
+	class="relative flex min-h-[610px] w-full flex-col items-center justify-center overflow-hidden py-14 text-center md:py-20"
+	aria-labelledby="hero-heading"
 >
-	<div class="mt-14 flex flex-col items-center xl:mt-0 xl:w-3/5 xl:items-start">
+	<div
+		class="absolute left-1/2 top-1/2 h-[460px] w-[460px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-white/10 blur-3xl"
+		aria-hidden="true"
+	/>
+
+	<div class="relative z-10 flex max-w-4xl flex-col items-center">
+		<img
+			src={imgPath}
+			alt="Portrét psycholožky Kristýny Sznapkové"
+			class="mb-7 h-28 w-28 rounded-full border-4 border-white/70 shadow-xl md:h-32 md:w-32"
+		/>
+		<p class="text-sm font-bold uppercase tracking-[0.2em] text-white/75">{title}</p>
 		<h1
-			class="text-center text-[42px] font-bold leading-[1.1] text-white md:text-[56px] xl:text-left"
+			id="hero-heading"
+			class="mt-6 text-[42px] font-bold leading-[1.08] text-white sm:text-[58px] xl:text-[68px]"
 		>
-			{title}
+			{subtitle}
 		</h1>
-		<p class="mb-10 mt-3 text-center text-lg text-white md:text-2xl xl:text-left">{subtitle}</p>
+		<p class="mb-9 mt-7 max-w-2xl text-lg leading-relaxed text-white/80 md:text-xl">
+			{description}
+		</p>
 		<CTAButton title={buttonTitle} />
 	</div>
-	<img
-		src={imgPath}
-		alt="Portrét psycholožky Kristýny Sznapkové"
-		class="w-[min(78vw,380px)] rounded-full xl:w-2/5"
-	/>
 </section>

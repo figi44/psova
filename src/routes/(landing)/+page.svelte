@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { CardContainer, Heading2, Hero, TextLink } from '$lib';
-
 	import PortraitImage from '$lib/assets/portrait1.png';
 	import type { CardData } from '$lib/types';
 
@@ -35,12 +34,23 @@
 <Hero
 	title="Mgr. Kristýna Sznapková"
 	subtitle="S pokorou pomáhám rozvíjet lidskou duši."
+	description="Psychologické poradenství, psychoterapie a koučink pro dospělé v bezpečném prostoru."
 	buttonTitle="Objednejte se"
 	imgPath={PortraitImage}
 />
 
+<div class="relative flex h-28 w-full items-center justify-center" aria-hidden="true">
+	<div
+		class="absolute inset-x-[8%] h-20 bg-[radial-gradient(ellipse_at_center,rgba(255,255,255,0.18),transparent_68%)]"
+	/>
+	<div class="h-px w-full bg-gradient-to-r from-transparent via-white/70 to-transparent" />
+	<div
+		class="absolute h-4 w-4 rounded-full border border-white/80 bg-xdarkgray shadow-[0_0_0_8px_rgba(255,255,255,0.10)]"
+	/>
+</div>
+
 <section
-	class="mt-16 w-full rounded-[30px] bg-white px-6 py-8 md:px-10"
+	class="mt-4 w-full rounded-[30px] bg-white px-6 py-8 md:px-10"
 	aria-labelledby="about-heading"
 >
 	<div id="about-heading"><Heading2>Kdo jsem?</Heading2></div>
