@@ -128,7 +128,7 @@
 					{#if desktopServicesOpen}
 						<div
 							id="desktop-services-menu"
-							class="absolute left-0 top-full w-[300px] pt-5"
+							class="absolute left-0 top-full w-[300px]"
 							transition:fly={{ y: -6, duration: 160 }}
 						>
 							<div
