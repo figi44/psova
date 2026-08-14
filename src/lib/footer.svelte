@@ -8,7 +8,13 @@
 
 <hr class="mt-32 border-0 border-t border-xlavender md:mt-40 xl:-mx-16" />
 <div class="grid lg:grid-cols-3 justify-items-center mt-8 gap-20 lg:gap-0">
-	<img src={LogoImg} alt="Logo" class="lg:place-self-start h-[120px]" />
+	<img
+		src={LogoImg}
+		alt="PSOVA"
+		loading="lazy"
+		decoding="async"
+		class="lg:place-self-start h-[120px]"
+	/>
 	<div class="self-center">
 		<CTAButton title="Objednejte se" />
 	</div>

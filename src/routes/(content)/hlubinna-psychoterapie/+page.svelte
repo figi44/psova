@@ -1,8 +1,6 @@
 <script>
 	import { List, Paragraph, ServiceCTA } from '$lib';
-	import { titleStore } from '../store';
 	import Illustraion from '$lib/assets/psychohygiena.png';
-	titleStore.set('Hlubinně orientovaná psychoterapie');
 </script>
 
 <Paragraph>TBA</Paragraph>
@@ -22,6 +20,10 @@
 		<img
 			src={Illustraion}
 			alt="Ilustrace hlubinně orientované psychoterapie"
+			width="1080"
+			height="1080"
+			loading="lazy"
+			decoding="async"
 			class="object-contain mx-auto"
 		/>
 	</div>

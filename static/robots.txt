@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://psova.cz/sitemap.xml

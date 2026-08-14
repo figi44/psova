@@ -33,6 +33,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"svelte-dnd-action": "^0.9.55"
+		"svelte-dnd-action": "^0.9.78"
 	}
 }

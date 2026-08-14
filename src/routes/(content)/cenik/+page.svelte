@@ -4,7 +4,6 @@
 	import dohodaImage from '$lib/assets/dohoda.pdf';
 	import EbenefityLogo from '$lib/assets/ebenefity-logo.png';
 	import gdprImage from '$lib/assets/gdpr.pdf';
-	import { titleStore } from '../store';
 
 	const services = [
 		{
@@ -33,8 +32,6 @@
 			price: '800 Kč'
 		}
 	];
-
-	titleStore.set('Ceník');
 </script>
 
 <div class="grid gap-4 md:hidden">
@@ -177,8 +174,24 @@
 </ul>
 
 <div class="flex flex-col gap-10 justify-start items-start md:flex-row mx-8 mt-6">
-	<img class="h-8 object-contain max-w-min" src={BenefitPlusLogo} alt="Benefit+ logo" />
-	<img class="bg-slate-700 h-8 object-contain max-w-min" src={EbenefityLogo} alt="eBenefity logo" />
+	<img
+		class="h-8 object-contain max-w-min"
+		src={BenefitPlusLogo}
+		alt="Benefit+ logo"
+		width="2492"
+		height="737"
+		loading="lazy"
+		decoding="async"
+	/>
+	<img
+		class="bg-slate-700 h-8 object-contain max-w-min"
+		src={EbenefityLogo}
+		alt="eBenefity logo"
+		width="219"
+		height="48"
+		loading="lazy"
+		decoding="async"
+	/>
 </div>
 
 <Heading3>Storno podmínky (Změna a zrušení termínu)</Heading3>

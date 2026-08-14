@@ -6,8 +6,6 @@
 	import type { Card, Column, ColumnDefinition } from '$lib/types/values';
 	import { onMount } from 'svelte';
 	import { dndzone } from 'svelte-dnd-action';
-	import { titleStore } from '../store';
-	titleStore.set('Hodnoty');
 
 	const columnDefinitions: ColumnDefinition[] = [
 		{
@@ -310,7 +308,15 @@
 		Volně k užívání všem ACT terapeutům. Kdybyste chtěli podpořit mou aktivitu a pozvat mě na kafe,
 		můžete tak učinit prostřednictvím QR kódu. Posílám vděčné děkuji.
 	</Paragraph>
-	<img src={QrCode} alt="QR kód" class="w-32" />
+	<img
+		src={QrCode}
+		alt="QR kód"
+		width="588"
+		height="588"
+		loading="lazy"
+		decoding="async"
+		class="w-32"
+	/>
 </div>
 
 <ConfirmModal

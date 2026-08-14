@@ -21,6 +21,8 @@
 		<img
 			src={imgPath}
 			alt="Portrét psycholožky Kristýny Sznapkové"
+			width="455"
+			height="455"
 			class="mb-7 h-28 w-28 rounded-full border-4 border-white/70 shadow-xl md:h-32 md:w-32"
 		/>
 		<p class="text-sm font-bold uppercase tracking-[0.2em] text-white/75">{title}</p>

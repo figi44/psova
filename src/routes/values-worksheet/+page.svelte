@@ -18,6 +18,11 @@
 	});
 </script>
 
+<svelte:head>
+	<title>Hodnoty – pracovní list | PSOVA</title>
+	<meta name="robots" content="noindex" />
+</svelte:head>
+
 <div class="values-worksheet p-8 max-w-3xl mx-auto">
 	<div class="flex items-center gap-4 mb-8">
 		<div class="icon-container w-20 h-20 flex-shrink-0">

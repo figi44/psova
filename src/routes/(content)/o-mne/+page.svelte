@@ -4,9 +4,9 @@
 	import groupIcon from '$lib/assets/group.svg';
 	import IDCardIcon from '$lib/assets/id-card-icon.svg';
 	import whiteboardIcon from '$lib/assets/whiteboard.svg';
-	import { titleStore } from '../store';
 
-	import ACBSLogo from '$lib/assets/acbs-logo.png';
+	import AKPLogo from '$lib/assets/akplogo.png';
+	import CSAPLogo from '$lib/assets/csaplogo.png';
 	import ACTImg from '$lib/assets/act-cert.pdf';
 	import acterasmusImg from '$lib/assets/ACT_Erasmus.png';
 	import AIKLogo from '$lib/assets/aik.png';
@@ -21,8 +21,6 @@
 	import traumapristupImg from '$lib/assets/trauma_respektujici_pristup_SOFA.pdf';
 	import dementiaImg from '$lib/assets/Understanding_Dementia_2023_11_Certificate_Kristyna_Sznapkova.pdf';
 	import yinyogaImg from '$lib/assets/yin_yoga.png';
-
-	titleStore.set('O mně');
 </script>
 
 <Paragraph>
@@ -70,26 +68,57 @@
 		Členství
 	</div>
 </Heading3>
-<div class="flex gap-4 items-center justify-center">
-	<Anchor href="https://www.cmpsy.cz/?page=adresar&id=1159&action=detail" external cls="">
+<div class="grid grid-cols-2 gap-6 sm:gap-8 lg:grid-cols-4">
+	<Anchor
+		href="https://www.cmpsy.cz/?page=adresar&id=1159&action=detail"
+		external
+		cls="flex h-36 items-center justify-center"
+	>
 		<img
 			src={CMPSYLogo}
 			alt="Českomoravská psychologická společnost"
-			class="object-contain w-full h-full"
+			width="172"
+			height="172"
+			loading="lazy"
+			decoding="async"
+			class="h-28 w-full max-w-[220px] object-contain"
 		/>
 	</Anchor>
-	<Anchor href="https://www.asociacekoucu.com/profily-koucu/" external cls="">
+	<Anchor
+		href="https://www.asociacekoucu.com/profily-koucu/"
+		external
+		cls="flex h-36 items-center justify-center"
+	>
 		<img
 			src={AIKLogo}
 			alt="Asociace integrativních koučů"
-			class="object-contain w-3/4 h-3/4 mx-auto"
+			width="225"
+			height="225"
+			loading="lazy"
+			decoding="async"
+			class="h-28 w-full max-w-[220px] object-contain"
 		/>
 	</Anchor>
-	<Anchor href="https://contextualscience.org/" external cls="">
+	<Anchor href="https://www.akpcr.cz/" external cls="flex h-36 items-center justify-center">
 		<img
-			src={ACBSLogo}
-			alt="Association for Contextual Behavioral Science"
-			class="object-contain w-1/3 h-1/3"
+			src={AKPLogo}
+			alt="Asociace klinických psychologů ČR"
+			width="854"
+			height="625"
+			loading="lazy"
+			decoding="async"
+			class="h-28 w-full max-w-[220px] object-contain"
+		/>
+	</Anchor>
+	<Anchor href="https://www.csap-cz.eu/" external cls="flex h-36 items-center justify-center">
+		<img
+			src={CSAPLogo}
+			alt="Česká společnost pro analytickou psychologii"
+			width="420"
+			height="420"
+			loading="lazy"
+			decoding="async"
+			class="h-28 w-full max-w-[220px] object-contain"
 		/>
 	</Anchor>
 </div>

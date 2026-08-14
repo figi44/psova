@@ -1,8 +1,6 @@
 <script>
 	import { List, Paragraph, ServiceCTA } from '$lib';
-	import { titleStore } from '../store';
 	import Illustraion from '$lib/assets/skupiny.png';
-	titleStore.set('ACT Terapie');
 </script>
 
 <Paragraph>
@@ -29,7 +27,15 @@
 		</List>
 	</div>
 	<div class="w-1/2 self-center xl:w-1/3">
-		<img src={Illustraion} alt="Ilustrace ACT terapie" class="object-contain mx-auto" />
+		<img
+			src={Illustraion}
+			alt="Ilustrace ACT terapie"
+			width="1080"
+			height="1080"
+			loading="lazy"
+			decoding="async"
+			class="object-contain mx-auto"
+		/>
 	</div>
 </div>
 

@@ -1,8 +1,6 @@
 <script>
 	import { List, Paragraph, ServiceCTA } from '$lib';
 	import PoradenstviImg from '$lib/assets/poradenstvi.jpg';
-	import { titleStore } from '../store';
-	titleStore.set('Psychologické poradenství');
 </script>
 
 <Paragraph>
@@ -34,6 +32,10 @@
 		<img
 			src={PoradenstviImg}
 			alt="Ilustrace psychologického poradenství"
+			width="946"
+			height="784"
+			loading="lazy"
+			decoding="async"
 			class="object-contain mx-auto"
 		/>
 	</div>

@@ -2,8 +2,6 @@
 	import { Anchor } from '$lib';
 	import OfficeImage from '$lib/assets/office1.jpg';
 	import OfficeImage2 from '$lib/assets/office2.jpg';
-	import { titleStore } from '../store';
-	titleStore.set('Kontakt');
 
 	let disabled = false;
 	let errorMessage = '';
@@ -53,8 +51,7 @@
 	>
 		<h2 class="mb-2 text-2xl font-bold">Napište mi</h2>
 		<p class="mb-6 text-sm leading-relaxed text-xdarkgray">
-			Do zprávy prosím neuvádějte citlivé údaje. K jejich bezpečnému probrání slouží osobní
-			setkání.
+			Do zprávy prosím neuvádějte citlivé údaje. K jejich bezpečnému probrání slouží osobní setkání.
 		</p>
 
 		<label for="name" class="after:ml-1 after:text-xpink after:content-['*']">Jméno</label>
@@ -232,12 +229,24 @@
 		<h2 class="mb-3 text-center text-xl font-bold leading-[1.15] lg:text-left">
 			Jak to u mně vypadá?
 		</h2>
-		<img class="rounded-xl shadow-2xl" src={OfficeImage} alt="Interiér psychologické poradny" />
+		<img
+			class="rounded-xl shadow-2xl"
+			src={OfficeImage}
+			alt="Interiér psychologické poradny"
+			width="1280"
+			height="960"
+			loading="lazy"
+			decoding="async"
+		/>
 	</div>
 	<img
 		class="self-end rounded-xl shadow-2xl"
 		src={OfficeImage2}
 		alt="Posezení v psychologické poradně"
+		width="1280"
+		height="960"
+		loading="lazy"
+		decoding="async"
 	/>
 </div>
 

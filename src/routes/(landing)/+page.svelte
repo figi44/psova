@@ -1,6 +1,7 @@
 <script lang="ts">
-	import { CardContainer, Heading2, Hero, TextLink } from '$lib';
+	import { CardContainer, Heading2, Hero, StructuredData, TextLink } from '$lib';
 	import PortraitImage from '$lib/assets/portrait1.png';
+	import { homeStructuredData } from '$lib/seo';
 	import type { CardData } from '$lib/types';
 
 	const cards: CardData[] = [
@@ -29,7 +30,10 @@
 
 <svelte:head>
 	<title>PSOVA - Psychologické poradenství, terapie a koučink Ostrava</title>
+	<link rel="preload" as="image" href={PortraitImage} type="image/png" />
 </svelte:head>
+
+<StructuredData data={homeStructuredData} />
 
 <Hero
 	title="Mgr. Kristýna Sznapková"

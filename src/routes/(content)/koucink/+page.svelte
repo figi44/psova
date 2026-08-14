@@ -1,8 +1,6 @@
 <script>
 	import { List, Paragraph, ServiceCTA } from '$lib';
 	import KoucinkImg from '$lib/assets/koucink.png';
-	import { titleStore } from '../store';
-	titleStore.set('Koučink');
 </script>
 
 <Paragraph>
@@ -32,7 +30,15 @@
 		</List>
 	</div>
 	<div class="w-1/2 self-center xl:w-1/3">
-		<img src={KoucinkImg} alt="Ilustrace koučinku" class="object-contain mx-auto" />
+		<img
+			src={KoucinkImg}
+			alt="Ilustrace koučinku"
+			width="1080"
+			height="1080"
+			loading="lazy"
+			decoding="async"
+			class="object-contain mx-auto"
+		/>
 	</div>
 </div>
 

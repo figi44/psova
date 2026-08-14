@@ -1,16 +1,54 @@
 <script lang="ts">
-	import { Footer, NavBar } from '$lib';
-	import { titleStore } from './store';
+	import { page } from '$app/stores';
+	import { Footer, NavBar, StructuredData } from '$lib';
+	import { contentStructuredData } from '$lib/seo';
 
-	let title: string;
-	titleStore.subscribe((value) => {
-		title = value;
-	});
+	const pageMetadata: Record<string, { heading: string; title: string }> = {
+		'act-terapie': {
+			heading: 'ACT terapie',
+			title: 'ACT terapie Ostrava | PSOVA'
+		},
+		cenik: {
+			heading: 'Ceník',
+			title: 'Ceník a podmínky spolupráce | PSOVA'
+		},
+		'hlubinna-psychoterapie': {
+			heading: 'Hlubinně orientovaná psychoterapie',
+			title: 'Hlubinně orientovaná psychoterapie | PSOVA'
+		},
+		hodnoty: {
+			heading: 'Hodnoty',
+			title: 'Hodnoty | PSOVA'
+		},
+		kontakt: {
+			heading: 'Kontakt',
+			title: 'Kontakt a psychologická poradna Ostrava | PSOVA'
+		},
+		koucink: {
+			heading: 'Koučink',
+			title: 'Koučink Ostrava | PSOVA'
+		},
+		'o-mne': {
+			heading: 'O mně',
+			title: 'Mgr. Kristýna Sznapková – psycholožka Ostrava | PSOVA'
+		},
+		poradenstvi: {
+			heading: 'Psychologické poradenství',
+			title: 'Psychologické poradenství Ostrava | PSOVA'
+		}
+	};
+	const fallbackMetadata = { heading: 'PSOVA', title: 'PSOVA' };
+
+	$: routeName = $page.url.pathname.split('/').filter(Boolean).at(-1) ?? '';
+	$: metadata = pageMetadata[routeName] ?? fallbackMetadata;
+	$: structuredData = contentStructuredData(routeName, metadata.heading);
 </script>
 
 <svelte:head>
-	<title>{title} - PSOVA</title>
+	<title>{metadata.title}</title>
 </svelte:head>
+
+<StructuredData data={structuredData} />
 
 <NavBar initialBg="bg-xlavender" />
 <header class="bg-xlavender">
@@ -18,7 +56,7 @@
 		<h1
 			class="py-10 text-center text-[40px] font-bold leading-[1.1] text-white md:py-12 md:text-[56px]"
 		>
-			{title}
+			{metadata.heading}
 		</h1>
 	</div>
 </header>
