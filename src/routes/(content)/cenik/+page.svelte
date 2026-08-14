@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Anchor, CTAButton, Heading3, Paragraph } from '$lib';
+	import { Accordion, Anchor, CTAButton, Heading3, Paragraph } from '$lib';
 	import BenefitPlusLogo from '$lib/assets/benefit-plus-logo.png';
 	import dohodaImage from '$lib/assets/dohoda.pdf';
 	import EbenefityLogo from '$lib/assets/ebenefity-logo.png';
@@ -235,3 +235,25 @@
 		>.
 	</li>
 </ul>
+
+<section class="mt-20" aria-labelledby="faq-heading">
+	<h2 id="faq-heading" class="mb-6 text-3xl font-bold leading-[1.15]">Časté dotazy</h2>
+
+	<Accordion title="Berete i děti?" topHr>Ne, pracuji pouze s dospělými.</Accordion>
+	<Accordion title="Spolupracujete s pojišťovnami?">
+		Nejsem smluvním zařízením zdravotních pojišťoven, neboť nejsem klinický psycholog a neposkytuji
+		služby v rámci zdravotní péče. Nemáte záznam ve Vaší zdravotní dokumentaci a informace o Vás
+		neposkytuji žádným dalším osobám ani institucím.
+	</Accordion>
+	<Accordion title="Jak zajišťujete kvalitu poskytovaných služeb?">
+		Stále se vzdělávám formou výcviků, kurzů a workshopů. Pracuji pod pravidelnou supervizí
+		(individuální i skupinovou). Jsem v sebezkušenostní analýze.
+	</Accordion>
+	<Accordion title="Dáte mi razítko na propustku z práce?">
+		Ano, dám. Ale musíte si ji přinést.
+	</Accordion>
+
+	<div class="mt-10 flex justify-center text-center">
+		<Heading3>Máte další dotaz? <Anchor href="kontakt">Kontaktujte mne!</Anchor></Heading3>
+	</div>
+</section>

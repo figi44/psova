@@ -8,7 +8,6 @@
 	const navigationItems = [
 		{ title: 'o mně', href: 'o-mne' },
 		{ title: 'ceník', href: 'cenik' },
-		{ title: 'faq', href: 'faq' },
 		{ title: 'kontakt', href: 'kontakt' }
 	];
 	const serviceLinks = [
