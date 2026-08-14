@@ -53,7 +53,7 @@
 	>
 		<h2 class="mb-2 text-2xl font-bold">Napište mi</h2>
 		<p class="mb-6 text-sm leading-relaxed text-xdarkgray">
-			Ozvu se vám co nejdříve. Do zprávy prosím neposílejte citlivé podrobnosti — k jejich
+			Do zprávy prosím neposílejte citlivé údaje. K jejich
 			bezpečnému probrání slouží osobní setkání.
 		</p>
 
