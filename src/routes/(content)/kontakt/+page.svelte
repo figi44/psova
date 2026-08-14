@@ -46,15 +46,15 @@
 	}
 </script>
 
-<div class="grid lg:grid-cols-2 justify-items-center lg:justify-between gap-x-32 gap-y-20 mx-auto">
+<div class="mx-auto grid justify-items-center gap-x-10 gap-y-20 lg:grid-cols-2 lg:items-start">
 	<form
 		class="w-full max-w-[500px] rounded-[30px] bg-xlavender/10 p-6 md:p-8"
 		on:submit|preventDefault={handleSubmit}
 	>
 		<h2 class="mb-2 text-2xl font-bold">Napište mi</h2>
 		<p class="mb-6 text-sm leading-relaxed text-xdarkgray">
-			Do zprávy prosím neposílejte citlivé údaje. K jejich
-			bezpečnému probrání slouží osobní setkání.
+			Do zprávy prosím neposílejte citlivé údaje. K jejich bezpečnému probrání slouží osobní
+			setkání.
 		</p>
 
 		<label for="name" class="after:ml-1 after:text-xpink after:content-['*']">Jméno</label>
@@ -68,7 +68,7 @@
 
 		<label for="msg" class="after:ml-1 after:text-xpink after:content-['*']">Zpráva</label>
 		<textarea id="msg" name="body" class="h-40 resize-y" {disabled} required />
-		<div class="flex items-start justify-between gap-4">
+		<div class="mt-3 flex items-center justify-between gap-4">
 			<p aria-live="polite" class="min-h-6 font-bold {okMessage ? 'text-xdarkgray' : 'text-xpink'}">
 				{okMessage || errorMessage}
 			</p>
@@ -87,19 +87,17 @@
 				<button
 					type="submit"
 					{disabled}
-					class="py-0.5 px-3 rounded-xl text-white font-bold bg-xpink border-xpink border-2
-				 hover:border-black hover:text-black transition-all ease-in disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200
-						   "
+					class="rounded-[30px] border-2 border-xpink bg-xpink px-5 py-1.5 font-bold text-white transition-all ease-in hover:border-black hover:text-black disabled:border-slate-200 disabled:bg-slate-50 disabled:text-slate-500"
 				>
 					{loading ? 'Odesílám…' : 'Odeslat'}
 				</button>
 			</div>
 		</div>
 	</form>
-	<div class="lg:justify-self-start flex flex-col justify-start gap-4">
-		<h2 class="mb-3 text-center text-xl font-bold leading-[1.15] lg:text-left">
-			Mgr. Kristýna Sznapková
-		</h2>
+	<div
+		class="contact-details flex w-full max-w-[500px] flex-col justify-start gap-4 p-6 md:p-8 lg:justify-self-start"
+	>
+		<h2 class="mb-2 text-2xl font-bold leading-[1.15]">Mgr. Kristýna Sznapková</h2>
 		<div class="flex justify-start items-center gap-5">
 			<svg
 				width="32"
@@ -246,6 +244,14 @@
 <style lang="postcss">
 	input,
 	textarea {
-		@apply px-4 py-0.5 w-full my-1 border border-xlavender rounded-xl shadow-sm focus:outline-none focus:ring-2 focus:ring-xlavender invalid:border-xpink invalid:text-xpink focus:invalid:border-xpink focus:invalid:ring-xpink disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none;
+		@apply my-1 w-full rounded-xl border border-xlavender bg-white px-4 py-2 shadow-sm focus:outline-none focus:ring-2 focus:ring-xlavender disabled:border-slate-200 disabled:bg-slate-50 disabled:text-slate-500 disabled:shadow-none;
+	}
+
+	.contact-details > div {
+		@apply grid grid-cols-[40px_1fr] items-center gap-4;
+	}
+
+	.contact-details > div > svg {
+		@apply justify-self-center;
 	}
 </style>
