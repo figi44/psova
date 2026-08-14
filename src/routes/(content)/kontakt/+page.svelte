@@ -6,94 +6,70 @@
 	titleStore.set('Kontakt');
 
 	let disabled = false;
-	let required = false;
 	let errorMessage = '';
 	let okMessage = '';
 	let loading = false;
 
-	async function handleSubmit(e: SubmitEvent) {
-		const form = e.target as HTMLFormElement;
+	async function handleSubmit(event: SubmitEvent) {
+		const form = event.currentTarget as HTMLFormElement;
 		const formData = new FormData(form);
-
-		const data: { [key: string]: string } = {};
-		for (let field of formData) {
-			const [key, value] = field;
-			data[key] = value as string;
-			if (!value) {
-				required = true;
-				setTimeout(() => {
-					form.reportValidity();
-				}, 1);
-				return;
-			}
-		}
+		const data = Object.fromEntries(formData) as Record<string, string>;
 
 		disabled = true;
 		loading = true;
+		errorMessage = '';
+		okMessage = '';
+
 		try {
 			const response = await fetch('https://vercel-resend.vercel.app/api/resend', {
 				method: 'POST',
-				headers: {
-					'Content-Type': 'application/json'
-				},
+				headers: { 'Content-Type': 'application/json' },
 				body: JSON.stringify(data)
 			});
-			loading = false;
+
 			if (response.ok) {
-				okMessage = 'Zpráva odeslána.';
-				return;
-			}
-
-			if (response.status == 400) {
-				errorMessage = 'Vyplňte všechna pole.';
-				return;
-			}
-
-			if (response.status == 429) {
-				errorMessage =
-					'Formulář byl už před chvílí jednou odeslán, zkuste to prosím znovu později.';
-				return;
-			}
-
-			if (response.status == 500) {
-				errorMessage = 'Chyba, zkuste to prosím znovu.';
-				return;
+				okMessage = 'Zpráva byla odeslána. Ozvu se vám co nejdříve.';
+				form.reset();
+			} else if (response.status === 400) {
+				errorMessage = 'Zkontrolujte prosím, zda jsou všechna pole správně vyplněná.';
+			} else if (response.status === 429) {
+				errorMessage = 'Formulář byl nedávno odeslán. Zkuste to prosím znovu později.';
+			} else {
+				errorMessage = 'Zprávu se nepodařilo odeslat. Zkuste to prosím znovu.';
 			}
 		} catch (error) {
+			errorMessage = 'Zprávu se nepodařilo odeslat. Zkontrolujte připojení a zkuste to znovu.';
+		} finally {
 			loading = false;
-			errorMessage = 'Chyba, zkuste to prosím znovu.';
-			return;
+			disabled = false;
 		}
-	}
-
-	function handleBlur(e: Event) {
-		const el = e.target as HTMLInputElement;
-		el.required = true;
 	}
 </script>
 
 <div class="grid lg:grid-cols-2 justify-items-center lg:justify-between gap-x-32 gap-y-20 mx-auto">
-	<form class="max-w-[500px]" on:submit|preventDefault={handleSubmit}>
-		<label for="name" class="after:content-['*'] after:text-xpink after:ml-1">Jméno</label>
-		<input name="name" id="name" type="text" {disabled} {required} on:blur={handleBlur} />
+	<form
+		class="w-full max-w-[500px] rounded-[30px] bg-xlavender/10 p-6 md:p-8"
+		on:submit|preventDefault={handleSubmit}
+	>
+		<h2 class="mb-2 text-2xl font-bold">Napište mi</h2>
+		<p class="mb-6 text-sm leading-relaxed text-xdarkgray">
+			Ozvu se vám co nejdříve. Do zprávy prosím neposílejte citlivé podrobnosti — k jejich
+			bezpečnému probrání slouží osobní setkání.
+		</p>
 
-		<label for="email" class="after:content-['*'] after:text-xpink after:ml-1">Email</label>
-		<input name="email" id="email" type="email" {disabled} {required} on:blur={handleBlur} />
+		<label for="name" class="after:ml-1 after:text-xpink after:content-['*']">Jméno</label>
+		<input name="name" id="name" type="text" autocomplete="name" {disabled} required />
 
-		<label for="subject" class="after:content-['*'] after:text-xpink after:ml-1">Předmět</label>
-		<input name="subject" id="subject" type="text" {disabled} {required} on:blur={handleBlur} />
+		<label for="email" class="after:ml-1 after:text-xpink after:content-['*']">Email</label>
+		<input name="email" id="email" type="email" autocomplete="email" {disabled} required />
 
-		<label for="msg" class="after:content-['*'] after:text-xpink after:ml-1">Zpráva</label>
-		<textarea
-			id="msg"
-			name="body"
-			class="h-40 resize-y"
-			{disabled}
-			{required}
-			on:blur={handleBlur}
-		/>
-		<div class="flex justify-between items-start">
-			<p class="{okMessage ? 'text-xdarkgray' : 'text-xpink'}  font-bold">
+		<label for="subject" class="after:ml-1 after:text-xpink after:content-['*']">Předmět</label>
+		<input name="subject" id="subject" type="text" {disabled} required />
+
+		<label for="msg" class="after:ml-1 after:text-xpink after:content-['*']">Zpráva</label>
+		<textarea id="msg" name="body" class="h-40 resize-y" {disabled} required />
+		<div class="flex items-start justify-between gap-4">
+			<p aria-live="polite" class="min-h-6 font-bold {okMessage ? 'text-xdarkgray' : 'text-xpink'}">
 				{okMessage || errorMessage}
 			</p>
 			<div class="inline-flex gap-2 items-center">
@@ -109,20 +85,21 @@
 					</div>
 				{/if}
 				<button
+					type="submit"
 					{disabled}
 					class="py-0.5 px-3 rounded-xl text-white font-bold bg-xpink border-xpink border-2
 				 hover:border-black hover:text-black transition-all ease-in disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200
 						   "
 				>
-					Odeslat
+					{loading ? 'Odesílám…' : 'Odeslat'}
 				</button>
 			</div>
 		</div>
 	</form>
 	<div class="lg:justify-self-start flex flex-col justify-start gap-4">
-		<h1 class="font-bold text-xl leading-[1.15] mb-3 text-center lg:text-left">
+		<h2 class="mb-3 text-center text-xl font-bold leading-[1.15] lg:text-left">
 			Mgr. Kristýna Sznapková
-		</h1>
+		</h2>
 		<div class="flex justify-start items-center gap-5">
 			<svg
 				width="32"
@@ -224,9 +201,9 @@
 		</div>
 	</div>
 	<div>
-		<h1 class="text-center lg:text-left font-bold text-xl leading-[1.15] mb-3">
+		<h2 class="mb-3 text-center text-xl font-bold leading-[1.15] lg:text-left">
 			Jak se ke mně dostanete?
-		</h1>
+		</h2>
 		<p>
 			Poradna sídlí v pátém patře budovy Business Center. Po vstupu zamiřte vpravo k výtahu, vyjeďte
 			do pátého patra a vydejte se chodbou vpravo. Dveře poradny jsou označeny.
@@ -254,12 +231,16 @@
 		/>
 	</div>
 	<div>
-		<h1 class="text-center lg:text-left font-bold text-xl leading-[1.15] mb-3">
+		<h2 class="mb-3 text-center text-xl font-bold leading-[1.15] lg:text-left">
 			Jak to u mně vypadá?
-		</h1>
-		<img class="rounded-xl shadow-2xl" src={OfficeImage} alt="Fotografie kanclu" />
+		</h2>
+		<img class="rounded-xl shadow-2xl" src={OfficeImage} alt="Interiér psychologické poradny" />
 	</div>
-	<img class="rounded-xl shadow-2xl self-end" src={OfficeImage2} alt="Fotografie kanclu" />
+	<img
+		class="self-end rounded-xl shadow-2xl"
+		src={OfficeImage2}
+		alt="Posezení v psychologické poradně"
+	/>
 </div>
 
 <style lang="postcss">

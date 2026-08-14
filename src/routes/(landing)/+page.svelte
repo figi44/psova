@@ -38,18 +38,26 @@
 	buttonTitle="Objednejte se"
 	imgPath={PortraitImage}
 />
-<div class="bg-white rounded-[30px] w-full px-10 py-8 mt-60 mb-28">
-	<Heading2>Kdo jsem?</Heading2>
-	<div class="xl:flex justify-between text-xdarkgray">
-		<div class="text-justify xl:leading-relaxed">
-			<p>
-				Ve zdravotnické praxi se v rámci rehabilitačního ústavu setkávám s pacienty po neurologických či kardiálních příhodách a ortopedických výkonech. Zaměřuji se primárně na diagnostiku kognitivních funkcí, věnuji se neuropsychologii a podpůrné psychologické péči. Za dveřmi soukromé poradny se věnuji dospělé klientele a rozmanitým radostem i strastem, které život přináší. Především se vynořují témata zvyšování odolnosti, nastavování hranic, efektivní komunikace, sebepéče, transformace jednotlivých životních období, mezilidské vztahy a individuační témata.
-			</p>
-		</div>
-		
+
+<section
+	class="mt-16 w-full rounded-[30px] bg-white px-6 py-8 md:px-10"
+	aria-labelledby="about-heading"
+>
+	<div id="about-heading"><Heading2>Kdo jsem?</Heading2></div>
+	<div class="text-xdarkgray xl:leading-relaxed">
+		<p>
+			Ve zdravotnické praxi se v rámci rehabilitačního ústavu setkávám s pacienty po neurologických
+			či kardiálních příhodách a ortopedických výkonech. Zaměřuji se primárně na diagnostiku
+			kognitivních funkcí, věnuji se neuropsychologii a podpůrné psychologické péči. Za dveřmi
+			soukromé poradny se věnuji dospělé klientele a rozmanitým radostem i strastem, které život
+			přináší. Především se vynořují témata zvyšování odolnosti, nastavování hranic, efektivní
+			komunikace, sebepéče, transformace jednotlivých životních období, mezilidské vztahy a
+			individuační témata.
+		</p>
 	</div>
-	<div class="w-full flex justify-end mt-5">
+	<div class="mt-7 flex w-full justify-end">
 		<TextLink href="o-mne">Chci vědět víc</TextLink>
 	</div>
-</div>
+</section>
+
 <CardContainer {cards} />

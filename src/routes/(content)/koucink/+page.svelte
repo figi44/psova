@@ -1,5 +1,5 @@
 <script>
-	import { Anchor, List, Paragraph } from '$lib';
+	import { List, Paragraph, ServiceCTA } from '$lib';
 	import KoucinkImg from '$lib/assets/koucink.png';
 	import { titleStore } from '../store';
 	titleStore.set('Koučink');
@@ -32,7 +32,7 @@
 		</List>
 	</div>
 	<div class="w-1/2 self-center xl:w-1/3">
-		<img src={KoucinkImg} alt="Ilustracni obrazek" class="object-contain mx-auto" />
+		<img src={KoucinkImg} alt="Ilustrace koučinku" class="object-contain mx-auto" />
 	</div>
 </div>
 
@@ -48,6 +48,4 @@
 	Moje cílová skupina jsou dospělí lidé. Pracuji tedy s klienty, kteří již dosáhli plnoletosti.
 	Výjimky pouze po telefonické domluvě předem.
 </Paragraph>
-<Paragraph>
-	Ceník, podmínky a další informace naleznete <Anchor href="cenik">ZDE.</Anchor>
-</Paragraph>
+<ServiceCTA duration="60 nebo 80 minut" price="od 1 200 Kč" />

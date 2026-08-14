@@ -3,5 +3,31 @@
 @tailwind utilities;
 
 html {
-	font-family: 'play';
+	scroll-behavior: smooth;
+	font-family: 'Play', sans-serif;
+}
+
+:focus-visible {
+	outline: 3px solid #e13d58;
+	outline-offset: 4px;
+}
+
+::selection {
+	background: #a192c8;
+	color: white;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+
+	*,
+	*::before,
+	*::after {
+		scroll-behavior: auto !important;
+		transition-duration: 0.01ms !important;
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+	}
 }

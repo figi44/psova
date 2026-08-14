@@ -4,9 +4,9 @@
 </script>
 
 <p
-	class="mt-6 mb-2 text-lg {bold ? 'font-bold' : 'font-normal'} {italic
+	class="mb-2 mt-6 text-lg leading-relaxed {bold ? 'font-bold' : 'font-normal'} {italic
 		? 'italic'
-		: ''} xl:leading-relaxed"
+		: ''}"
 >
 	<slot />
 </p>

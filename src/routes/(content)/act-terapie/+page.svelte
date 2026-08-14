@@ -1,5 +1,5 @@
 <script>
-	import { Anchor, List, Paragraph } from '$lib';
+	import { List, Paragraph, ServiceCTA } from '$lib';
 	import { titleStore } from '../store';
 	import Illustraion from '$lib/assets/skupiny.png';
 	titleStore.set('ACT Terapie');
@@ -29,7 +29,7 @@
 		</List>
 	</div>
 	<div class="w-1/2 self-center xl:w-1/3">
-		<img src={Illustraion} alt="Ilustracni obrazek" class="object-contain mx-auto" />
+		<img src={Illustraion} alt="Ilustrace ACT terapie" class="object-contain mx-auto" />
 	</div>
 </div>
 
@@ -43,6 +43,4 @@
 	poruchami. Pracuji vždy pouze s jednotlivci.
 </Paragraph>
 
-<Paragraph>
-	Ceník, podmínky a další informace naleznete <Anchor href="cenik">ZDE.</Anchor>
-</Paragraph>
+<ServiceCTA duration="50 nebo 75 minut" price="od 1 000 Kč" />

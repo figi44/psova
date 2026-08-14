@@ -5,13 +5,11 @@
 </script>
 
 <Accordion title="Berete i děti?" topHr>Ne, pracuji pouze s dospělými.</Accordion>
-<Accordion title="Poskytujete poradenství a koučink online?">
-	Ne, pouze osobně.
-</Accordion>
+<Accordion title="Poskytujete poradenství a koučink online?">Ne, pouze osobně.</Accordion>
 <Accordion title="Může k Vám docházet i jiný člen rodiny?">
-	Bohužel ne. Jsem schopná pracovat vždy pouze s jedním členem rodiny, aby poradenství nebo psychoterapie nebyly
-	zatíženy vztahy mezi klienty. Zároveň tak ctím psychologickou zásadu, že z jedné úzké sociální
-	skupiny mohu na individuální bázi pracovat pouze s jedním jejím členem.
+	Bohužel ne. Jsem schopná pracovat vždy pouze s jedním členem rodiny, aby poradenství nebo
+	psychoterapie nebyly zatíženy vztahy mezi klienty. Zároveň tak ctím psychologickou zásadu, že z
+	jedné úzké sociální skupiny mohu na individuální bázi pracovat pouze s jedním jejím členem.
 </Accordion>
 <Accordion title="Pracujete s celou rodinou?">
 	Ne, pracuji pouze individuálně s jednotlivci.
@@ -38,7 +36,8 @@
 	nic neukládá povinnost se mnou komunikovat mimo domluvenou schůzku.
 </Accordion>
 <Accordion title="Jak zajišťujete kvalitu poskytovaných služeb?">
-	Stále se vzdělávám formou výcviků, kurzů a workshopů. Pracuji pod pravidelnou supervizí (individuální i skupinovou). Jsem v sebezkušenostní analýze.
+	Stále se vzdělávám formou výcviků, kurzů a workshopů. Pracuji pod pravidelnou supervizí
+	(individuální i skupinovou). Jsem v sebezkušenostní analýze.
 </Accordion>
 <Accordion title="Dáte mi razítko na propustku z práce?">
 	Ano, dám. Ale musíte si ji přinést.

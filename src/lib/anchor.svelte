@@ -6,6 +6,7 @@
 	export let external: boolean = false;
 	export let cls: string = 'underline hover:text-xpink transition ease-in';
 	export let download: string | undefined = undefined;
+	export let ariaCurrent: 'page' | undefined = undefined;
 
 	const getRel = (): string => {
 		if (!external) {
@@ -28,6 +29,14 @@
 	};
 </script>
 
-<a href={getHref()} rel={getRel()} target={getTarget()} {download} class={cls}>
+<a
+	href={getHref()}
+	rel={getRel()}
+	target={getTarget()}
+	{download}
+	aria-current={ariaCurrent}
+	class={cls}
+	on:click
+>
 	<slot />
 </a>

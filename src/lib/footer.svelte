@@ -6,7 +6,7 @@
 	let year = new Date().getFullYear();
 </script>
 
-<hr class="border-0 border-t-[1px] border-xlavender xl:-mx-16 mt-72" />
+<hr class="mt-32 border-0 border-t border-xlavender md:mt-40 xl:-mx-16" />
 <div class="grid lg:grid-cols-3 justify-items-center mt-8 gap-20 lg:gap-0">
 	<img src={LogoImg} alt="Logo" class="lg:place-self-start h-[120px]" />
 	<div class="self-center">

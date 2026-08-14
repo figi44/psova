@@ -1,5 +1,5 @@
 <script>
-	import { Anchor, List, Paragraph } from '$lib';
+	import { List, Paragraph, ServiceCTA } from '$lib';
 	import PoradenstviImg from '$lib/assets/poradenstvi.jpg';
 	import { titleStore } from '../store';
 	titleStore.set('Psychologické poradenství');
@@ -31,13 +31,19 @@
 		</List>
 	</div>
 	<div class="w-1/2 self-center xl:w-1/3">
-		<img src={PoradenstviImg} alt="Ilustracni obrazek" class="object-contain mx-auto" />
+		<img
+			src={PoradenstviImg}
+			alt="Ilustrace psychologického poradenství"
+			class="object-contain mx-auto"
+		/>
 	</div>
 </div>
 
 <div class="flex flex-col xl:flex-row xl:items-center gap-10 xl:gap-36">
 	<div class="">
-		<Paragraph><span class="font-bold">Součástí služby je také psychohygiena, kam spadá:</span></Paragraph>
+		<Paragraph
+			><span class="font-bold">Součástí služby je také psychohygiena, kam spadá:</span></Paragraph
+		>
 		<List>
 			<li>nácvik asertivity</li>
 			<li>
@@ -63,6 +69,4 @@
 	poruchami. Pracuji vždy pouze s jednotlivci.
 </Paragraph>
 
-<Paragraph>
-	Ceník, podmínky a další informace naleznete <Anchor href="cenik">ZDE.</Anchor>
-</Paragraph>
+<ServiceCTA duration="50 nebo 75 minut" price="od 1 000 Kč" />

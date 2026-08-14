@@ -13,18 +13,20 @@
 </svelte:head>
 
 <NavBar initialBg="bg-xlavender" />
-<div class="bg-xlavender">
-	<div class="w-[95%] xl:max-w-[1120px] mx-auto">
-		<h1 class="text-white text-[56px] font-bold pt-12 pb-12 text-center">
+<header class="bg-xlavender">
+	<div class="mx-auto w-[90%] max-w-[1120px]">
+		<h1
+			class="py-10 text-center text-[40px] font-bold leading-[1.1] text-white md:py-12 md:text-[56px]"
+		>
 			{title}
 		</h1>
 	</div>
-</div>
-<div class="w-[95%] xl:max-w-[1120px] mx-auto pt-12">
+</header>
+<main class="mx-auto w-[90%] max-w-[1120px] pt-10 md:pt-12">
 	<slot />
-</div>
-<div class="background pt-32">
-	<div class="w-[95%] xl:max-w-[1120px] mx-auto">
+</main>
+<div class="background pt-20 md:pt-24">
+	<div class="mx-auto w-[90%] max-w-[1120px]">
 		<Footer />
 	</div>
 </div>

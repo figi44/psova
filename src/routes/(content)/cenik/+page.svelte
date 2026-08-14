@@ -1,61 +1,85 @@
 <script lang="ts">
-	import { Anchor, Heading3, Paragraph } from '$lib';
+	import { Anchor, CTAButton, Heading3, Paragraph } from '$lib';
 	import BenefitPlusLogo from '$lib/assets/benefit-plus-logo.png';
 	import dohodaImage from '$lib/assets/dohoda.pdf';
 	import EbenefityLogo from '$lib/assets/ebenefity-logo.png';
 	import gdprImage from '$lib/assets/gdpr.pdf';
 	import { titleStore } from '../store';
 
-	let services = [
+	const services = [
 		{
 			name: 'Psychologické poradenství, terapie, psychohygiena',
 			length: '50 minut',
-			price: '1000,-'
+			price: '1 000 Kč'
 		},
 		{
 			name: 'Psychologické poradenství, terapie, psychohygiena',
 			length: '75 minut',
-			price: '1500,-'
+			price: '1 500 Kč'
 		},
 		{
 			name: 'Koučink standard',
 			length: '60 minut',
-			price: '1200,-'
+			price: '1 200 Kč'
 		},
 		{
 			name: 'Koučink prodloužený',
 			length: '80 minut',
-			price: '1600,-'
+			price: '1 600 Kč'
 		},
 		{
 			name: 'Zpráva z konzultací na žádost klienta',
 			length: 'zhotovení do 7 dní',
-			price: '800,-'
+			price: '800 Kč'
 		}
 	];
 
 	titleStore.set('Ceník');
 </script>
 
-<div class="w-full text-lg">
-	<table class="min-w-full table-auto text-left lg:whitespace-nowrap">
-		<thead>
-			<tr class="border-b border-xlavender">
-				<th class="py-2 px-4">Služba</th>
-				<th class="py-2 px-4">Délka sezení</th>
-				<th class="py-2 px-4 text-right">Cena</th>
+<div class="grid gap-4 md:hidden">
+	{#each services as service}
+		<div class="rounded-[24px] bg-xlavender/10 p-5">
+			<h2 class="font-bold leading-tight">{service.name}</h2>
+			<div class="mt-4 flex items-end justify-between gap-4">
+				<p class="text-sm text-xdarkgray">{service.length}</p>
+				<p class="text-lg font-bold">{service.price}</p>
+			</div>
+		</div>
+	{/each}
+</div>
+
+<div
+	class="hidden w-full overflow-hidden rounded-[24px] border border-xlavender/30 text-lg md:block"
+>
+	<table class="min-w-full table-auto text-left">
+		<thead class="bg-xlavender/10">
+			<tr class="border-b border-xlavender/40">
+				<th class="px-5 py-4">Služba</th>
+				<th class="px-5 py-4">Délka sezení</th>
+				<th class="px-5 py-4 text-right">Cena</th>
 			</tr>
 		</thead>
 		<tbody>
 			{#each services as service}
-				<tr class="even:bg-gray-100">
-					<td class="p-4">{service.name}</td>
-					<td class="p-4">{service.length}</td>
-					<td class="p-4 text-right">{service.price}</td>
+				<tr class="border-b border-xlavender/20 last:border-b-0 even:bg-xlavender/5">
+					<td class="p-5">{service.name}</td>
+					<td class="p-5">{service.length}</td>
+					<td class="p-5 text-right font-bold">{service.price}</td>
 				</tr>
 			{/each}
 		</tbody>
 	</table>
+</div>
+
+<div
+	class="mt-8 flex flex-col items-start gap-3 rounded-[24px] bg-xlavender/10 p-6 sm:flex-row sm:items-center sm:justify-between"
+>
+	<div>
+		<p class="font-bold">Vyberte si termín, který vám vyhovuje</p>
+		<p class="mt-1 text-sm text-xdarkgray">Volné termíny uvidíte přímo v rezervačním systému.</p>
+	</div>
+	<CTAButton title="Objednejte se" />
 </div>
 
 <Paragraph>
@@ -202,8 +226,6 @@
 	</li>
 	<li>
 		<span class="font-bold">Krizová pomoc:</span> Neposkytuji nonstop krizovou intervenci. V případě
-		akutní nouze se prosím obraťte na <Anchor href="akutni-problemy"
-			>linky důvěry nebo krizová centra</Anchor
-		>.
+		akutní nouze se prosím obraťte na linky důvěry nebo krizová centra.
 	</li>
 </ul>

@@ -26,14 +26,20 @@
 </script>
 
 <Paragraph>
-Vystudovala jsem jednooborovou psychologii se zaměřením na klinickou psychologii a psychologii osobnosti. Pracuji jako psycholožka, koučka a terapeutka ACT směru (III. vlna kognitivně-behaviorálních terapií). Aktuálně jsem také frekventantkou psychoterapeutického výcviku v hlubinném směru. Aktivně se připravuji pro budoucí práci ve zdravotnictví.
+	Vystudovala jsem jednooborovou psychologii se zaměřením na klinickou psychologii a psychologii
+	osobnosti. Pracuji jako psycholožka, koučka a terapeutka ACT směru (III. vlna
+	kognitivně-behaviorálních terapií). Aktuálně jsem také frekventantkou psychoterapeutického výcviku
+	v hlubinném směru. Aktivně se připravuji pro budoucí práci ve zdravotnictví.
 </Paragraph>
 
 <Paragraph>
-Míchám krupici a mám ráda ananas na pizze. Hodně a často čtu, poslouchám vážnou hudbu. V létě se ráda schovávám ve stínu a v zimě pozoruji ptáky na krmítku s hrnkem čaje v rukách. S vděčností naslouchám přírodě, jak mě zve k pobytu v ní. Praktikuji jógu, medituji.
+	Míchám krupici a mám ráda ananas na pizze. Hodně a často čtu, poslouchám vážnou hudbu. V létě se
+	ráda schovávám ve stínu a v zimě pozoruji ptáky na krmítku s hrnkem čaje v rukách. S vděčností
+	naslouchám přírodě, jak mě zve k pobytu v ní. Praktikuji jógu, medituji.
 </Paragraph>
 <Paragraph>
-	Aktivně se věnuji dobrovolnickým aktivitám v oblasti psychologie. Pracuji pod pravidelnou supervizí (individuální i skupinovou). Jsem v sebezkušenostní analýze.
+	Aktivně se věnuji dobrovolnickým aktivitám v oblasti psychologie. Pracuji pod pravidelnou
+	supervizí (individuální i skupinovou). Jsem v sebezkušenostní analýze.
 </Paragraph>
 <Heading3>
 	<div class="flex items-center gap-2">
@@ -95,11 +101,9 @@ Míchám krupici a mám ráda ananas na pizze. Hodně a často čtu, poslouchám
 </Heading3>
 <table class="text-lg border-separate border-spacing-2 lg:border-spacing-4">
 	<tbody>
-	<tr>
+		<tr>
 			<td class="align-top font-bold">07/2026-nyní</td>
-			<td>
-				Specializační vzdělávání v klinické psychologii (IPVZ)
-			</td>
+			<td> Specializační vzdělávání v klinické psychologii (IPVZ) </td>
 		</tr>
 		<tr>
 			<td class="align-top font-bold">09/2025-nyní</td>
@@ -227,31 +231,27 @@ Míchám krupici a mám ráda ananas na pizze. Hodně a často čtu, poslouchám
 		</tr>
 		<tr>
 			<td class="align-top font-bold">07/2024</td>
-			<td
-				>Mikasa z.s. Ostrava – Relax zóna (dobrovolnictví na festivalu Colours of Ostrava)</td
-			>
+			<td>Mikasa z.s. Ostrava – Relax zóna (dobrovolnictví na festivalu Colours of Ostrava)</td>
 		</tr>
-		
+
 		<tr>
 			<td class="align-top font-bold">04/2024–nyní</td>
 			<td>Ostrava Expat Centre – Psychologist, Therapist & Coach for English-speaking Clients</td>
 		</tr>
-		
+
 		<tr>
 			<td class="align-top font-bold">09/2023–12/2024</td>
 			<td>PsyHub – Koordinátorka studentského projektu (dobrovolnictví)</td>
 		</tr>
 		<tr>
 			<td class="align-top font-bold">07/2023</td>
-			<td
-				>Mikasa z.s. Ostrava (dobrovolnictví na festivalu Colours of Ostrava)</td
-			>
+			<td>Mikasa z.s. Ostrava (dobrovolnictví na festivalu Colours of Ostrava)</td>
 		</tr>
 		<tr>
 			<td class="align-top font-bold">05–06/2023</td>
 			<td>OSU – Administrátor výzkumu (dobrovolnictví)</td>
 		</tr>
-		
+
 		<tr>
 			<td class="align-top font-bold">01/2023–nyní</td>
 			<td
@@ -262,6 +262,5 @@ Míchám krupici a mám ráda ananas na pizze. Hodně a často čtu, poslouchám
 			<td class="align-top font-bold">12/2022–09/2023</td>
 			<td>PsyHub – Koordinátorka Literární revue (dobrovolnictví)</td>
 		</tr>
-		
 	</tbody>
 </table>

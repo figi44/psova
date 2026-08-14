@@ -3,36 +3,21 @@
 
 	export let title: string;
 	export let href: string;
+	export let active = false;
 </script>
 
-<Anchor {href} cls=""
-	><button class="text-white text-xl font-normal relative nav-button hover:text-xpink">
-		{title}
-	</button></Anchor
+<Anchor
+	{href}
+	ariaCurrent={active ? 'page' : undefined}
+	cls={`group relative text-xl font-normal transition-colors hover:text-xpink ${
+		active ? 'text-xpink' : 'text-white'
+	}`}
 >
-
-<style lang="postcss">
-	.nav-button {
-		transition: color 150ms ease-in;
-	}
-
-	.nav-button::after {
-		content: '';
-		display: block;
-		width: 0;
-		height: 1px;
-		background-color: transparent;
-		opacity: 0;
-		position: absolute;
-		bottom: -1px;
-		left: -12px;
-		transition: width 300ms ease-out, background-color 150ms ease-in;
-	}
-
-	.nav-button:hover::after {
-		width: calc(100% + 24px);
-		@apply bg-xpink;
-		height: 1px;
-		opacity: 1;
-	}
-</style>
+	{title}
+	<span
+		class="absolute -bottom-px -left-3 h-px bg-xpink transition-all duration-300 {active
+			? 'w-[calc(100%+24px)]'
+			: 'w-0 group-hover:w-[calc(100%+24px)]'}"
+		aria-hidden="true"
+	/>
+</Anchor>
