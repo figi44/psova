@@ -226,6 +226,12 @@
 	</li>
 	<li>
 		<span class="font-bold">Krizová pomoc:</span> Neposkytuji nonstop krizovou intervenci. V případě
-		akutní nouze se prosím obraťte na linky důvěry nebo krizová centra.
+		akutní nouze se prosím obraťte na linku důvěry <Anchor
+			href="https://www.kriceos.cz/kontakt"
+			external>Krizového centra Ostrava</Anchor
+		> na tel. <Anchor href="tel:+420596110882" omitBase>596 110 882</Anchor> nebo <Anchor
+			href="tel:+420596110883"
+			omitBase>596 110 883</Anchor
+		>.
 	</li>
 </ul>
