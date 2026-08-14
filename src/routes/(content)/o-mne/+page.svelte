@@ -26,14 +26,11 @@
 </script>
 
 <Paragraph>
-	Svou kariéru jsem začala jako vývojář software. Během své cesty jsem vystřídala ohromné množství
-	pozic a dlouho jsem nemohla najít takovou, která by mne opravdu bavila a naplňovala. Při
-	manažerském postu jsem zjistila, že naslouchání lidem a jejich vedení je mi velmi blízké. Díky
-	vzdělávání zaměstnanců jsem se dotkla základů psychologie, které mi naprosto učarovaly, a já se
-	rozhodla nastoupit na univerzitu. Postupně jsem se tak propracovala k vývoji lidské duše, protože
-	komunikace s lidmi je mi mnohem bližší než komunikace se stroji. Lidské příběhy jsou jako hvězdy
-	ve vesmíru - každá je jiná a každá je unikátní. Proto ke každému klientovi zaujímám individuální
-	přístup plný pokory a respektu.
+Vystudovala jsem jednooborovou psychologii se zaměřením na klinickou psychologii a psychologii osobnosti. Pracuji jako psycholožka, koučka a terapeutka ACT směru (III. vlna kognitivně-behaviorálních terapií). Aktuálně jsem také frekventantkou psychoterapeutického výcviku v hlubinném směru. Aktivně se připravuji pro budoucí práci ve zdravotnictví.
+</Paragraph>
+
+<Paragraph>
+Míchám krupici a mám ráda ananas na pizze. Hodně a často čtu, poslouchám vážnou hudbu. V létě se ráda schovávám ve stínu a v zimě pozoruji ptáky na krmítku s hrnkem čaje v rukách. S vděčností naslouchám přírodě, jak mě zve k pobytu v ní. Praktikuji jógu, medituji.
 </Paragraph>
 <Paragraph>
 	Aktivně se věnuji dobrovolnickým aktivitám v oblasti psychologie. Pracuji pod pravidelnou supervizí (individuální i skupinovou). Jsem v sebezkušenostní analýze.
