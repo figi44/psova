@@ -36,8 +36,7 @@
 	přístup plný pokory a respektu.
 </Paragraph>
 <Paragraph>
-	Aktivně se věnuji dobrovolnickým aktivitám v oblasti psychologie. Docházím pravidelně na supervize
-	a terapie.
+	Aktivně se věnuji dobrovolnickým aktivitám v oblasti psychologie. Pracuji pod pravidelnou supervizí (individuální i skupinovou). Jsem v sebezkušenostní analýze.
 </Paragraph>
 <Heading3>
 	<div class="flex items-center gap-2">
@@ -99,6 +98,12 @@
 </Heading3>
 <table class="text-lg border-separate border-spacing-2 lg:border-spacing-4">
 	<tbody>
+	<tr>
+			<td class="align-top font-bold">07/2026-nyní</td>
+			<td>
+				Specializační vzdělávání v klinické psychologii (IPVZ)
+			</td>
+		</tr>
 		<tr>
 			<td class="align-top font-bold">09/2025-nyní</td>
 			<td
@@ -209,11 +214,11 @@
 		</tr>
 		<tr>
 			<td class="align-top font-bold">09/2025–nyní</td>
-			<td>ZŠ J. Šoupala 1609, Ostrava-Poruba – Školní psycholog (poloviční úvazek)</td>
+			<td>ZŠ J. Šoupala 1609, Ostrava-Poruba – Školní psycholog</td>
 		</tr>
 		<tr>
 			<td class="align-top font-bold">11/2024–03/2026</td>
-			<td>Statutární město Ostrava – Terénní psycholog projektu sociálního bydlení (DPP)</td>
+			<td>Statutární město Ostrava – Terénní psycholog projektu sociálního bydlení</td>
 		</tr>
 		<tr>
 			<td class="align-top font-bold">03/2025–12/2025</td>
@@ -221,27 +226,20 @@
 		</tr>
 		<tr>
 			<td class="align-top font-bold">08/2024–05/2025</td>
-			<td> ISNA-MSE z.s. – Psycholog a Snoezelen Terapeut (poloviční úvazek) </td>
+			<td> ISNA-MSE z.s. – Psycholog a Snoezelen Terapeut</td>
 		</tr>
 		<tr>
 			<td class="align-top font-bold">07/2024</td>
 			<td
-				>Mikasa z.s. Ostrava – Relax zóna (dobrovolnictví na festivalu Colours of Ostrava v rozsahu
-				20 hodin)</td
+				>Mikasa z.s. Ostrava – Relax zóna (dobrovolnictví na festivalu Colours of Ostrava)</td
 			>
 		</tr>
-		<tr>
-			<td class="align-top font-bold">06/2024</td>
-			<td>Poradenské a kariérní centrum OSU (školní praxe v rozsahu 24 hodin)</td>
-		</tr>
+		
 		<tr>
 			<td class="align-top font-bold">04/2024–nyní</td>
 			<td>Ostrava Expat Centre – Psychologist, Therapist & Coach for English-speaking Clients</td>
 		</tr>
-		<tr>
-			<td class="align-top font-bold">04-06/2024</td>
-			<td>ZŠ Provaznická 64 – Školní psycholog (školní praxe v rozsahu 60 hodin)</td>
-		</tr>
+		
 		<tr>
 			<td class="align-top font-bold">09/2023–12/2024</td>
 			<td>PsyHub – Koordinátorka studentského projektu (dobrovolnictví)</td>
@@ -249,17 +247,14 @@
 		<tr>
 			<td class="align-top font-bold">07/2023</td>
 			<td
-				>Mikasa z.s. Ostrava (dobrovolnictví na festivalu Colours of Ostrava v rozsahu 15 hodin)</td
+				>Mikasa z.s. Ostrava (dobrovolnictví na festivalu Colours of Ostrava)</td
 			>
 		</tr>
 		<tr>
 			<td class="align-top font-bold">05–06/2023</td>
-			<td>OSU – Administrátor výzkumu (dobrovolnictví v rozsahu 26 hodin)</td>
+			<td>OSU – Administrátor výzkumu (dobrovolnictví)</td>
 		</tr>
-		<tr>
-			<td class="align-top font-bold">04–05/2023</td>
-			<td>Anabell z.ú. Ostrava (školní praxe v rozsahu 70 hodin)</td>
-		</tr>
+		
 		<tr>
 			<td class="align-top font-bold">01/2023–nyní</td>
 			<td
@@ -270,13 +265,6 @@
 			<td class="align-top font-bold">12/2022–09/2023</td>
 			<td>PsyHub – Koordinátorka Literární revue (dobrovolnictví)</td>
 		</tr>
-		<tr>
-			<td class="align-top font-bold">04/2022</td>
-			<td>Diagnostický ústav Ostrava-Kunčičky (školní praxe v rozsahu 44 hodin)</td>
-		</tr>
-		<tr>
-			<td class="align-top font-bold">01–02/2021</td>
-			<td>Charitní středisko Michala Magone Ostrava – Dubina (školní praxe v rozsahu 36 hodin)</td>
-		</tr>
+		
 	</tbody>
 </table>

@@ -2,7 +2,7 @@
 	import { Anchor, List, Paragraph } from '$lib';
 	import { titleStore } from '../store';
 	import Illustraion from '$lib/assets/skupiny.png';
-	titleStore.set('Terapie');
+	titleStore.set('ACT Terapie');
 </script>
 
 <Paragraph>
@@ -11,7 +11,7 @@
 	změnu a růst. Společně se můžeme podívat na vaše vnitřní světy a najít způsoby, jak se vyrovnat s
 	obtížemi a najít odstup od zatěžujících myšlenek. Naše práce je založena na principu přijetí a
 	odhodlání (ACT), což znamená, že nebudeme bojovat s vašimi emocemi, ale naučíme se s nimi
-	spolupracovat a žít s nimi v souladu. NA vaší cestě vám poskytnu podporu a nástroje, které
+	spolupracovat a žít s nimi v souladu. Na vaší cestě vám poskytnu podporu a nástroje, které
 	potřebujete k tomu, abyste se cítili silní a propojení se svým vnitřním já.
 </Paragraph>
 <div class="flex flex-col xl:flex-row xl:items-center gap-10 xl:gap-36">

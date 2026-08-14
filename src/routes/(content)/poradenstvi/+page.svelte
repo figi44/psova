@@ -17,12 +17,9 @@
 		<Paragraph><span class="font-bold">Co konkrétně do této oblasti může patřit?</span></Paragraph>
 		<List>
 			<li>aktuální výskyt úzkostí před zkouškou nebo prezentací</li>
-			<li>přístup k problémům dětí</li>
 			<li>příprava na roli rodiče nebo prarodiče</li>
 			<li>těžká rozhodnutí a složité životní křižovatky</li>
-			<li>volba výchovného stylu</li>
 			<li>adaptace na situaci odchodu do důchodu</li>
-			<li>volba vysoké školy</li>
 			<li>změna povolání v produktivním věku</li>
 			<li>pracovní zátěž a stres</li>
 			<li>konfliktní situace</li>
@@ -37,6 +34,25 @@
 		<img src={PoradenstviImg} alt="Ilustracni obrazek" class="object-contain mx-auto" />
 	</div>
 </div>
+
+<div class="flex flex-col xl:flex-row xl:items-center gap-10 xl:gap-36">
+	<div class="">
+		<Paragraph><span class="font-bold">Součástí služby je také psychohygiena, kam spadá:</span></Paragraph>
+		<List>
+			<li>nácvik asertivity</li>
+			<li>
+				nácvik relaxačních technik (progresivní svalová relaxace, autogenní trénink, prvky
+				muzikoterapie a arteterapie)
+			</li>
+			<li>nácvik dechových technik</li>
+			<li>nácvik mindfulness technik a meditace</li>
+			<li>řízená relaxace, aktivní imaginace a řízená vizualizace</li>
+			<li>funkční životospráva</li>
+			<li>konzultace pro studenty: psychohygiena v pozici psychologa</li>
+		</List>
+	</div>
+</div>
+
 <Paragraph>
 	Moje cílová skupina jsou dospělí lidé. Pracuji tedy s klienty, kteří již dosáhli plnoletosti.
 	Výjimky pouze ve velice akutních případech po telefonické domluvě předem.

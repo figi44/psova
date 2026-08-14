@@ -11,10 +11,16 @@
 			linkHref: `poradenstvi`
 		},
 		{
-			title: 'Terapie',
+			title: 'ACT terapie',
 			text: 'Objevte sílu přijetí a odhodlání skrze terapii založenou na principu ACT, která vám pomůže překonat překážky a žít hodnotnější a smysluplnější život.',
 			linkText: '',
-			linkHref: `terapie`
+			linkHref: `act-terapie`
+		},
+		{
+			title: 'Hlubinně orientovaná psychoterapie',
+			text: 'TBA',
+			linkText: '',
+			linkHref: `hlubinna-psychoterapie`
 		},
 		{
 			title: 'Koučink',
@@ -22,12 +28,6 @@
 			linkText: '',
 			linkHref: `koucink`
 		},
-		{
-			title: 'Psychohygiena',
-			text: 'Obnovte svou duševní pohodu a balanc díky psychohygieně, která posiluje vaši mentální odolnost a pomáhá vám snáze zvládat každodenní výzvy a stres.',
-			linkText: '',
-			linkHref: `psychohygiena`
-		}
 	];
 </script>
 

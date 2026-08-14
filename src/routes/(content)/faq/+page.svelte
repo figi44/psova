@@ -6,21 +6,15 @@
 
 <Accordion title="Berete i děti?" topHr>Ne, pracuji pouze s dospělými.</Accordion>
 <Accordion title="Poskytujete poradenství a koučink online?">
-	Ano, poskytuji. Za stejných podmínek, jako osobní konzultace.
+	Ne, pouze osobně.
 </Accordion>
 <Accordion title="Může k Vám docházet i jiný člen rodiny?">
-	Bohužel ne. Jsem schopná pracovat vždy pouze s jedním členem rodiny, aby poradenství nebylo
-	zatíženo vztahy mezi klienty. Zároveň tak ctím psychologickou zásadu, že z jedné úzké sociální
+	Bohužel ne. Jsem schopná pracovat vždy pouze s jedním členem rodiny, aby poradenství nebo psychoterapie nebyly
+	zatíženy vztahy mezi klienty. Zároveň tak ctím psychologickou zásadu, že z jedné úzké sociální
 	skupiny mohu na individuální bázi pracovat pouze s jedním jejím členem.
 </Accordion>
 <Accordion title="Pracujete s celou rodinou?">
 	Ne, pracuji pouze individuálně s jednotlivci.
-</Accordion>
-<Accordion title="S jakými problémy za Vámi mohu přijít?">
-	Se všemi psychologickými tématy od psychických a emočních potíží až po kariéru. Podrobnější výčet
-	naleznete na <Anchor href="poradenstvi">této stránce</Anchor>. Nevěnuji se rodinné a partnerské
-	sféře, nepracuji s dětmi a s osobami se závažnými psychickými poruchami. Pracuji vždy pouze s
-	jednotlivci.
 </Accordion>
 <Accordion title="Mám Vám předem popsat podrobněji můj problém do emailu?">
 	Prosím, ne. Pokud tak učiníte, s největší pravděpodobností Vám odpovím, že není v mých časových
@@ -37,9 +31,6 @@
 >
 	Nic se neděje, zašlete mi, prosím, emailem potvrzení platby a já si ji dohledám.
 </Accordion>
-<Accordion title="Máte výhodnější balíčky pro více konzultací?">
-	Zatím ne. Pokud o ně bude zájem, určitě je zařadím do nabídky.
-</Accordion>
 <Accordion title="Co když se potkáme někde na ulici?">
 	Ctím klientovu anonymitu. Proto při takovém setkání vždy čekám, zda první kontakt udělá klient.
 	Pokud ano, pak odpovím zpět. Pokud ne, pak je vše v naprostém pořádku a není třeba se omlouvat.
@@ -47,9 +38,7 @@
 	nic neukládá povinnost se mnou komunikovat mimo domluvenou schůzku.
 </Accordion>
 <Accordion title="Jak zajišťujete kvalitu poskytovaných služeb?">
-	Neustále se vzdělávám formou kurzů a workshopů. Díky nekonečnému přísunu nové literatury takto
-	obohacuji své obzory o nové techniky, metody a informace. Aktivně se věnuji dobrovolnickým
-	aktivitám v oblasti psychologie. Docházím pravidelně na supervize a terapie.
+	Stále se vzdělávám formou výcviků, kurzů a workshopů. Pracuji pod pravidelnou supervizí (individuální i skupinovou). Jsem v sebezkušenostní analýze.
 </Accordion>
 <Accordion title="Dáte mi razítko na propustku z práce?">
 	Ano, dám. Ale musíte si ji přinést.

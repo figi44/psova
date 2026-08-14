@@ -1,0 +1,40 @@
+<script>
+	import { Anchor, List, Paragraph } from '$lib';
+	import { titleStore } from '../store';
+	import Illustraion from '$lib/assets/psychohygiena.png';
+	titleStore.set('Hlubinně orientovaná psychoterapie');
+</script>
+
+<Paragraph>
+	TBA
+</Paragraph>
+<div class="flex flex-col xl:flex-row xl:items-center gap-10 xl:gap-36">
+	<div class="">
+		<Paragraph><span class="font-bold">Jakým způsobem hlubinná terapie pracuje:</span></Paragraph>
+
+		<List>
+			<li>Symbolická práce</li>
+			<li>Obrazový materiál</li>
+			<li>Aktivní imaginace</li>
+			<li>Práce se sny</li>
+			<li>Terapeutické pískoviště</li>
+		
+		</List>
+	</div>
+	<div class="w-1/2 self-center xl:w-1/3">
+		<img src={Illustraion} alt="Ilustracni obrazek" class="object-contain mx-auto" />
+	</div>
+</div>
+
+<Paragraph>
+	Moje cílová skupina jsou dospělí lidé. Pracuji tedy s klienty, kteří již dosáhli plnoletosti.
+	Výjimky pouze ve velice akutních případech po telefonické domluvě předem.
+</Paragraph>
+
+<Paragraph>
+	Nevěnuji se rodinné a partnerské sféře, nepracuji s dětmi. Pracuji vždy pouze s jednotlivci.
+</Paragraph>
+
+<Paragraph>
+	Ceník, podmínky a další informace naleznete <Anchor href="cenik">ZDE.</Anchor>
+</Paragraph>
