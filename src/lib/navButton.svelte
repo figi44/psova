@@ -15,7 +15,7 @@
 >
 	{title}
 	<span
-		class="absolute -bottom-px -left-3 h-px bg-xpink transition-all duration-300 {active
+		class="absolute -bottom-px -left-3 z-10 h-px bg-xpink transition-all duration-300 {active
 			? 'w-[calc(100%+24px)]'
 			: 'w-0 group-hover:w-[calc(100%+24px)]'}"
 		aria-hidden="true"
