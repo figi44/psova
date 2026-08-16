@@ -41,7 +41,6 @@
 
 <Paragraph>
 	Moje cílová skupina jsou dospělí lidé. Pracuji tedy s klienty, kteří již dosáhli plnoletosti.
-	Výjimky pouze ve velice akutních případech po telefonické domluvě předem.
 </Paragraph>
 
 <Paragraph>

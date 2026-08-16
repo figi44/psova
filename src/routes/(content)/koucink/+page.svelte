@@ -52,6 +52,5 @@
 </Paragraph>
 <Paragraph>
 	Moje cílová skupina jsou dospělí lidé. Pracuji tedy s klienty, kteří již dosáhli plnoletosti.
-	Výjimky pouze po telefonické domluvě předem.
 </Paragraph>
 <ServiceCTA duration="60 nebo 80 minut" price="od 1 200 Kč" />
