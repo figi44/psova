@@ -37,7 +37,8 @@
 
 <Hero
 	title="Mgr. Kristýna Sznapková"
-	subtitle="S pokorou pomáhám rozvíjet lidskou duši."
+	quote="Výsadou života je stát se tím, kým skutečně jste."
+	author="C. G. Jung"
 	description="Psychologické poradenství, psychoterapie a koučink pro dospělé"
 	buttonTitle="Objednejte se"
 	imgPath={PortraitImage}

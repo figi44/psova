@@ -243,7 +243,13 @@
 			<td>FNO, Rehabilitační ústav Chuchelná - Psycholog ve zdravotnictví</td>
 		</tr>
 		<tr>
-			<td class="align-top font-bold">09/2025–nyní</td>
+			<td class="align-top font-bold">01/2023–nyní</td>
+			<td
+				>IG PsychoKnihy – Recenze literatury s psychologickou a seberozvojovou tématikou (volný čas)</td
+			>
+		</tr>
+		<tr>
+			<td class="align-top font-bold">09/2025–07/2026</td>
 			<td>ZŠ J. Šoupala 1609, Ostrava-Poruba – Školní psycholog</td>
 		</tr>
 		<tr>
@@ -264,11 +270,6 @@
 		</tr>
 
 		<tr>
-			<td class="align-top font-bold">04/2024–nyní</td>
-			<td>Ostrava Expat Centre – Psychologist, Therapist & Coach for English-speaking Clients</td>
-		</tr>
-
-		<tr>
 			<td class="align-top font-bold">09/2023–12/2024</td>
 			<td>PsyHub – Koordinátorka studentského projektu (dobrovolnictví)</td>
 		</tr>
@@ -281,12 +282,6 @@
 			<td>OSU – Administrátor výzkumu (dobrovolnictví)</td>
 		</tr>
 
-		<tr>
-			<td class="align-top font-bold">01/2023–nyní</td>
-			<td
-				>IG PsychoKnihy – Recenze literatury s psychologickou a seberozvojovou tématikou (volný čas)</td
-			>
-		</tr>
 		<tr>
 			<td class="align-top font-bold">12/2022–09/2023</td>
 			<td>PsyHub – Koordinátorka Literární revue (dobrovolnictví)</td>

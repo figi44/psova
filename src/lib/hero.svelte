@@ -2,14 +2,15 @@
 	import { CTAButton } from '$lib';
 
 	export let title: string;
-	export let subtitle: string;
+	export let quote: string;
+	export let author: string;
 	export let description: string;
 	export let buttonTitle: string;
 	export let imgPath: string;
 </script>
 
 <section
-	class="relative flex min-h-[610px] w-full flex-col items-center justify-center overflow-hidden py-14 text-center md:py-20"
+	class="relative flex min-h-[650px] w-full flex-col items-center justify-center overflow-hidden py-14 text-center md:py-20"
 	aria-labelledby="hero-heading"
 >
 	<div
@@ -26,13 +27,16 @@
 			class="mb-7 h-28 w-28 rounded-full border-4 border-white/70 shadow-xl md:h-32 md:w-32"
 		/>
 		<p class="text-sm font-bold uppercase tracking-[0.2em] text-white/75">{title}</p>
-		<h1
-			id="hero-heading"
-			class="mt-6 text-[42px] font-bold leading-[1.08] text-white sm:text-[58px] xl:text-[68px]"
-		>
-			{subtitle}
-		</h1>
-		<p class="mb-9 mt-7 max-w-2xl text-lg leading-relaxed text-white/80 md:text-xl">
+		<blockquote class="mt-6 max-w-4xl">
+			<h1
+				id="hero-heading"
+				class="text-[38px] font-bold leading-[1.12] text-white sm:text-[52px] xl:text-[60px]"
+			>
+				„{quote}“
+			</h1>
+			<cite class="mt-4 block text-base not-italic tracking-wider text-white/70">— {author}</cite>
+		</blockquote>
+		<p class="mb-8 mt-7 max-w-2xl text-lg leading-relaxed text-white/80 md:text-xl">
 			{description}
 		</p>
 		<CTAButton title={buttonTitle} />
